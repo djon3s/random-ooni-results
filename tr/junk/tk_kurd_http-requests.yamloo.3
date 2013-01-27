@@ -1,0 +1,443 @@
+###########################################
+# OONI Probe Report for HTTP Requests Test test
+# Mon Jan 14 08:46:50 2013
+###########################################
+---
+options:
+  collector: null
+  help: 0
+  logfile: null
+  parallelism: '10'
+  pcapfile: null
+  reportfile: tk_kurd_http-requests.yamloo
+  resume: 0
+  subargs: [-f, k_sites.txt]
+  test: nettests/blocking/http_requests.py
+probe_asn: AS0
+probe_cc: null
+probe_ip: 127.0.0.1
+software_name: ooniprobe
+software_version: 0.0.10
+start_time: 1358077610.0
+test_name: HTTP Requests Test
+test_version: '0.1'
+...
+---
+input: http://kurdistan-post.eu
+report:
+  agent: agent
+  requests:
+  - request:
+      body: null
+      headers:
+      - - User-Agent
+        - - &id001 [Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en) Opera 8.0,
+            'Opera 8.0, Windows XP']
+      method: GET
+      url: http://kurdistan-post.eu
+    response:
+      body: "\uFEFF<html>\r\n<head>\r\n<title>DorukNET - WiSpotter  Login</title>\r\
+        \n<script src=\"http://213.155.126.9:81/md5.js\"></script>\r\n</HEAD>\r\n\r\
+        \n<BODY>\r\n\r\n<NOSCRIPT>\r\n<H1>\r\nJavascript & Cookies must be enabled\
+        \ <br/>\r\n</H1>\r\n\r\n</NOSCRIPT>\r\n<img src='http://213.155.126.9:81/wait16.gif'\
+        \ />    Please wait WiSpotter login./ \u0130nternet Eri\u015Fiminiz Sa\u011F\
+        lan\u0131yor.\r\n<FORM METHOD=POST ACTION=\"http://wifi.doruk.net.tr/wispotter/authorize\"\
+        >\r\n<INPUT TYPE=HIDDEN NAME=CLIENT_ID VALUE=\"44\">\r\n<INPUT TYPE=HIDDEN\
+        \ NAME=AM_SESSION_ID VALUE=\"1358113619N3xqo\">\r\n<INPUT TYPE=HIDDEN NAME=AUTHKEY\
+        \ VALUE=\"vsstjuobvnslmkqs\">\r\n<INPUT TYPE=HIDDEN NAME=REPLYMSG VALUE=\"\
+        \">\r\n<INPUT TYPE=HIDDEN NAME=REQ_IP VALUE=\"172.18.168.102\" >\r\n<INPUT\
+        \ TYPE=\"HIDDEN\" NAME=REQ_MAC VALUE=\"446d570d91f7\" >\r\n<INPUT TYPE=\"\
+        HIDDEN\" NAME=CrtFBTmpLgn VALUE=\"1\" >\r\n<INPUT TYPE=HIDDEN NAME=CSRF VALUE=\"\
+        \">\r\n<INPUT TYPE=HIDDEN NAME=SvrUrl  VALUE=\"http://213.155.126.9:81\">\r\
+        \n \r\n</FORM>\r\n\r\n<SCRIPT>\r\n\r\ndocument.forms[0].CSRF.value = MD5('vsstjuobvnslmkqs'+\"\
+        tgbyhnujm\");\r\ndocument.forms[0].submit();\r\n\r\n</SCRIPT>\r\n\r\n</BODY>\r\
+        \n</HTML>\r\n \r\n"
+      code: 200
+      headers:
+      - - Content-type
+        - [text/html]
+      - - Cache-Control
+        - [no-store]
+  - failure: generic_timeout_error
+    request:
+      body: null
+      headers:
+      - - User-Agent
+        - - *id001
+      method: GET
+      url: shttp://kurdistan-post.eu
+  socksproxy: null
+test_name: test_get
+test_runtime: 30.010698080062866
+test_started: 1358113610.626293
+...
+---
+input: http://kurdinfo.com
+report:
+  agent: agent
+  requests:
+  - request:
+      body: null
+      headers:
+      - - User-Agent
+        - - &id001 [Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en) Opera 8.0,
+            'Opera 8.0, Windows XP']
+      method: GET
+      url: http://kurdinfo.com
+    response:
+      body: "\uFEFF<html>\r\n<head>\r\n<title>DorukNET - WiSpotter  Login</title>\r\
+        \n<script src=\"http://213.155.126.9:81/md5.js\"></script>\r\n</HEAD>\r\n\r\
+        \n<BODY>\r\n\r\n<NOSCRIPT>\r\n<H1>\r\nJavascript & Cookies must be enabled\
+        \ <br/>\r\n</H1>\r\n\r\n</NOSCRIPT>\r\n<img src='http://213.155.126.9:81/wait16.gif'\
+        \ />    Please wait WiSpotter login./ \u0130nternet Eri\u015Fiminiz Sa\u011F\
+        lan\u0131yor.\r\n<FORM METHOD=POST ACTION=\"http://wifi.doruk.net.tr/wispotter/authorize\"\
+        >\r\n<INPUT TYPE=HIDDEN NAME=CLIENT_ID VALUE=\"44\">\r\n<INPUT TYPE=HIDDEN\
+        \ NAME=AM_SESSION_ID VALUE=\"1358113619N3xqo\">\r\n<INPUT TYPE=HIDDEN NAME=AUTHKEY\
+        \ VALUE=\"vsstjuobvnslmkqs\">\r\n<INPUT TYPE=HIDDEN NAME=REPLYMSG VALUE=\"\
+        \">\r\n<INPUT TYPE=HIDDEN NAME=REQ_IP VALUE=\"172.18.168.102\" >\r\n<INPUT\
+        \ TYPE=\"HIDDEN\" NAME=REQ_MAC VALUE=\"446d570d91f7\" >\r\n<INPUT TYPE=\"\
+        HIDDEN\" NAME=CrtFBTmpLgn VALUE=\"1\" >\r\n<INPUT TYPE=HIDDEN NAME=CSRF VALUE=\"\
+        \">\r\n<INPUT TYPE=HIDDEN NAME=SvrUrl  VALUE=\"http://213.155.126.9:81\">\r\
+        \n \r\n</FORM>\r\n\r\n<SCRIPT>\r\n\r\ndocument.forms[0].CSRF.value = MD5('vsstjuobvnslmkqs'+\"\
+        tgbyhnujm\");\r\ndocument.forms[0].submit();\r\n\r\n</SCRIPT>\r\n\r\n</BODY>\r\
+        \n</HTML>\r\n \r\n"
+      code: 200
+      headers:
+      - - Content-type
+        - [text/html]
+      - - Cache-Control
+        - [no-store]
+  - failure: generic_timeout_error
+    request:
+      body: null
+      headers:
+      - - User-Agent
+        - - *id001
+      method: GET
+      url: shttp://kurdinfo.com
+  socksproxy: null
+test_name: test_get
+test_runtime: 30.030658960342407
+test_started: 1358113610.634805
+...
+---
+input: http://ekurd.net
+report:
+  agent: agent
+  requests:
+  - request:
+      body: null
+      headers:
+      - - User-Agent
+        - - &id001 [Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en) Opera 8.0,
+            'Opera 8.0, Windows XP']
+      method: GET
+      url: http://ekurd.net
+    response:
+      body: "\uFEFF<html>\r\n<head>\r\n<title>DorukNET - WiSpotter  Login</title>\r\
+        \n<script src=\"http://213.155.126.9:81/md5.js\"></script>\r\n</HEAD>\r\n\r\
+        \n<BODY>\r\n\r\n<NOSCRIPT>\r\n<H1>\r\nJavascript & Cookies must be enabled\
+        \ <br/>\r\n</H1>\r\n\r\n</NOSCRIPT>\r\n<img src='http://213.155.126.9:81/wait16.gif'\
+        \ />    Please wait WiSpotter login./ \u0130nternet Eri\u015Fiminiz Sa\u011F\
+        lan\u0131yor.\r\n<FORM METHOD=POST ACTION=\"http://wifi.doruk.net.tr/wispotter/authorize\"\
+        >\r\n<INPUT TYPE=HIDDEN NAME=CLIENT_ID VALUE=\"44\">\r\n<INPUT TYPE=HIDDEN\
+        \ NAME=AM_SESSION_ID VALUE=\"1358113619N3xqo\">\r\n<INPUT TYPE=HIDDEN NAME=AUTHKEY\
+        \ VALUE=\"vsstjuobvnslmkqs\">\r\n<INPUT TYPE=HIDDEN NAME=REPLYMSG VALUE=\"\
+        \">\r\n<INPUT TYPE=HIDDEN NAME=REQ_IP VALUE=\"172.18.168.102\" >\r\n<INPUT\
+        \ TYPE=\"HIDDEN\" NAME=REQ_MAC VALUE=\"446d570d91f7\" >\r\n<INPUT TYPE=\"\
+        HIDDEN\" NAME=CrtFBTmpLgn VALUE=\"1\" >\r\n<INPUT TYPE=HIDDEN NAME=CSRF VALUE=\"\
+        \">\r\n<INPUT TYPE=HIDDEN NAME=SvrUrl  VALUE=\"http://213.155.126.9:81\">\r\
+        \n \r\n</FORM>\r\n\r\n<SCRIPT>\r\n\r\ndocument.forms[0].CSRF.value = MD5('vsstjuobvnslmkqs'+\"\
+        tgbyhnujm\");\r\ndocument.forms[0].submit();\r\n\r\n</SCRIPT>\r\n\r\n</BODY>\r\
+        \n</HTML>\r\n \r\n"
+      code: 200
+      headers:
+      - - Content-type
+        - [text/html]
+      - - Cache-Control
+        - [no-store]
+  - failure: generic_timeout_error
+    request:
+      body: null
+      headers:
+      - - User-Agent
+        - - *id001
+      method: GET
+      url: shttp://ekurd.net
+  socksproxy: null
+test_name: test_get
+test_runtime: 30.049110889434814
+test_started: 1358113610.642369
+...
+---
+input: http://hnportal.com
+report:
+  agent: agent
+  requests:
+  - failure: dns_lookup_error
+    request:
+      body: null
+      headers:
+      - - User-Agent
+        - - &id001 [Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en) Opera 8.0,
+            'Opera 8.0, Windows XP']
+      method: GET
+      url: http://hnportal.com
+  - failure: generic_timeout_error
+    request:
+      body: null
+      headers:
+      - - User-Agent
+        - - *id001
+      method: GET
+      url: shttp://hnportal.com
+  socksproxy: null
+test_name: test_get
+test_runtime: 30.067708015441895
+test_started: 1358113610.650065
+...
+---
+input: http://kerkuk-kurdistan.com
+report:
+  agent: agent
+  requests:
+  - request:
+      body: null
+      headers:
+      - - User-Agent
+        - - &id001 [Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en) Opera 8.0,
+            'Opera 8.0, Windows XP']
+      method: GET
+      url: http://kerkuk-kurdistan.com
+    response:
+      body: "\uFEFF<html>\r\n<head>\r\n<title>DorukNET - WiSpotter  Login</title>\r\
+        \n<script src=\"http://213.155.126.9:81/md5.js\"></script>\r\n</HEAD>\r\n\r\
+        \n<BODY>\r\n\r\n<NOSCRIPT>\r\n<H1>\r\nJavascript & Cookies must be enabled\
+        \ <br/>\r\n</H1>\r\n\r\n</NOSCRIPT>\r\n<img src='http://213.155.126.9:81/wait16.gif'\
+        \ />    Please wait WiSpotter login./ \u0130nternet Eri\u015Fiminiz Sa\u011F\
+        lan\u0131yor.\r\n<FORM METHOD=POST ACTION=\"http://wifi.doruk.net.tr/wispotter/authorize\"\
+        >\r\n<INPUT TYPE=HIDDEN NAME=CLIENT_ID VALUE=\"44\">\r\n<INPUT TYPE=HIDDEN\
+        \ NAME=AM_SESSION_ID VALUE=\"1358113619N3xqo\">\r\n<INPUT TYPE=HIDDEN NAME=AUTHKEY\
+        \ VALUE=\"vsstjuobvnslmkqs\">\r\n<INPUT TYPE=HIDDEN NAME=REPLYMSG VALUE=\"\
+        \">\r\n<INPUT TYPE=HIDDEN NAME=REQ_IP VALUE=\"172.18.168.102\" >\r\n<INPUT\
+        \ TYPE=\"HIDDEN\" NAME=REQ_MAC VALUE=\"446d570d91f7\" >\r\n<INPUT TYPE=\"\
+        HIDDEN\" NAME=CrtFBTmpLgn VALUE=\"1\" >\r\n<INPUT TYPE=HIDDEN NAME=CSRF VALUE=\"\
+        \">\r\n<INPUT TYPE=HIDDEN NAME=SvrUrl  VALUE=\"http://213.155.126.9:81\">\r\
+        \n \r\n</FORM>\r\n\r\n<SCRIPT>\r\n\r\ndocument.forms[0].CSRF.value = MD5('vsstjuobvnslmkqs'+\"\
+        tgbyhnujm\");\r\ndocument.forms[0].submit();\r\n\r\n</SCRIPT>\r\n\r\n</BODY>\r\
+        \n</HTML>\r\n \r\n"
+      code: 200
+      headers:
+      - - Content-type
+        - [text/html]
+      - - Cache-Control
+        - [no-store]
+  - failure: generic_timeout_error
+    request:
+      body: null
+      headers:
+      - - User-Agent
+        - - *id001
+      method: GET
+      url: shttp://kerkuk-kurdistan.com
+  socksproxy: null
+test_name: test_get
+test_runtime: 30.077231884002686
+test_started: 1358113610.657464
+...
+---
+input: http://kurdishcentre.org
+report:
+  agent: agent
+  requests:
+  - request:
+      body: null
+      headers:
+      - - User-Agent
+        - - &id001 [Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en) Opera 8.0,
+            'Opera 8.0, Windows XP']
+      method: GET
+      url: http://kurdishcentre.org
+    response:
+      body: "\uFEFF<html>\r\n<head>\r\n<title>DorukNET - WiSpotter  Login</title>\r\
+        \n<script src=\"http://213.155.126.9:81/md5.js\"></script>\r\n</HEAD>\r\n\r\
+        \n<BODY>\r\n\r\n<NOSCRIPT>\r\n<H1>\r\nJavascript & Cookies must be enabled\
+        \ <br/>\r\n</H1>\r\n\r\n</NOSCRIPT>\r\n<img src='http://213.155.126.9:81/wait16.gif'\
+        \ />    Please wait WiSpotter login./ \u0130nternet Eri\u015Fiminiz Sa\u011F\
+        lan\u0131yor.\r\n<FORM METHOD=POST ACTION=\"http://wifi.doruk.net.tr/wispotter/authorize\"\
+        >\r\n<INPUT TYPE=HIDDEN NAME=CLIENT_ID VALUE=\"44\">\r\n<INPUT TYPE=HIDDEN\
+        \ NAME=AM_SESSION_ID VALUE=\"1358113619N3xqo\">\r\n<INPUT TYPE=HIDDEN NAME=AUTHKEY\
+        \ VALUE=\"vsstjuobvnslmkqs\">\r\n<INPUT TYPE=HIDDEN NAME=REPLYMSG VALUE=\"\
+        \">\r\n<INPUT TYPE=HIDDEN NAME=REQ_IP VALUE=\"172.18.168.102\" >\r\n<INPUT\
+        \ TYPE=\"HIDDEN\" NAME=REQ_MAC VALUE=\"446d570d91f7\" >\r\n<INPUT TYPE=\"\
+        HIDDEN\" NAME=CrtFBTmpLgn VALUE=\"1\" >\r\n<INPUT TYPE=HIDDEN NAME=CSRF VALUE=\"\
+        \">\r\n<INPUT TYPE=HIDDEN NAME=SvrUrl  VALUE=\"http://213.155.126.9:81\">\r\
+        \n \r\n</FORM>\r\n\r\n<SCRIPT>\r\n\r\ndocument.forms[0].CSRF.value = MD5('vsstjuobvnslmkqs'+\"\
+        tgbyhnujm\");\r\ndocument.forms[0].submit();\r\n\r\n</SCRIPT>\r\n\r\n</BODY>\r\
+        \n</HTML>\r\n \r\n"
+      code: 200
+      headers:
+      - - Content-type
+        - [text/html]
+      - - Cache-Control
+        - [no-store]
+  - failure: generic_timeout_error
+    request:
+      body: null
+      headers:
+      - - User-Agent
+        - - *id001
+      method: GET
+      url: shttp://kurdishcentre.org
+  socksproxy: null
+test_name: test_get
+test_runtime: 30.094569206237793
+test_started: 1358113610.665876
+...
+---
+input: http://kurdshow.com
+report:
+  agent: agent
+  requests:
+  - request:
+      body: null
+      headers:
+      - - User-Agent
+        - - &id001 [Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en) Opera 8.0,
+            'Opera 8.0, Windows XP']
+      method: GET
+      url: http://kurdshow.com
+    response:
+      body: "\uFEFF<html>\r\n<head>\r\n<title>DorukNET - WiSpotter  Login</title>\r\
+        \n<script src=\"http://213.155.126.9:81/md5.js\"></script>\r\n</HEAD>\r\n\r\
+        \n<BODY>\r\n\r\n<NOSCRIPT>\r\n<H1>\r\nJavascript & Cookies must be enabled\
+        \ <br/>\r\n</H1>\r\n\r\n</NOSCRIPT>\r\n<img src='http://213.155.126.9:81/wait16.gif'\
+        \ />    Please wait WiSpotter login./ \u0130nternet Eri\u015Fiminiz Sa\u011F\
+        lan\u0131yor.\r\n<FORM METHOD=POST ACTION=\"http://wifi.doruk.net.tr/wispotter/authorize\"\
+        >\r\n<INPUT TYPE=HIDDEN NAME=CLIENT_ID VALUE=\"44\">\r\n<INPUT TYPE=HIDDEN\
+        \ NAME=AM_SESSION_ID VALUE=\"1358113619N3xqo\">\r\n<INPUT TYPE=HIDDEN NAME=AUTHKEY\
+        \ VALUE=\"vsstjuobvnslmkqs\">\r\n<INPUT TYPE=HIDDEN NAME=REPLYMSG VALUE=\"\
+        \">\r\n<INPUT TYPE=HIDDEN NAME=REQ_IP VALUE=\"172.18.168.102\" >\r\n<INPUT\
+        \ TYPE=\"HIDDEN\" NAME=REQ_MAC VALUE=\"446d570d91f7\" >\r\n<INPUT TYPE=\"\
+        HIDDEN\" NAME=CrtFBTmpLgn VALUE=\"1\" >\r\n<INPUT TYPE=HIDDEN NAME=CSRF VALUE=\"\
+        \">\r\n<INPUT TYPE=HIDDEN NAME=SvrUrl  VALUE=\"http://213.155.126.9:81\">\r\
+        \n \r\n</FORM>\r\n\r\n<SCRIPT>\r\n\r\ndocument.forms[0].CSRF.value = MD5('vsstjuobvnslmkqs'+\"\
+        tgbyhnujm\");\r\ndocument.forms[0].submit();\r\n\r\n</SCRIPT>\r\n\r\n</BODY>\r\
+        \n</HTML>\r\n \r\n"
+      code: 200
+      headers:
+      - - Content-type
+        - [text/html]
+      - - Cache-Control
+        - [no-store]
+  - failure: generic_timeout_error
+    request:
+      body: null
+      headers:
+      - - User-Agent
+        - - *id001
+      method: GET
+      url: shttp://kurdshow.com
+  socksproxy: null
+test_name: test_get
+test_runtime: 30.11276602745056
+test_started: 1358113610.673279
+...
+---
+input: http://sorankurdistani.com
+report:
+  agent: agent
+  requests:
+  - request:
+      body: null
+      headers:
+      - - User-Agent
+        - - &id001 [Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en) Opera 8.0,
+            'Opera 8.0, Windows XP']
+      method: GET
+      url: http://sorankurdistani.com
+    response:
+      body: "\uFEFF<html>\r\n<head>\r\n<title>DorukNET - WiSpotter  Login</title>\r\
+        \n<script src=\"http://213.155.126.9:81/md5.js\"></script>\r\n</HEAD>\r\n\r\
+        \n<BODY>\r\n\r\n<NOSCRIPT>\r\n<H1>\r\nJavascript & Cookies must be enabled\
+        \ <br/>\r\n</H1>\r\n\r\n</NOSCRIPT>\r\n<img src='http://213.155.126.9:81/wait16.gif'\
+        \ />    Please wait WiSpotter login./ \u0130nternet Eri\u015Fiminiz Sa\u011F\
+        lan\u0131yor.\r\n<FORM METHOD=POST ACTION=\"http://wifi.doruk.net.tr/wispotter/authorize\"\
+        >\r\n<INPUT TYPE=HIDDEN NAME=CLIENT_ID VALUE=\"44\">\r\n<INPUT TYPE=HIDDEN\
+        \ NAME=AM_SESSION_ID VALUE=\"1358113619N3xqo\">\r\n<INPUT TYPE=HIDDEN NAME=AUTHKEY\
+        \ VALUE=\"vsstjuobvnslmkqs\">\r\n<INPUT TYPE=HIDDEN NAME=REPLYMSG VALUE=\"\
+        \">\r\n<INPUT TYPE=HIDDEN NAME=REQ_IP VALUE=\"172.18.168.102\" >\r\n<INPUT\
+        \ TYPE=\"HIDDEN\" NAME=REQ_MAC VALUE=\"446d570d91f7\" >\r\n<INPUT TYPE=\"\
+        HIDDEN\" NAME=CrtFBTmpLgn VALUE=\"1\" >\r\n<INPUT TYPE=HIDDEN NAME=CSRF VALUE=\"\
+        \">\r\n<INPUT TYPE=HIDDEN NAME=SvrUrl  VALUE=\"http://213.155.126.9:81\">\r\
+        \n \r\n</FORM>\r\n\r\n<SCRIPT>\r\n\r\ndocument.forms[0].CSRF.value = MD5('vsstjuobvnslmkqs'+\"\
+        tgbyhnujm\");\r\ndocument.forms[0].submit();\r\n\r\n</SCRIPT>\r\n\r\n</BODY>\r\
+        \n</HTML>\r\n \r\n"
+      code: 200
+      headers:
+      - - Content-type
+        - [text/html]
+      - - Cache-Control
+        - [no-store]
+  - failure: generic_timeout_error
+    request:
+      body: null
+      headers:
+      - - User-Agent
+        - - *id001
+      method: GET
+      url: shttp://sorankurdistani.com
+  socksproxy: null
+test_name: test_get
+test_runtime: 30.129937887191772
+test_started: 1358113610.681735
+...
+---
+input: http://koord.com
+report:
+  agent: agent
+  requests:
+  - request:
+      body: null
+      headers:
+      - - User-Agent
+        - - &id001 [Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en) Opera 8.0,
+            'Opera 8.0, Windows XP']
+      method: GET
+      url: http://koord.com
+    response:
+      body: "\uFEFF<html>\r\n<head>\r\n<title>DorukNET - WiSpotter  Login</title>\r\
+        \n<script src=\"http://213.155.126.9:81/md5.js\"></script>\r\n</HEAD>\r\n\r\
+        \n<BODY>\r\n\r\n<NOSCRIPT>\r\n<H1>\r\nJavascript & Cookies must be enabled\
+        \ <br/>\r\n</H1>\r\n\r\n</NOSCRIPT>\r\n<img src='http://213.155.126.9:81/wait16.gif'\
+        \ />    Please wait WiSpotter login./ \u0130nternet Eri\u015Fiminiz Sa\u011F\
+        lan\u0131yor.\r\n<FORM METHOD=POST ACTION=\"http://wifi.doruk.net.tr/wispotter/authorize\"\
+        >\r\n<INPUT TYPE=HIDDEN NAME=CLIENT_ID VALUE=\"44\">\r\n<INPUT TYPE=HIDDEN\
+        \ NAME=AM_SESSION_ID VALUE=\"1358113619N3xqo\">\r\n<INPUT TYPE=HIDDEN NAME=AUTHKEY\
+        \ VALUE=\"vsstjuobvnslmkqs\">\r\n<INPUT TYPE=HIDDEN NAME=REPLYMSG VALUE=\"\
+        \">\r\n<INPUT TYPE=HIDDEN NAME=REQ_IP VALUE=\"172.18.168.102\" >\r\n<INPUT\
+        \ TYPE=\"HIDDEN\" NAME=REQ_MAC VALUE=\"446d570d91f7\" >\r\n<INPUT TYPE=\"\
+        HIDDEN\" NAME=CrtFBTmpLgn VALUE=\"1\" >\r\n<INPUT TYPE=HIDDEN NAME=CSRF VALUE=\"\
+        \">\r\n<INPUT TYPE=HIDDEN NAME=SvrUrl  VALUE=\"http://213.155.126.9:81\">\r\
+        \n \r\n</FORM>\r\n\r\n<SCRIPT>\r\n\r\ndocument.forms[0].CSRF.value = MD5('vsstjuobvnslmkqs'+\"\
+        tgbyhnujm\");\r\ndocument.forms[0].submit();\r\n\r\n</SCRIPT>\r\n\r\n</BODY>\r\
+        \n</HTML>\r\n \r\n"
+      code: 200
+      headers:
+      - - Content-type
+        - [text/html]
+      - - Cache-Control
+        - [no-store]
+  - failure: generic_timeout_error
+    request:
+      body: null
+      headers:
+      - - User-Agent
+        - - *id001
+      method: GET
+      url: shttp://koord.com
+  socksproxy: null
+test_name: test_get
+test_runtime: 30.147714138031006
+test_started: 1358113610.689518
+...

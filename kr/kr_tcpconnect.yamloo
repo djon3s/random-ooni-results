@@ -1,0 +1,7024 @@
+###########################################
+# OONI Probe Report for TCP Connect test
+# Mon Jan 14 21:49:49 2013
+###########################################
+---
+options:
+  collector: null
+  help: 0
+  logfile: null
+  parallelism: '10'
+  pcapfile: null
+  reportfile: kr_tcpconnect.yamloo
+  resume: 0
+  subargs: [-f, iptest.txt]
+  test: nettests/blocking/tcpconnect.py
+probe_asn: AS0
+probe_cc: null
+probe_ip: 127.0.0.1
+software_name: ooniprobe
+software_version: 0.0.10
+start_time: 1358124589.0
+test_name: TCP Connect
+test_version: '0.1'
+...
+---
+input: qq.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.25259900093078613
+test_started: 1358160589.410391
+...
+---
+input: baidu.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.276439905166626
+test_started: 1358160589.400064
+...
+---
+input: live.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.4856579303741455
+test_started: 1358160589.405183
+...
+---
+input: facebook.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5102379322052002
+test_started: 1358160589.388925
+...
+---
+input: blogspot.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5098378658294678
+test_started: 1358160589.396718
+...
+---
+input: twitter.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5065739154815674
+test_started: 1358160589.407761
+...
+---
+input: yahoo.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5277249813079834
+test_started: 1358160589.394223
+...
+---
+input: msn.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5162429809570312
+test_started: 1358160589.413151
+...
+---
+input: youtube.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5470700263977051
+test_started: 1358160589.391706
+...
+---
+input: wikipedia.org:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.1537320613861084
+test_started: 1358160589.402623
+...
+---
+input: yahoo.co.jp:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8080999851226807
+test_started: 1358160590.582265
+...
+---
+input: taobao.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8003818988800049
+test_started: 1358160590.598457
+...
+---
+input: sina.com.cn:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8021018505096436
+test_started: 1358160590.604144
+...
+---
+input: google.co.in:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8128368854522705
+test_started: 1358160590.601381
+...
+---
+input: google.de:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8068811893463135
+test_started: 1358160590.615136
+...
+---
+input: linkedin.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8433611392974854
+test_started: 1358160590.586109
+...
+---
+input: wordpress.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0603020191192627
+test_started: 1358160590.609629
+...
+---
+input: bing.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0662121772766113
+test_started: 1358160590.617967
+...
+---
+input: amazon.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.086907148361206
+test_started: 1358160590.606865
+...
+---
+input: google.com.hk:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0938570499420166
+test_started: 1358160590.612454
+...
+---
+input: 163.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.42665719985961914
+test_started: 1358160591.734068
+...
+---
+input: google.co.jp:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.4360079765319824
+test_started: 1358160591.737138
+...
+---
+input: google.fr:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.4442329406738281
+test_started: 1358160591.739672
+...
+---
+input: paypal.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.4870948791503906
+test_started: 1358160591.744925
+...
+---
+input: google.co.uk:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5144000053405762
+test_started: 1358160591.725151
+...
+---
+input: google.com.br:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5000739097595215
+test_started: 1358160591.747389
+...
+---
+input: flickr.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5935261249542236
+test_started: 1358160591.749888
+...
+---
+input: ebay.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6246449947357178
+test_started: 1358160591.730739
+...
+---
+input: yandex.ru:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6748940944671631
+test_started: 1358160591.727948
+...
+---
+input: microsoft.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 5.861730098724365
+test_started: 1358160591.74227
+...
+---
+input: weibo.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8844521045684814
+test_started: 1358160597.646009
+...
+---
+input: google.es:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9007089138031006
+test_started: 1358160597.638313
+...
+---
+input: googleusercontent.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 0.9244370460510254
+test_started: 1358160597.622148
+...
+---
+input: google.ru:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9117908477783203
+test_started: 1358160597.64346
+...
+---
+input: google.it:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9298999309539795
+test_started: 1358160597.63315
+...
+---
+input: fc2.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.950545072555542
+test_started: 1358160597.630416
+...
+---
+input: craigslist.org:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9748280048370361
+test_started: 1358160597.627475
+...
+---
+input: apple.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0020179748535156
+test_started: 1358160597.635762
+...
+---
+input: imdb.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.005553960800171
+test_started: 1358160597.640853
+...
+---
+input: mail.ru:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.4642620086669922
+test_started: 1358160597.624801
+...
+---
+input: sohu.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.27033400535583496
+test_started: 1358160599.118334
+...
+---
+input: bp.blogspot.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 0.265949010848999
+test_started: 1358160599.139696
+...
+---
+input: livejasmin.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5029051303863525
+test_started: 1358160599.128893
+...
+---
+input: youku.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5042040348052979
+test_started: 1358160599.137058
+...
+---
+input: go.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5212612152099609
+test_started: 1358160599.134359
+...
+---
+input: tumblr.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5469939708709717
+test_started: 1358160599.126262
+...
+---
+input: ask.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5625958442687988
+test_started: 1358160599.123609
+...
+---
+input: bbc.co.uk:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5730009078979492
+test_started: 1358160599.120973
+...
+---
+input: xvideos.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6293649673461914
+test_started: 1358160599.131602
+...
+---
+input: vkontakte.ru:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6665120124816895
+test_started: 1358160599.115668
+...
+---
+input: soso.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8388590812683105
+test_started: 1358160599.804538
+...
+---
+input: ifeng.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8352630138397217
+test_started: 1358160599.818762
+...
+---
+input: tudou.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8498270511627197
+test_started: 1358160599.812867
+...
+---
+input: google.ca:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8643538951873779
+test_started: 1358160599.807182
+...
+---
+input: zedo.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8507578372955322
+test_started: 1358160599.828087
+...
+---
+input: mediafire.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8614661693572998
+test_started: 1358160599.825121
+...
+---
+input: cnn.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8927671909332275
+test_started: 1358160599.801787
+...
+---
+input: aol.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8921549320220947
+test_started: 1358160599.809946
+...
+---
+input: megaupload.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8880980014801025
+test_started: 1358160599.821945
+...
+---
+input: xhamster.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.740203857421875
+test_started: 1358160599.815607
+...
+---
+input: rakuten.co.jp:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.3142359256744385
+test_started: 1358160601.620999
+...
+---
+input: ameblo.jp:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.35164809226989746
+test_started: 1358160601.593957
+...
+---
+input: google.co.id:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.4669919013977051
+test_started: 1358160601.604298
+...
+---
+input: alibaba.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5095169544219971
+test_started: 1358160601.632222
+...
+---
+input: espn.go.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5332250595092773
+test_started: 1358160601.628902
+...
+---
+input: adobe.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5615899562835693
+test_started: 1358160601.615472
+...
+---
+input: conduit.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5620391368865967
+test_started: 1358160601.636642
+...
+---
+input: godaddy.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6133251190185547
+test_started: 1358160601.612541
+...
+---
+input: about.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6160299777984619
+test_started: 1358160601.618267
+...
+---
+input: pornhub.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6713569164276123
+test_started: 1358160601.601782
+...
+---
+input: 4shared.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.2849259376525879
+test_started: 1358160602.295526
+...
+---
+input: livedoor.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.2884209156036377
+test_started: 1358160602.309452
+...
+---
+input: google.com.tr:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.3039860725402832
+test_started: 1358160602.306619
+...
+---
+input: google.com.au:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.31377291679382324
+test_started: 1358160602.314469
+...
+---
+input: google.com.mx:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.3320488929748535
+test_started: 1358160602.303863
+...
+---
+input: livejournal.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6728839874267578
+test_started: 1358160602.301155
+...
+---
+input: youporn.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6693499088287354
+test_started: 1358160602.3171
+...
+---
+input: ebay.de:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7010321617126465
+test_started: 1358160602.292894
+...
+---
+input: wordpress.org:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.6094789505004883
+test_started: 1358160602.298317
+...
+---
+input: yieldmanager.com:80
+report: {connection: generic_timeout_error}
+test_name: test_connect
+test_runtime: 30.00593400001526
+test_started: 1358160602.31191
+...
+---
+input: chinaz.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.2879190444946289
+test_started: 1358160632.356729
+...
+---
+input: renren.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.31493186950683594
+test_started: 1358160632.339981
+...
+---
+input: myspace.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.3114950656890869
+test_started: 1358160632.351218
+...
+---
+input: google.pl:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.3929140567779541
+test_started: 1358160632.348543
+...
+---
+input: thepiratebay.org:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6020901203155518
+test_started: 1358160632.362094
+...
+---
+input: cnet.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6326949596405029
+test_started: 1358160632.343096
+...
+---
+input: nytimes.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6239809989929199
+test_started: 1358160632.359354
+...
+---
+input: ebay.co.uk:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.697800874710083
+test_started: 1358160632.354041
+...
+---
+input: doubleclick.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7004430294036865
+test_started: 1358160632.36484
+...
+---
+input: uol.com.br:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9768869876861572
+test_started: 1358160632.345656
+...
+---
+input: hao123.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.388991117477417
+test_started: 1358160633.346066
+...
+---
+input: cnzz.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.3916199207305908
+test_started: 1358160633.353744
+...
+---
+input: alipay.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.3939797878265381
+test_started: 1358160633.358817
+...
+---
+input: twitpic.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.3988180160522461
+test_started: 1358160633.361501
+...
+---
+input: amazon.de:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.634239912033081
+test_started: 1358160633.36696
+...
+---
+input: netflix.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6685159206390381
+test_started: 1358160633.34871
+...
+---
+input: dailymotion.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7334790229797363
+test_started: 1358160633.36967
+...
+---
+input: babylon.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7636117935180664
+test_started: 1358160633.3512
+...
+---
+input: huffingtonpost.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0190281867980957
+test_started: 1358160633.356232
+...
+---
+input: weather.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 6.396265029907227
+test_started: 1358160633.364285
+...
+---
+input: tmall.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.18681597709655762
+test_started: 1358160639.824076
+...
+---
+input: goo.ne.jp:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.3328068256378174
+test_started: 1358160639.827186
+...
+---
+input: google.nl:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.35062503814697266
+test_started: 1358160639.821317
+...
+---
+input: orkut.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.37273287773132324
+test_started: 1358160639.80798
+...
+---
+input: orkut.com.br:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.3846449851989746
+test_started: 1358160639.81068
+...
+---
+input: stumbleupon.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.4055790901184082
+test_started: 1358160639.830289
+...
+---
+input: amazon.co.jp:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.42981696128845215
+test_started: 1358160639.818497
+...
+---
+input: tube8.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6663851737976074
+test_started: 1358160639.834149
+...
+---
+input: google.com.sa:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.920280933380127
+test_started: 1358160639.799169
+...
+---
+input: odnoklassniki.ru:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.5305850505828857
+test_started: 1358160639.814931
+...
+---
+input: tianya.cn:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.27454614639282227
+test_started: 1358160641.372881
+...
+---
+input: ehow.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.3001289367675781
+test_started: 1358160641.383101
+...
+---
+input: photobucket.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.35924601554870605
+test_started: 1358160641.385706
+...
+---
+input: imgur.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.4365119934082031
+test_started: 1358160641.370298
+...
+---
+input: imageshack.us:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6498570442199707
+test_started: 1358160641.388283
+...
+---
+input: secureserver.net:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.682654857635498
+test_started: 1358160641.367736
+...
+---
+input: addthis.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6808500289916992
+test_started: 1358160641.377909
+...
+---
+input: badoo.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6929469108581543
+test_started: 1358160641.375364
+...
+---
+input: fileserve.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6957550048828125
+test_started: 1358160641.380448
+...
+---
+input: globo.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7189040184020996
+test_started: 1358160641.365109
+...
+---
+input: sogou.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.4744570255279541
+test_started: 1358160642.11518
+...
+---
+input: pengyou.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.47101783752441406
+test_started: 1358160642.129234
+...
+---
+input: douban.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.4957001209259033
+test_started: 1358160642.112285
+...
+---
+input: deviantart.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5097348690032959
+test_started: 1358160642.105787
+...
+---
+input: vimeo.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.596297025680542
+test_started: 1358160642.117798
+...
+---
+input: stackoverflow.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8052620887756348
+test_started: 1358160642.120489
+...
+---
+input: xnxx.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8980038166046143
+test_started: 1358160642.102863
+...
+---
+input: dailymail.co.uk:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8838369846343994
+test_started: 1358160642.126436
+...
+---
+input: redtube.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8943870067596436
+test_started: 1358160642.123309
+...
+---
+input: filestube.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 2.749447822570801
+test_started: 1358160642.109039
+...
+---
+input: 360buy.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.4552328586578369
+test_started: 1358160644.903912
+...
+---
+input: aweber.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8366348743438721
+test_started: 1358160644.895826
+...
+---
+input: reddit.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8544340133666992
+test_started: 1358160644.885384
+...
+---
+input: taringa.net:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8479628562927246
+test_started: 1358160644.901189
+...
+---
+input: amazon.co.uk:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8705031871795654
+test_started: 1358160644.888208
+...
+---
+input: megavideo.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8753352165222168
+test_started: 1358160644.890797
+...
+---
+input: fbcdn.net:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8806438446044922
+test_started: 1358160644.893356
+...
+---
+input: rapidshare.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8724229335784912
+test_started: 1358160644.909388
+...
+---
+input: spiegel.de:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8916900157928467
+test_started: 1358160644.898472
+...
+---
+input: mixi.jp:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.2391948699951172
+test_started: 1358160644.906603
+...
+---
+input: google.cn:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.4707620143890381
+test_started: 1358160646.164864
+...
+---
+input: google.co.th:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.4439249038696289
+test_started: 1358160646.201606
+...
+---
+input: google.com.pk:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.4590888023376465
+test_started: 1358160646.193993
+...
+---
+input: 58.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7815859317779541
+test_started: 1358160646.173191
+...
+---
+input: digg.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7991609573364258
+test_started: 1358160646.167586
+...
+---
+input: bit.ly:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7990999221801758
+test_started: 1358160646.175851
+...
+---
+input: answers.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8139848709106445
+test_started: 1358160646.170443
+...
+---
+input: google.com.eg:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8831210136413574
+test_started: 1358160646.184107
+...
+---
+input: yfrog.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9619591236114502
+test_started: 1358160646.178618
+...
+---
+input: indiatimes.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.72605299949646
+test_started: 1358160646.181326
+...
+---
+input: sourceforge.net:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7607378959655762
+test_started: 1358160647.936846
+...
+---
+input: maktoob.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7782011032104492
+test_started: 1358160647.947469
+...
+---
+input: warriorforum.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7957980632781982
+test_started: 1358160647.942169
+...
+---
+input: avg.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8016529083251953
+test_started: 1358160647.944864
+...
+---
+input: torrentz.eu:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8013370037078857
+test_started: 1358160647.953132
+...
+---
+input: filesonic.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 0.8294901847839355
+test_started: 1358160647.933879
+...
+---
+input: optmd.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.1379199028015137
+test_started: 1358160647.928527
+...
+---
+input: bankofamerica.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.3953039646148682
+test_started: 1358160647.931148
+...
+---
+input: skype.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.5366759300231934
+test_started: 1358160647.939364
+...
+---
+input: hotfile.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.7885639667510986
+test_started: 1358160647.950336
+...
+---
+input: nicovideo.jp:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.37099599838256836
+test_started: 1358160649.76306
+...
+---
+input: google.com.ar:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.3656938076019287
+test_started: 1358160649.77605
+...
+---
+input: amazonaws.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 0.38184094429016113
+test_started: 1358160649.768358
+...
+---
+input: 56.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.38848304748535156
+test_started: 1358160649.770949
+...
+---
+input: ku6.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.3936729431152344
+test_started: 1358160649.773546
+...
+---
+input: download.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6649050712585449
+test_started: 1358160649.765779
+...
+---
+input: clicksor.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6659998893737793
+test_started: 1358160649.778589
+...
+---
+input: foxnews.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6716718673706055
+test_started: 1358160649.781156
+...
+---
+input: google.co.za:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8849420547485352
+test_started: 1358160649.759733
+...
+---
+input: rediff.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.1710078716278076
+test_started: 1358160649.757127
+...
+---
+input: naver.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.4130821228027344
+test_started: 1358160650.956292
+...
+---
+input: xinhuanet.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.4195418357849121
+test_started: 1358160650.96423
+...
+---
+input: statcounter.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.595329999923706
+test_started: 1358160650.950471
+...
+---
+input: scribd.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5920751094818115
+test_started: 1358160650.96939
+...
+---
+input: domaintools.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5967159271240234
+test_started: 1358160650.972124
+...
+---
+input: youjizz.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8319699764251709
+test_started: 1358160650.966805
+...
+---
+input: reference.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.859766960144043
+test_started: 1358160650.95327
+...
+---
+input: ucoz.ru:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8630180358886719
+test_started: 1358160650.958911
+...
+---
+input: rambler.ru:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.861382007598877
+test_started: 1358160650.974838
+...
+---
+input: liveinternet.ru:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.882166862487793
+test_started: 1358160650.961594
+...
+---
+input: kaixin001.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5308308601379395
+test_started: 1358160651.862996
+...
+---
+input: adultfriendfinder.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.539099931716919
+test_started: 1358160651.8661
+...
+---
+input: yelp.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5230748653411865
+test_started: 1358160651.89029
+...
+---
+input: mashable.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.552253007888794
+test_started: 1358160651.868805
+...
+---
+input: sparkstudios.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5516040325164795
+test_started: 1358160651.877029
+...
+---
+input: guardian.co.uk:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7926092147827148
+test_started: 1358160651.883412
+...
+---
+input: xtendmedia.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8091468811035156
+test_started: 1358160651.880021
+...
+---
+input: bild.de:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.1016159057617188
+test_started: 1358160651.871364
+...
+---
+input: wikimedia.org:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.1125030517578125
+test_started: 1358160651.874399
+...
+---
+input: files.wordpress.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.3617868423461914
+test_started: 1358160651.886943
+...
+---
+input: ameba.jp:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.31036806106567383
+test_started: 1358160653.280536
+...
+---
+input: pconline.com.cn:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.325376033782959
+test_started: 1358160653.277525
+...
+---
+input: ganji.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.3273911476135254
+test_started: 1358160653.283248
+...
+---
+input: adf.ly:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.3991260528564453
+test_started: 1358160653.295675
+...
+---
+input: etsy.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.45711207389831543
+test_started: 1358160653.289378
+...
+---
+input: digitalpoint.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5351099967956543
+test_started: 1358160653.298359
+...
+---
+input: chase.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6049840450286865
+test_started: 1358160653.27181
+...
+---
+input: free.fr:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7895851135253906
+test_started: 1358160653.286409
+...
+---
+input: blogfa.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8144190311431885
+test_started: 1358160653.292548
+...
+---
+input: onet.pl:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.1817588806152344
+test_started: 1358160653.274605
+...
+---
+input: youdao.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.17314386367797852
+test_started: 1358160654.487651
+...
+---
+input: w3schools.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.2902681827545166
+test_started: 1358160654.498015
+...
+---
+input: typepad.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.31905412673950195
+test_started: 1358160654.482271
+...
+---
+input: wikia.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.4262678623199463
+test_started: 1358160654.492778
+...
+---
+input: repubblica.it:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.4372069835662842
+test_started: 1358160654.49023
+...
+---
+input: archive.org:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.43967199325561523
+test_started: 1358160654.495465
+...
+---
+input: salesforce.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.4633040428161621
+test_started: 1358160654.479418
+...
+---
+input: google.com.my:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.49270200729370117
+test_started: 1358160654.503265
+...
+---
+input: megaclick.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5794599056243896
+test_started: 1358160654.485003
+...
+---
+input: terra.com.br:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.711165189743042
+test_started: 1358160654.500584
+...
+---
+input: hatena.ne.jp:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.3335080146789551
+test_started: 1358160655.265066
+...
+---
+input: zol.com.cn:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.35280799865722656
+test_started: 1358160655.26235
+...
+---
+input: squidoo.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.40581607818603516
+test_started: 1358160655.24912
+...
+---
+input: techcrunch.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.44240283966064453
+test_started: 1358160655.251743
+...
+---
+input: ezinearticles.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6037619113922119
+test_started: 1358160655.270782
+...
+---
+input: wsj.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6643009185791016
+test_started: 1358160655.243217
+...
+---
+input: soufun.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.844102144241333
+test_started: 1358160655.245956
+...
+---
+input: google.be:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8440120220184326
+test_started: 1358160655.25715
+...
+---
+input: allegro.pl:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8494811058044434
+test_started: 1358160655.259707
+...
+---
+input: narod.ru:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8490040302276611
+test_started: 1358160655.267916
+...
+---
+input: xunlei.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.28327083587646484
+test_started: 1358160656.139053
+...
+---
+input: google.com.vn:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.2683238983154297
+test_started: 1358160656.163722
+...
+---
+input: hulu.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.30477094650268555
+test_started: 1358160656.155468
+...
+---
+input: orkut.co.in:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.3112220764160156
+test_started: 1358160656.161006
+...
+---
+input: hostgator.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6132488250732422
+test_started: 1358160656.152785
+...
+---
+input: google.gr:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7184970378875732
+test_started: 1358160656.149781
+...
+---
+input: in.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7876818180084229
+test_started: 1358160656.158142
+...
+---
+input: clickbank.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8216428756713867
+test_started: 1358160656.146852
+...
+---
+input: orange.fr:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.1759040355682373
+test_started: 1358160656.141936
+...
+---
+input: comcast.net:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.5296039581298828
+test_started: 1358160656.136193
+...
+---
+input: soku.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.4287757873535156
+test_started: 1358160657.706509
+...
+---
+input: groupon.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.4514920711517334
+test_started: 1358160657.693117
+...
+---
+input: qiyi.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5334458351135254
+test_started: 1358160657.70127
+...
+---
+input: php.net:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7218551635742188
+test_started: 1358160657.722833
+...
+---
+input: kaskus.us:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7640798091888428
+test_started: 1358160657.695851
+...
+---
+input: reuters.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7640078067779541
+test_started: 1358160657.703756
+...
+---
+input: hootsuite.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7850542068481445
+test_started: 1358160657.690436
+...
+---
+input: libero.it:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7638728618621826
+test_started: 1358160657.719063
+...
+---
+input: booking.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7918460369110107
+test_started: 1358160657.698668
+...
+---
+input: pgmediaserve.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 0.8737890720367432
+test_started: 1358160657.715617
+...
+---
+input: 126.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.3339238166809082
+test_started: 1358160658.628245
+...
+---
+input: dell.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5985701084136963
+test_started: 1358160658.630826
+...
+---
+input: wretch.cc:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9206650257110596
+test_started: 1358160658.633424
+...
+---
+input: seesaa.net:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9406180381774902
+test_started: 1358160658.62575
+...
+---
+input: gmx.net:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.951092004776001
+test_started: 1358160658.623196
+...
+---
+input: xing.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9642281532287598
+test_started: 1358160658.617961
+...
+---
+input: camzap.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9694700241088867
+test_started: 1358160658.620509
+...
+---
+input: 51.la:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9854950904846191
+test_started: 1358160658.612231
+...
+---
+input: slideshare.net:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9905569553375244
+test_started: 1358160658.615119
+...
+---
+input: web.de:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.105668067932129
+test_started: 1358160658.609241
+...
+---
+input: daum.net:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.1348011493682861
+test_started: 1358160659.769743
+...
+---
+input: people.com.cn:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.1633689403533936
+test_started: 1358160659.75464
+...
+---
+input: telegraph.co.uk:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.1685020923614502
+test_started: 1358160659.758108
+...
+---
+input: google.com.ua:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.1565330028533936
+test_started: 1358160659.777946
+...
+---
+input: tribalfusion.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.1666440963745117
+test_started: 1358160659.775173
+...
+---
+input: mywebsearch.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.186316967010498
+test_started: 1358160659.763312
+...
+---
+input: walmart.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.191316843032837
+test_started: 1358160659.76606
+...
+---
+input: leboncoin.fr:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.2221651077270508
+test_started: 1358160659.7428
+...
+---
+input: rutracker.org:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.2124829292297363
+test_started: 1358160659.760723
+...
+---
+input: twimg.com:80
+report: {connection: generic_timeout_error}
+test_name: test_connect
+test_runtime: 30.00515913963318
+test_started: 1358160659.748422
+...
+---
+input: nifty.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5174169540405273
+test_started: 1358160689.784944
+...
+---
+input: google.at:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5233619213104248
+test_started: 1358160689.795803
+...
+---
+input: google.com.tw:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5360291004180908
+test_started: 1358160689.798524
+...
+---
+input: google.se:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5553569793701172
+test_started: 1358160689.790211
+...
+---
+input: paipai.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5771970748901367
+test_started: 1358160689.776861
+...
+---
+input: constantcontact.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.706151008605957
+test_started: 1358160689.78205
+...
+---
+input: hp.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.2914378643035889
+test_started: 1358160689.793023
+...
+---
+input: tripadvisor.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.3111419677734375
+test_started: 1358160689.787537
+...
+---
+input: joomla.org:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.3281519412994385
+test_started: 1358160689.779455
+...
+---
+input: espncricinfo.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.3108460903167725
+test_started: 1358160689.804611
+...
+---
+input: hudong.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6529860496520996
+test_started: 1358160691.139355
+...
+---
+input: cj.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6423578262329102
+test_started: 1358160691.159486
+...
+---
+input: ning.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6760349273681641
+test_started: 1358160691.133924
+...
+---
+input: 2ch.net:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6809470653533936
+test_started: 1358160691.136698
+...
+---
+input: icio.us:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.689054012298584
+test_started: 1358160691.150738
+...
+---
+input: tagged.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6952800750732422
+test_started: 1358160691.156961
+...
+---
+input: wordreference.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0202882289886475
+test_started: 1358160691.154024
+...
+---
+input: nba.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0372099876403809
+test_started: 1358160691.14763
+...
+---
+input: csdn.net:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.4111049175262451
+test_started: 1358160691.142256
+...
+---
+input: china.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.928088903427124
+test_started: 1358160691.144993
+...
+---
+input: google.ro:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7582340240478516
+test_started: 1358160693.108546
+...
+---
+input: search-results.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7758479118347168
+test_started: 1358160693.1006
+...
+---
+input: angege.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7795109748840332
+test_started: 1358160693.106045
+...
+---
+input: usps.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.776644229888916
+test_started: 1358160693.116593
+...
+---
+input: ups.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8051488399505615
+test_started: 1358160693.095395
+...
+---
+input: getfirebug.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7886099815368652
+test_started: 1358160693.119259
+...
+---
+input: wp.pl:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0898728370666504
+test_started: 1358160693.10347
+...
+---
+input: google.ch:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.1045749187469482
+test_started: 1358160693.098046
+...
+---
+input: isohunt.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.4766969680786133
+test_started: 1358160693.113765
+...
+---
+input: wellsfargo.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 2.1977319717407227
+test_started: 1358160693.111038
+...
+---
+input: opendns.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.2212419509887695
+test_started: 1358160695.361315
+...
+---
+input: plentyoffish.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.238006830215454
+test_started: 1358160695.353037
+...
+---
+input: ign.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.2324340343475342
+test_started: 1358160695.367018
+...
+---
+input: metacafe.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.2516770362854004
+test_started: 1358160695.355687
+...
+---
+input: linkwithin.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.2652091979980469
+test_started: 1358160695.349671
+...
+---
+input: themeforest.net:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.2846770286560059
+test_started: 1358160695.337679
+...
+---
+input: thefreedictionary.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.271637201309204
+test_started: 1358160695.358456
+...
+---
+input: depositfiles.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.2737390995025635
+test_started: 1358160695.36423
+...
+---
+input: homeway.com.cn:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.5734131336212158
+test_started: 1358160695.3702
+...
+---
+input: cam4.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.6151089668273926
+test_started: 1358160695.342576
+...
+---
+input: google.com.ph:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.36078882217407227
+test_started: 1358160696.99814
+...
+---
+input: 360.cn:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.3817448616027832
+test_started: 1358160696.984682
+...
+---
+input: 10086.cn:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.3967719078063965
+test_started: 1358160696.977838
+...
+---
+input: mozilla.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.594005823135376
+test_started: 1358160696.992747
+...
+---
+input: dropbox.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7999141216278076
+test_started: 1358160696.987316
+...
+---
+input: google.pt:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8034660816192627
+test_started: 1358160696.995435
+...
+---
+input: hardsextube.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8179178237915039
+test_started: 1358160696.990029
+...
+---
+input: engadget.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9849748611450195
+test_started: 1358160697.001095
+...
+---
+input: freelancer.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.3561770915985107
+test_started: 1358160696.98138
+...
+---
+input: corriere.it:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.3430089950561523
+test_started: 1358160697.003851
+...
+---
+input: outbrain.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5226209163665771
+test_started: 1358160698.375936
+...
+---
+input: fiverr.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5379481315612793
+test_started: 1358160698.373339
+...
+---
+input: istockphoto.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.526414155960083
+test_started: 1358160698.392994
+...
+---
+input: match.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5452499389648438
+test_started: 1358160698.381905
+...
+---
+input: facemoods.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9963290691375732
+test_started: 1358160698.37902
+...
+---
+input: lockerz.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0008931159973145
+test_started: 1358160698.384697
+...
+---
+input: tmz.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9950759410858154
+test_started: 1358160698.398742
+...
+---
+input: elpais.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0113561153411865
+test_started: 1358160698.390116
+...
+---
+input: marca.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0134730339050293
+test_started: 1358160698.395899
+...
+---
+input: netlog.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.5886070728302002
+test_started: 1358160698.387384
+...
+---
+input: yesky.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.42816901206970215
+test_started: 1358160700.025728
+...
+---
+input: biglobe.ne.jp:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.4601900577545166
+test_started: 1358160700.007279
+...
+---
+input: google.com.ng:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5156710147857666
+test_started: 1358160700.015114
+...
+---
+input: google.co.ve:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5595951080322266
+test_started: 1358160700.02318
+...
+---
+input: uimserv.net:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 0.70100998878479
+test_started: 1358160700.018074
+...
+---
+input: spankwire.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9906439781188965
+test_started: 1358160700.009919
+...
+---
+input: ebay.it:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9799888134002686
+test_started: 1358160700.031001
+...
+---
+input: ig.com.br:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0067667961120605
+test_started: 1358160700.012427
+...
+---
+input: imagevenue.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9984641075134277
+test_started: 1358160700.028391
+...
+---
+input: kat.ph:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 2.1483240127563477
+test_started: 1358160700.020611
+...
+---
+input: dianping.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5081241130828857
+test_started: 1358160702.203265
+...
+---
+input: love21cn.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5080461502075195
+test_started: 1358160702.211036
+...
+---
+input: hubpages.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5335910320281982
+test_started: 1358160702.216167
+...
+---
+input: 51job.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5634899139404297
+test_started: 1358160702.19596
+...
+---
+input: zimbio.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5764718055725098
+test_started: 1358160702.190498
+...
+---
+input: mlb.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5833840370178223
+test_started: 1358160702.193296
+...
+---
+input: amazon.cn:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7924420833587646
+test_started: 1358160702.205847
+...
+---
+input: xe.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.1056439876556396
+test_started: 1358160702.213633
+...
+---
+input: partypoker.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.131458044052124
+test_started: 1358160702.199661
+...
+---
+input: seznam.cz:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.366610050201416
+test_started: 1358160702.208504
+...
+---
+input: eastmoney.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5500049591064453
+test_started: 1358160703.613887
+...
+---
+input: elance.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5689740180969238
+test_started: 1358160703.605743
+...
+---
+input: expedia.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.579334020614624
+test_started: 1358160703.603025
+...
+---
+input: indeed.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5709679126739502
+test_started: 1358160703.619141
+...
+---
+input: sakura.ne.jp:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.002943992614746
+test_started: 1358160703.621962
+...
+---
+input: webs.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0215508937835693
+test_started: 1358160703.616522
+...
+---
+input: w3.org:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0452919006347656
+test_started: 1358160703.600338
+...
+---
+input: latimes.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0560319423675537
+test_started: 1358160703.597034
+...
+---
+input: gamespot.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.5341870784759521
+test_started: 1358160703.611204
+...
+---
+input: goal.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.5506548881530762
+test_started: 1358160703.608536
+...
+---
+input: kakaku.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9118638038635254
+test_started: 1358160705.195748
+...
+---
+input: google.com.sg:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9043121337890625
+test_started: 1358160705.213225
+...
+---
+input: pandora.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.937006950378418
+test_started: 1358160705.188455
+...
+---
+input: bestbuy.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9264030456542969
+test_started: 1358160705.207378
+...
+---
+input: washingtonpost.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9130620956420898
+test_started: 1358160705.228334
+...
+---
+input: ikea.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9562389850616455
+test_started: 1358160705.192844
+...
+---
+input: histats.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9414510726928711
+test_started: 1358160705.215723
+...
+---
+input: t-online.de:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9543261528015137
+test_started: 1358160705.210594
+...
+---
+input: softonic.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9747910499572754
+test_started: 1358160705.198667
+...
+---
+input: target.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.38875412940979
+test_started: 1358160705.201753
+...
+---
+input: google.com.co:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8809149265289307
+test_started: 1358160706.625708
+...
+---
+input: vnexpress.net:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8851940631866455
+test_started: 1358160706.633905
+...
+---
+input: weebly.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9108760356903076
+test_started: 1358160706.615603
+...
+---
+input: att.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9136450290679932
+test_started: 1358160706.620705
+...
+---
+input: nih.gov:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9140357971191406
+test_started: 1358160706.628194
+...
+---
+input: tradedoubler.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9373090267181396
+test_started: 1358160706.613111
+...
+---
+input: elmundo.es:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.948195219039917
+test_started: 1358160706.610345
+...
+---
+input: over-blog.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9483609199523926
+test_started: 1358160706.618171
+...
+---
+input: arpg2.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 0.9510090351104736
+test_started: 1358160706.623193
+...
+---
+input: vk.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.3518221378326416
+test_started: 1358160706.6309
+...
+---
+input: google.cl:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.734961986541748
+test_started: 1358160708.017768
+...
+---
+input: alimama.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7419998645782471
+test_started: 1358160708.023946
+...
+---
+input: ynet.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7526121139526367
+test_started: 1358160708.021287
+...
+---
+input: kooora.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7672860622406006
+test_started: 1358160708.01407
+...
+---
+input: drupal.org:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7539668083190918
+test_started: 1358160708.035015
+...
+---
+input: neobux.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8303060531616211
+test_started: 1358160708.026775
+...
+---
+input: inetglobal.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8344559669494629
+test_started: 1358160708.032111
+...
+---
+input: soundcloud.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8662469387054443
+test_started: 1358160708.007905
+...
+---
+input: keezmovies.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8707959651947021
+test_started: 1358160708.010822
+...
+---
+input: multiply.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.1101460456848145
+test_started: 1358160708.029476
+...
+---
+input: google.co.kr:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5780408382415771
+test_started: 1358160709.179671
+...
+---
+input: gotomeeting.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5828268527984619
+test_started: 1358160709.193037
+...
+---
+input: sitesell.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6419870853424072
+test_started: 1358160709.187661
+...
+---
+input: zynga.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6737780570983887
+test_started: 1358160709.170457
+...
+---
+input: google.ae:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6951189041137695
+test_started: 1358160709.174149
+...
+---
+input: amung.us:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6833410263061523
+test_started: 1358160709.19588
+...
+---
+input: rr.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7046339511871338
+test_started: 1358160709.182327
+...
+---
+input: drtuber.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8275229930877686
+test_started: 1358160709.177123
+...
+---
+input: mercadolivre.com.br:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8334460258483887
+test_started: 1358160709.185044
+...
+---
+input: letitbit.net:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.3841938972473145
+test_started: 1358160709.190325
+...
+---
+input: mop.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7680039405822754
+test_started: 1358160710.618318
+...
+---
+input: lashou.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7847340106964111
+test_started: 1358160710.610266
+...
+---
+input: businessinsider.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8080589771270752
+test_started: 1358160710.59431
+...
+---
+input: softpedia.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8132181167602539
+test_started: 1358160710.597015
+...
+---
+input: hurriyet.com.tr:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9963419437408447
+test_started: 1358160710.615598
+...
+---
+input: feedburner.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0105020999908447
+test_started: 1358160710.612954
+...
+---
+input: snapdeal.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0313220024108887
+test_started: 1358160710.599517
+...
+---
+input: basecamphq.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.211294174194336
+test_started: 1358160710.607735
+...
+---
+input: virgilio.it:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.833096981048584
+test_started: 1358160710.602155
+...
+---
+input: btjunkie.org:80
+report: {connection: generic_timeout_error}
+test_name: test_connect
+test_runtime: 30.006197929382324
+test_started: 1358160710.605241
+...
+---
+input: cntv.cn:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6757490634918213
+test_started: 1358160740.694887
+...
+---
+input: vancl.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7037310600280762
+test_started: 1358160740.683644
+...
+---
+input: huanqiu.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7121739387512207
+test_started: 1358160740.686294
+...
+---
+input: google.co.hu:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7267029285430908
+test_started: 1358160740.681128
+...
+---
+input: google.ie:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.761735200881958
+test_started: 1358160740.659582
+...
+---
+input: instagr.am:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8707818984985352
+test_started: 1358160740.668899
+...
+---
+input: fedex.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9975049495697021
+test_started: 1358160740.663891
+...
+---
+input: mihanblog.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0372231006622314
+test_started: 1358160740.674008
+...
+---
+input: autohome.com.cn:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.872136116027832
+test_started: 1358160740.69204
+...
+---
+input: milliyet.com.tr:80
+report: {connection: generic_timeout_error}
+test_name: test_connect
+test_runtime: 30.007934093475342
+test_started: 1358160740.688947
+...
+---
+input: samsung.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6490368843078613
+test_started: 1358160770.746021
+...
+---
+input: odesk.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6643538475036621
+test_started: 1358160770.743123
+...
+---
+input: discuz.net:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6944098472595215
+test_started: 1358160770.720982
+...
+---
+input: time.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6910450458526611
+test_started: 1358160770.732167
+...
+---
+input: mailchimp.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6929750442504883
+test_started: 1358160770.737761
+...
+---
+input: forbes.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7878851890563965
+test_started: 1358160770.726163
+...
+---
+input: drudgereport.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8007290363311768
+test_started: 1358160770.72358
+...
+---
+input: commentcamarche.net:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8034069538116455
+test_started: 1358160770.729434
+...
+---
+input: leo.org:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8059401512145996
+test_started: 1358160770.73499
+...
+---
+input: admin5.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8084290027618408
+test_started: 1358160770.740463
+...
+---
+input: mozilla.org:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5936489105224609
+test_started: 1358160771.567204
+...
+---
+input: bluehost.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5984940528869629
+test_started: 1358160771.569967
+...
+---
+input: comcast.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.600100040435791
+test_started: 1358160771.575742
+...
+---
+input: shutterstock.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6049990653991699
+test_started: 1358160771.578498
+...
+---
+input: ebay.com.au:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6179380416870117
+test_started: 1358160771.573034
+...
+---
+input: hi5.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6140999794006348
+test_started: 1358160771.58438
+...
+---
+input: people.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.616426944732666
+test_started: 1358160771.589632
+...
+---
+input: mybrowserbar.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 0.6324939727783203
+test_started: 1358160771.58136
+...
+---
+input: mynet.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7113339900970459
+test_started: 1358160771.587018
+...
+---
+input: myegy.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.1771819591522217
+test_started: 1358160771.592184
+...
+---
+input: google.dk:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.48296594619750977
+test_started: 1358160772.810095
+...
+---
+input: baixing.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.4802060127258301
+test_started: 1358160772.824092
+...
+---
+input: tinypic.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.49916601181030273
+test_started: 1358160772.813033
+...
+---
+input: livedoor.biz:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 0.5158870220184326
+test_started: 1358160772.80499
+...
+---
+input: geocities.jp:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 0.5136117935180664
+test_started: 1358160772.815745
+...
+---
+input: tweetmeme.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6974689960479736
+test_started: 1358160772.799694
+...
+---
+input: google.com.pe:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.692753791809082
+test_started: 1358160772.818622
+...
+---
+input: skyrock.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.4589600563049316
+test_started: 1358160772.821385
+...
+---
+input: gazeta.pl:80
+report: {connection: generic_timeout_error}
+test_name: test_connect
+test_runtime: 30.006659030914307
+test_started: 1358160772.802356
+...
+---
+input: vmn.net:80
+report: {connection: generic_timeout_error}
+test_name: test_connect
+test_runtime: 30.01485800743103
+test_started: 1358160772.807498
+...
+---
+input: meituan.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5161049365997314
+test_started: 1358160802.844031
+...
+---
+input: dmm.co.jp:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5158870220184326
+test_started: 1358160802.851935
+...
+---
+input: dangdang.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5265488624572754
+test_started: 1358160802.849452
+...
+---
+input: google.no:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5370059013366699
+test_started: 1358160802.846892
+...
+---
+input: americanexpress.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5504951477050781
+test_started: 1358160802.841024
+...
+---
+input: brothersoft.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7630870342254639
+test_started: 1358160802.857359
+...
+---
+input: fastclick.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7699830532073975
+test_started: 1358160802.859971
+...
+---
+input: exblog.jp:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9651370048522949
+test_started: 1358160802.865485
+...
+---
+input: youm7.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.6259360313415527
+test_started: 1358160802.862663
+...
+---
+input: rbc.ru:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.8814921379089355
+test_started: 1358160802.854605
+...
+---
+input: ustream.tv:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.4620499610900879
+test_started: 1358160804.7637
+...
+---
+input: justin.tv:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.46389317512512207
+test_started: 1358160804.77397
+...
+---
+input: livingsocial.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.47992897033691406
+test_started: 1358160804.766303
+...
+---
+input: jquery.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.4721088409423828
+test_started: 1358160804.782134
+...
+---
+input: bloomberg.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7829561233520508
+test_started: 1358160804.771297
+...
+---
+input: usatoday.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7861599922180176
+test_started: 1358160804.776684
+...
+---
+input: naukri.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7912209033966064
+test_started: 1358160804.779364
+...
+---
+input: slutload.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8097407817840576
+test_started: 1358160804.768824
+...
+---
+input: ero-advertising.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8281729221343994
+test_started: 1358160804.758186
+...
+---
+input: lenta.ru:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.2151038646697998
+test_started: 1358160804.760833
+...
+---
+input: pchome.net:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8813989162445068
+test_started: 1358160806.014374
+...
+---
+input: 4399.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8846621513366699
+test_started: 1358160806.024484
+...
+---
+input: abcnews.go.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9072930812835693
+test_started: 1358160806.011276
+...
+---
+input: surveymonkey.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.907250165939331
+test_started: 1358160806.019415
+...
+---
+input: pornhublive.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9310557842254639
+test_started: 1358160806.00341
+...
+---
+input: ibm.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9254980087280273
+test_started: 1358160806.016944
+...
+---
+input: mpnrs.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.084341049194336
+test_started: 1358160806.021946
+...
+---
+input: zing.vn:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.1175460815429688
+test_started: 1358160806.006047
+...
+---
+input: chinanews.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.562978982925415
+test_started: 1358160806.00878
+...
+---
+input: blackhatworld.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.5851140022277832
+test_started: 1358160806.000005
+...
+---
+input: duckload.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5013060569763184
+test_started: 1358160807.616945
+...
+---
+input: qip.ru:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5097529888153076
+test_started: 1358160807.624505
+...
+---
+input: qidian.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9281699657440186
+test_started: 1358160807.604059
+...
+---
+input: verycd.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9280099868774414
+test_started: 1358160807.611806
+...
+---
+input: cocolog-nifty.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 0.940762996673584
+test_started: 1358160807.606696
+...
+---
+input: posterous.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.946735143661499
+test_started: 1358160807.6093
+...
+---
+input: bearshare.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9416830539703369
+test_started: 1358160807.6217
+...
+---
+input: imesh.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9438779354095459
+test_started: 1358160807.627167
+...
+---
+input: clixsense.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9643599987030029
+test_started: 1358160807.614372
+...
+---
+input: ebay.fr:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9563939571380615
+test_started: 1358160807.630028
+...
+---
+input: pcpop.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7189929485321045
+test_started: 1358160808.644871
+...
+---
+input: zhaopin.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7273650169372559
+test_started: 1358160808.648019
+...
+---
+input: google.fi:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.748805046081543
+test_started: 1358160808.635288
+...
+---
+input: fatakat.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7403230667114258
+test_started: 1358160808.651196
+...
+---
+input: searchqu.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.781984806060791
+test_started: 1358160808.617366
+...
+---
+input: meetup.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7744541168212891
+test_started: 1358160808.632562
+...
+---
+input: lemonde.fr:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7948892116546631
+test_started: 1358160808.619938
+...
+---
+input: android.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0175161361694336
+test_started: 1358160808.641938
+...
+---
+input: gutefrage.net:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.3780310153961182
+test_started: 1358160808.625075
+...
+---
+input: peyvandha.ir:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.850142002105713
+test_started: 1358160808.622508
+...
+---
+input: it168.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8017561435699463
+test_started: 1358160810.515111
+...
+---
+input: lzjl.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8173210620880127
+test_started: 1358160810.512544
+...
+---
+input: pogo.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0546081066131592
+test_started: 1358160810.507325
+...
+---
+input: google.co.il:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.055048942565918
+test_started: 1358160810.518003
+...
+---
+input: newegg.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0833752155303955
+test_started: 1358160810.499143
+...
+---
+input: miniclip.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.091176986694336
+test_started: 1358160810.509877
+...
+---
+input: imagebam.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.1096670627593994
+test_started: 1358160810.504786
+...
+---
+input: shareasale.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.133188009262085
+test_started: 1358160810.493477
+...
+---
+input: news.com.au:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.1420669555664062
+test_started: 1358160810.501832
+...
+---
+input: aljazeera.net:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.5686578750610352
+test_started: 1358160810.496613
+...
+---
+input: 39.net:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.2914440631866455
+test_started: 1358160812.092428
+...
+---
+input: wikihow.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.35664892196655273
+test_started: 1358160812.108588
+...
+---
+input: ocn.ne.jp:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 0.37400197982788086
+test_started: 1358160812.100632
+...
+---
+input: 51.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.4609999656677246
+test_started: 1358160812.095115
+...
+---
+input: hc360.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.47795820236206055
+test_started: 1358160812.089738
+...
+---
+input: softlayer.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.532390832901001
+test_started: 1358160812.097953
+...
+---
+input: gougou.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 0.645319938659668
+test_started: 1358160812.10325
+...
+---
+input: oneindia.in:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7165038585662842
+test_started: 1358160812.105874
+...
+---
+input: mapquest.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0339889526367188
+test_started: 1358160812.111215
+...
+---
+input: ya.ru:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 5.675863027572632
+test_started: 1358160812.086659
+...
+---
+input: tom.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.771806001663208
+test_started: 1358160817.811423
+...
+---
+input: verizonwireless.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7976009845733643
+test_started: 1358160817.795533
+...
+---
+input: gc.ca:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8006389141082764
+test_started: 1358160817.800672
+...
+---
+input: careerbuilder.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8190910816192627
+test_started: 1358160817.790055
+...
+---
+input: excite.co.jp:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8134560585021973
+test_started: 1358160817.80323
+...
+---
+input: ziddu.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.836590051651001
+test_started: 1358160817.787391
+...
+---
+input: plimus.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8403608798980713
+test_started: 1358160817.798113
+...
+---
+input: thesun.co.uk:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8680651187896729
+test_started: 1358160817.792821
+...
+---
+input: admagnet.net:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9668989181518555
+test_started: 1358160817.808798
+...
+---
+input: google.cz:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9843010902404785
+test_started: 1358160817.805939
+...
+---
+input: bitauto.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8735308647155762
+test_started: 1358160818.823012
+...
+---
+input: dtiblog.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8875839710235596
+test_started: 1358160818.820201
+...
+---
+input: gsmarena.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9072577953338623
+test_started: 1358160818.809734
+...
+---
+input: yomiuri.co.jp:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 0.8935301303863525
+test_started: 1358160818.831019
+...
+---
+input: wunderground.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8993368148803711
+test_started: 1358160818.833856
+...
+---
+input: way2sms.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9231381416320801
+test_started: 1358160818.817731
+...
+---
+input: formspring.me:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9211359024047852
+test_started: 1358160818.828282
+...
+---
+input: pokerstrategy.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9447200298309326
+test_started: 1358160818.812654
+...
+---
+input: onbux.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9505660533905029
+test_started: 1358160818.815166
+...
+---
+input: smashingmagazine.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9478318691253662
+test_started: 1358160818.825678
+...
+---
+input: so-net.ne.jp:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.46768784523010254
+test_started: 1358160819.795289
+...
+---
+input: 115.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.46996092796325684
+test_started: 1358160819.804819
+...
+---
+input: seomoz.org:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.48433494567871094
+test_started: 1358160819.798398
+...
+---
+input: 17kuxun.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 0.4830489158630371
+test_started: 1358160819.808038
+...
+---
+input: sitemeter.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5351831912994385
+test_started: 1358160819.813274
+...
+---
+input: chip.de:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5564770698547363
+test_started: 1358160819.801679
+...
+---
+input: cnbc.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5484271049499512
+test_started: 1358160819.818405
+...
+---
+input: blackberry.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5588970184326172
+test_started: 1358160819.815742
+...
+---
+input: monster.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8948190212249756
+test_started: 1358160819.810586
+...
+---
+input: sape.ru:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9221651554107666
+test_started: 1358160819.792455
+...
+---
+input: sdo.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.4673919677734375
+test_started: 1358160820.760256
+...
+---
+input: oracle.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6018881797790527
+test_started: 1358160820.738762
+...
+---
+input: altervista.org:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5975089073181152
+test_started: 1358160820.754801
+...
+---
+input: ypmate.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6720888614654541
+test_started: 1358160820.745937
+...
+---
+input: dmoz.org:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.903501033782959
+test_started: 1358160820.741774
+...
+---
+input: irctc.co.in:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.937175989151001
+test_started: 1358160820.733539
+...
+---
+input: kijiji.ca:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9363489151000977
+test_started: 1358160820.751915
+...
+---
+input: fotolia.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9599580764770508
+test_started: 1358160820.736131
+...
+---
+input: mobile.de:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.5369510650634766
+test_started: 1358160820.757532
+...
+---
+input: tnaflix.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 4.024907112121582
+test_started: 1358160820.763047
+...
+---
+input: tabelog.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9427759647369385
+test_started: 1358160824.812903
+...
+---
+input: coupons.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9493780136108398
+test_started: 1358160824.822488
+...
+---
+input: exoplanetwar.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9519021511077881
+test_started: 1358160824.827602
+...
+---
+input: last.fm:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9672861099243164
+test_started: 1358160824.819887
+...
+---
+input: nk.pl:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9853720664978027
+test_started: 1358160824.809463
+...
+---
+input: extratorrent.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.972376823425293
+test_started: 1358160824.830176
+...
+---
+input: wupload.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 0.977808952331543
+test_started: 1358160824.833044
+...
+---
+input: hdfcbank.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.5228478908538818
+test_started: 1358160824.835685
+...
+---
+input: multiupload.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.54390287399292
+test_started: 1358160824.825052
+...
+---
+input: habrahabr.ru:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 5.768623113632202
+test_started: 1358160824.816633
+...
+---
+input: jugem.jp:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5550460815429688
+test_started: 1358160830.624291
+...
+---
+input: foxsports.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5738370418548584
+test_started: 1358160830.627109
+...
+---
+input: cbsnews.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.579063892364502
+test_started: 1358160830.629666
+...
+---
+input: ovh.net:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7760758399963379
+test_started: 1358160830.616291
+...
+---
+input: playstation.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7835390567779541
+test_started: 1358160830.621773
+...
+---
+input: yandex.ua:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7812080383300781
+test_started: 1358160830.632148
+...
+---
+input: duowan.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7861020565032959
+test_started: 1358160830.635045
+...
+---
+input: 3992929.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 0.8179230690002441
+test_started: 1358160830.610771
+...
+---
+input: immobilienscout24.de:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0629589557647705
+test_started: 1358160830.618848
+...
+---
+input: demonoid.me:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.04593801498413
+test_started: 1358160830.613755
+...
+---
+input: xcar.com.cn:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7387900352478027
+test_started: 1358160850.688521
+...
+---
+input: qq937.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 0.743431806564331
+test_started: 1358160850.69388
+...
+---
+input: mgid.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7660109996795654
+test_started: 1358160850.679989
+...
+---
+input: speedtest.net:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7522270679473877
+test_started: 1358160850.701649
+...
+---
+input: macrumors.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7780251502990723
+test_started: 1358160850.683322
+...
+---
+input: mercadolibre.com.mx:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7726020812988281
+test_started: 1358160850.696367
+...
+---
+input: github.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9605700969696045
+test_started: 1358160850.691175
+...
+---
+input: cz.cc:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9772348403930664
+test_started: 1358160850.685929
+...
+---
+input: as.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9662699699401855
+test_started: 1358160850.704274
+...
+---
+input: abril.com.br:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9791228771209717
+test_started: 1358160850.698915
+...
+---
+input: www.net.cn:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.24996304512023926
+test_started: 1358160851.702424
+...
+---
+input: grooveshark.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.4619917869567871
+test_started: 1358160851.708331
+...
+---
+input: zillow.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.48411083221435547
+test_started: 1358160851.69668
+...
+---
+input: beeg.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.48929500579833984
+test_started: 1358160851.69956
+...
+---
+input: anonym.to:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5544140338897705
+test_started: 1358160851.746557
+...
+---
+input: templatemonster.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5768108367919922
+test_started: 1358160851.735438
+...
+---
+input: bigpoint.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6152658462524414
+test_started: 1358160851.705274
+...
+---
+input: kinopoisk.ru:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5794479846954346
+test_started: 1358160851.749625
+...
+---
+input: theplanet.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8870139122009277
+test_started: 1358160851.711674
+...
+---
+input: hypergames.net:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8793251514434814
+test_started: 1358160851.73133
+...
+---
+input: wired.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.4465370178222656
+test_started: 1358160852.642734
+...
+---
+input: aliexpress.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7277431488037109
+test_started: 1358160852.650853
+...
+---
+input: swagbucks.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.745244026184082
+test_started: 1358160852.645475
+...
+---
+input: linksynergy.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 0.7640469074249268
+test_started: 1358160852.634454
+...
+---
+input: infusionsoft.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.767035961151123
+test_started: 1358160852.63994
+...
+---
+input: tutsplus.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7663629055023193
+test_started: 1358160852.648127
+...
+---
+input: megaporn.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7847728729248047
+test_started: 1358160852.637304
+...
+---
+input: ibibo.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9842021465301514
+test_started: 1358160852.629211
+...
+---
+input: enterfactory.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9686110019683838
+test_started: 1358160852.653569
+...
+---
+input: uploadstation.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 6.016891956329346
+test_started: 1358160852.631864
+...
+---
+input: viadeo.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.48841190338134766
+test_started: 1358160858.69139
+...
+---
+input: force.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5195159912109375
+test_started: 1358160858.670202
+...
+---
+input: lifehacker.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5045230388641357
+test_started: 1358160858.694093
+...
+---
+input: boston.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5201570987701416
+test_started: 1358160858.686183
+...
+---
+input: beemp3.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7648189067840576
+test_started: 1358160858.67853
+...
+---
+input: ndtv.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7686021327972412
+test_started: 1358160858.688721
+...
+---
+input: zanox-affiliate.de:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7856180667877197
+test_started: 1358160858.681129
+...
+---
+input: wn.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0775699615478516
+test_started: 1358160858.673015
+...
+---
+input: lequipe.fr:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0882091522216797
+test_started: 1358160858.675917
+...
+---
+input: nu.nl:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0972850322723389
+test_started: 1358160858.683627
+...
+---
+input: verizon.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6179280281066895
+test_started: 1358160859.809254
+...
+---
+input: articlesbase.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6124169826507568
+test_started: 1358160859.824891
+...
+---
+input: who.is:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6488430500030518
+test_started: 1358160859.800025
+...
+---
+input: gizmodo.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6449451446533203
+test_started: 1358160859.811914
+...
+---
+input: nate.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8603980541229248
+test_started: 1358160859.803899
+...
+---
+input: pptv.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8609099388122559
+test_started: 1358160859.814606
+...
+---
+input: webmasterworld.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8657658100128174
+test_started: 1358160859.817197
+...
+---
+input: mercadolibre.com.ar:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.1517441272735596
+test_started: 1358160859.819697
+...
+---
+input: urbandictionary.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.1572339534759521
+test_started: 1358160859.822273
+...
+---
+input: traforet.ru:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.4265499114990234
+test_started: 1358160859.806503
+...
+---
+input: infolinks.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8343970775604248
+test_started: 1358160861.283702
+...
+---
+input: yocc.net:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 0.8378489017486572
+test_started: 1358160861.294605
+...
+---
+input: weather.com.cn:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8575348854064941
+test_started: 1358160861.286441
+...
+---
+input: backpage.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.862368106842041
+test_started: 1358160861.289229
+...
+---
+input: priceline.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8552341461181641
+test_started: 1358160861.304179
+...
+---
+input: okcupid.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8887169361114502
+test_started: 1358160861.278314
+...
+---
+input: clickbank.net:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.1409010887145996
+test_started: 1358160861.291875
+...
+---
+input: sulekha.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.1478838920593262
+test_started: 1358160861.298273
+...
+---
+input: wetter.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.5436980724334717
+test_started: 1358160861.281075
+...
+---
+input: exoclick.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.5341410636901855
+test_started: 1358160861.301631
+...
+---
+input: iciba.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9776020050048828
+test_started: 1358160862.870221
+...
+---
+input: networkedblogs.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9847910404205322
+test_started: 1358160862.872786
+...
+---
+input: break.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9976339340209961
+test_started: 1358160862.86747
+...
+---
+input: 37see.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 0.9897911548614502
+test_started: 1358160862.883417
+...
+---
+input: nextag.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0165319442749023
+test_started: 1358160862.864928
+...
+---
+input: 4tube.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0296881198883057
+test_started: 1358160862.859226
+...
+---
+input: adultadworld.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0186409950256348
+test_started: 1358160862.877909
+...
+---
+input: sapo.pt:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0477540493011475
+test_started: 1358160862.856528
+...
+---
+input: businessweek.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0367848873138428
+test_started: 1358160862.875278
+...
+---
+input: google.co.ma:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 2.1093690395355225
+test_started: 1358160862.88056
+...
+---
+input: timeanddate.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8156850337982178
+test_started: 1358160865.015322
+...
+---
+input: hotels.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8110799789428711
+test_started: 1358160865.028232
+...
+---
+input: allrecipes.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8117520809173584
+test_started: 1358160865.035769
+...
+---
+input: streamate.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8353002071380615
+test_started: 1358160865.020707
+...
+---
+input: webmd.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8420908451080322
+test_started: 1358160865.025751
+...
+---
+input: appspot.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.85213303565979
+test_started: 1358160865.023199
+...
+---
+input: xtube.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.850006103515625
+test_started: 1358160865.033316
+...
+---
+input: z5x.net:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8523900508880615
+test_started: 1358160865.038544
+...
+---
+input: pornhost.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.3365721702575684
+test_started: 1358160865.018118
+...
+---
+input: lefigaro.fr:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.3322880268096924
+test_started: 1358160865.030794
+...
+---
+input: infoseek.co.jp:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6487331390380859
+test_started: 1358160866.398974
+...
+---
+input: groupon.cn:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6713440418243408
+test_started: 1358160866.388191
+...
+---
+input: detik.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6615860462188721
+test_started: 1358160866.406882
+...
+---
+input: homedepot.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6904950141906738
+test_started: 1358160866.385284
+...
+---
+input: docin.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.686884880065918
+test_started: 1358160866.396382
+...
+---
+input: alertpay.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.686751127243042
+test_started: 1358160866.404202
+...
+---
+input: amazon.fr:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7977471351623535
+test_started: 1358160866.391193
+...
+---
+input: tripod.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.802696943283081
+test_started: 1358160866.393745
+...
+---
+input: hyves.nl:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.3264319896697998
+test_started: 1358160866.409626
+...
+---
+input: webmoney.ru:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 3.5895698070526123
+test_started: 1358160866.401585
+...
+---
+input: cracked.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5605559349060059
+test_started: 1358160870.015502
+...
+---
+input: sfgate.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9444699287414551
+test_started: 1358160870.036822
+...
+---
+input: oron.com:80
+report: {connection: connection_refused_error}
+test_name: test_connect
+test_runtime: 0.9818041324615479
+test_started: 1358160870.012898
+...
+---
+input: okwave.jp:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.982792854309082
+test_started: 1358160870.021006
+...
+---
+input: battle.net:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9881548881530762
+test_started: 1358160870.023508
+...
+---
+input: jimdo.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9907219409942627
+test_started: 1358160870.028573
+...
+---
+input: me.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9928560256958008
+test_started: 1358160870.033813
+...
+---
+input: getresponse.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0034890174865723
+test_started: 1358160870.0311
+...
+---
+input: warez-bb.org:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.024432897567749
+test_started: 1358160870.018047
+...
+---
+input: moneycontrol.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.025947093963623
+test_started: 1358160870.026054
+...
+---
+input: blogimg.jp:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 0.3011181354522705
+test_started: 1358160871.081359
+...
+---
+input: google.sk:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.46123600006103516
+test_started: 1358160871.083971
+...
+---
+input: issuu.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.556257963180542
+test_started: 1358160871.072791
+...
+---
+input: yellowpages.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5746588706970215
+test_started: 1358160871.070142
+...
+---
+input: foursquare.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5805251598358154
+test_started: 1358160871.075378
+...
+---
+input: dantri.com.vn:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5933308601379395
+test_started: 1358160871.089893
+...
+---
+input: mysql.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6175901889801025
+test_started: 1358160871.096181
+...
+---
+input: accuweather.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8684070110321045
+test_started: 1358160871.078604
+...
+---
+input: videobb.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8696050643920898
+test_started: 1358160871.093056
+...
+---
+input: heise.de:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0003621578216553
+test_started: 1358160871.086856
+...
+---
+input: eyny.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.43581604957580566
+test_started: 1358160872.134472
+...
+---
+input: smowtion.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.46687889099121094
+test_started: 1358160872.114078
+...
+---
+input: mtv.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.47730088233947754
+test_started: 1358160872.111267
+...
+---
+input: custhelp.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.4826691150665283
+test_started: 1358160872.117235
+...
+---
+input: dreamstime.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5441460609436035
+test_started: 1358160872.1264
+...
+---
+input: bleacherreport.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5434689521789551
+test_started: 1358160872.137188
+...
+---
+input: disney.go.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7637810707092285
+test_started: 1358160872.120267
+...
+---
+input: nydailynews.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7668077945709229
+test_started: 1358160872.131771
+...
+---
+input: 2345.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 2.165264129638672
+test_started: 1358160872.129155
+...
+---
+input: cnblogs.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 3.56119704246521
+test_started: 1358160872.123318
+...
+---
+input: pixiv.net:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5188250541687012
+test_started: 1358160875.711721
+...
+---
+input: 19lou.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5125207901000977
+test_started: 1358160875.728212
+...
+---
+input: asg.to:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.514458179473877
+test_started: 1358160875.733641
+...
+---
+input: slickdeals.net:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.5521330833435059
+test_started: 1358160875.725601
+...
+---
+input: retailmenot.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.5699450969696045
+test_started: 1358160875.717356
+...
+---
+input: linkbucks.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 3.2076900005340576
+test_started: 1358160875.72299
+...
+---
+input: capitalone.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 3.798002004623413
+test_started: 1358160875.720009
+...
+---
+input: icontact.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 3.8140971660614014
+test_started: 1358160875.714743
+...
+---
+input: icicibank.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 5.840445041656494
+test_started: 1358160875.730922
+...
+---
+input: sahibinden.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 6.47716498374939
+test_started: 1358160875.707928
+...
+---
+input: icbc.com.cn:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7474980354309082
+test_started: 1358160882.226446
+...
+---
+input: paper.li:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.774724006652832
+test_started: 1358160882.210223
+...
+---
+input: wix.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7610681056976318
+test_started: 1358160882.231808
+...
+---
+input: traidnt.net:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7851648330688477
+test_started: 1358160882.215372
+...
+---
+input: nypost.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0819220542907715
+test_started: 1358160882.220798
+...
+---
+input: tuenti.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0907700061798096
+test_started: 1358160882.234535
+...
+---
+input: searchresultsdirect.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.121304988861084
+test_started: 1358160882.218112
+...
+---
+input: scriptmafia.org:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.7320950031280518
+test_started: 1358160882.21289
+...
+---
+input: songs.pk:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.8089570999145508
+test_started: 1358160882.229164
+...
+---
+input: letmewatchthis.ch:80
+report: {connection: generic_timeout_error}
+test_name: test_connect
+test_runtime: 30.005441188812256
+test_started: 1358160882.223441
+...
+---
+input: sinaimg.cn:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 0.501431941986084
+test_started: 1358160912.254316
+...
+---
+input: 17173.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5452139377593994
+test_started: 1358160912.270024
+...
+---
+input: hoopchina.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5715110301971436
+test_started: 1358160912.25723
+...
+---
+input: onlinedown.net:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.659559965133667
+test_started: 1358160912.251496
+...
+---
+input: sanook.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6436529159545898
+test_started: 1358160912.275109
+...
+---
+input: nasa.gov:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 0.6666679382324219
+test_started: 1358160912.259742
+...
+---
+input: intel.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6674599647521973
+test_started: 1358160912.272571
+...
+---
+input: persianblog.ir:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8738961219787598
+test_started: 1358160912.267475
+...
+---
+input: ekolay.net:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9019439220428467
+test_started: 1358160912.262438
+...
+---
+input: 4chan.org:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 4.367664098739624
+test_started: 1358160912.264998
+...
+---
+input: examiner.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6545391082763672
+test_started: 1358160916.665475
+...
+---
+input: twiends.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7383420467376709
+test_started: 1358160916.66015
+...
+---
+input: youjizzlive.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7357950210571289
+test_started: 1358160916.675734
+...
+---
+input: msn.ca:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8195230960845947
+test_started: 1358160916.657279
+...
+---
+input: bodybuilding.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.919625997543335
+test_started: 1358160916.670561
+...
+---
+input: smh.com.au:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.967663049697876
+test_started: 1358160916.678457
+...
+---
+input: sunporno.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9839119911193848
+test_started: 1358160916.673126
+...
+---
+input: am10.ru:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0103719234466553
+test_started: 1358160916.654408
+...
+---
+input: gismeteo.ru:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0818390846252441
+test_started: 1358160916.667994
+...
+---
+input: interia.pl:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0973930358886719
+test_started: 1358160916.662868
+...
+---
+input: mtime.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6910438537597656
+test_started: 1358160917.797614
+...
+---
+input: cnbeta.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7154951095581055
+test_started: 1358160917.786862
+...
+---
+input: adult-empire.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7303528785705566
+test_started: 1358160917.792005
+...
+---
+input: google.co.nz:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.728316068649292
+test_started: 1358160917.802937
+...
+---
+input: cashtrafic.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7604069709777832
+test_started: 1358160917.778959
+...
+---
+input: freeones.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7667410373687744
+test_started: 1358160917.781777
+...
+---
+input: zoho.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7575430870056152
+test_started: 1358160917.800211
+...
+---
+input: trafficholder.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.826016902923584
+test_started: 1358160917.7894
+...
+---
+input: searchengines.ru:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.1211302280426025
+test_started: 1358160917.784289
+...
+---
+input: wiktionary.org:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.2045190334320068
+test_started: 1358160917.794941
+...
+---
+input: rakuten.ne.jp:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 0.4234199523925781
+test_started: 1358160919.05318
+...
+---
+input: wo.com.cn:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6380569934844971
+test_started: 1358160919.042271
+...
+---
+input: friendfeed.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6525321006774902
+test_started: 1358160919.039049
+...
+---
+input: whitepages.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6636340618133545
+test_started: 1358160919.035907
+...
+---
+input: informer.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.674454927444458
+test_started: 1358160919.032773
+...
+---
+input: rottentomatoes.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6701140403747559
+test_started: 1358160919.04495
+...
+---
+input: dyndns.org:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6668181419372559
+test_started: 1358160919.055867
+...
+---
+input: gamefaqs.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6799089908599854
+test_started: 1358160919.050368
+...
+---
+input: eluniversal.com.mx:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7106890678405762
+test_started: 1358160919.029564
+...
+---
+input: radikal.ru:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0688371658325195
+test_started: 1358160919.047675
+...
+---
+input: hubspot.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8061809539794922
+test_started: 1358160920.167292
+...
+---
+input: 123rf.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8285188674926758
+test_started: 1358160920.156074
+...
+---
+input: filehippo.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8329839706420898
+test_started: 1358160920.15894
+...
+---
+input: kayak.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8464930057525635
+test_started: 1358160920.153554
+...
+---
+input: manta.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8661561012268066
+test_started: 1358160920.142196
+...
+---
+input: buzzfeed.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8704900741577148
+test_started: 1358160920.150533
+...
+---
+input: pch.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.881256103515625
+test_started: 1358160920.14797
+...
+---
+input: empflix.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8733129501342773
+test_started: 1358160920.164633
+...
+---
+input: virtapay.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8849709033966064
+test_started: 1358160920.161962
+...
+---
+input: glispa.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.991908073425293
+test_started: 1358160920.145462
+...
+---
+input: 88210212.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.758965015411377
+test_started: 1358160921.187509
+...
+---
+input: exbii.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7792351245880127
+test_started: 1358160921.179534
+...
+---
+input: itau.com.br:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7994050979614258
+test_started: 1358160921.168876
+...
+---
+input: overstock.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8099229335784912
+test_started: 1358160921.16627
+...
+---
+input: tinyurl.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.035959005355835
+test_started: 1358160921.176893
+...
+---
+input: club-asteria.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.2890138626098633
+test_started: 1358160921.184885
+...
+---
+input: realtor.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.3230979442596436
+test_started: 1358160921.163037
+...
+---
+input: jeuxvideo.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.3200209140777588
+test_started: 1358160921.174262
+...
+---
+input: seriesyonkis.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.3196239471435547
+test_started: 1358160921.18224
+...
+---
+input: ahram.org.eg:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.3382790088653564
+test_started: 1358160921.171386
+...
+---
+input: 6.cn:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.4716789722442627
+test_started: 1358160922.555573
+...
+---
+input: iminent.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9361441135406494
+test_started: 1358160922.539845
+...
+---
+input: ebay.in:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9404120445251465
+test_started: 1358160922.547879
+...
+---
+input: xda-developers.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9461209774017334
+test_started: 1358160922.550434
+...
+---
+input: usbank.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9509909152984619
+test_started: 1358160922.552979
+...
+---
+input: marketwatch.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9758760929107666
+test_started: 1358160922.536623
+...
+---
+input: hsbc.co.uk:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.977449893951416
+test_started: 1358160922.542591
+...
+---
+input: mediaset.it:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9671449661254883
+test_started: 1358160922.561603
+...
+---
+input: partycasino.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.7102091312408447
+test_started: 1358160922.545256
+...
+---
+input: brazzers.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.7070741653442383
+test_started: 1358160922.558451
+...
+---
+input: elegantthemes.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7184920310974121
+test_started: 1358160924.295556
+...
+---
+input: ct10000.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.004181146621704
+test_started: 1358160924.289949
+...
+---
+input: metrolyrics.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.004594087600708
+test_started: 1358160924.301636
+...
+---
+input: orbitz.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0157108306884766
+test_started: 1358160924.29867
+...
+---
+input: nationalgeographic.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0374009609222412
+test_started: 1358160924.284553
+...
+---
+input: southwest.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0420169830322266
+test_started: 1358160924.287359
+...
+---
+input: flippa.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.4529919624328613
+test_started: 1358160924.309797
+...
+---
+input: telegraaf.nl:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.467655897140503
+test_started: 1358160924.307014
+...
+---
+input: icq.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.4896199703216553
+test_started: 1358160924.292778
+...
+---
+input: masrawy.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.4859671592712402
+test_started: 1358160924.304267
+...
+---
+input: npr.org:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.791222095489502
+test_started: 1358160925.811931
+...
+---
+input: focus.cn:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7916991710662842
+test_started: 1358160925.823346
+...
+---
+input: xvideoslive.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8086240291595459
+test_started: 1358160925.814707
+...
+---
+input: myfreecams.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7993168830871582
+test_started: 1358160925.831886
+...
+---
+input: uploading.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8217461109161377
+test_started: 1358160925.817468
+...
+---
+input: barnesandnoble.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8122689723968506
+test_started: 1358160925.834533
+...
+---
+input: gawker.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8803389072418213
+test_started: 1358160925.826435
+...
+---
+input: zappos.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8918650150299072
+test_started: 1358160925.829182
+...
+---
+input: 1und1.de:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9085659980773926
+test_started: 1358160925.820122
+...
+---
+input: vente-privee.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9327900409698486
+test_started: 1358160925.808948
+...
+---
+input: kompas.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.6319258213043213
+test_started: 1358160926.760914
+...
+---
+input: ca.gov:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7620000839233398
+test_started: 1358160926.763767
+...
+---
+input: com-net.info:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.3144478797912598
+test_started: 1358160926.766663
+...
+---
+input: enet.com.cn:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.313781976699829
+test_started: 1358160926.778475
+...
+---
+input: discoverbing.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.3304779529571533
+test_started: 1358160926.769447
+...
+---
+input: howstuffworks.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.326935052871704
+test_started: 1358160926.781218
+...
+---
+input: pcworld.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.331676959991455
+test_started: 1358160926.783861
+...
+---
+input: gazzetta.it:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.3480370044708252
+test_started: 1358160926.775126
+...
+---
+input: marktplaats.nl:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.519662857055664
+test_started: 1358160926.772138
+...
+---
+input: sfr.fr:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.513185977935791
+test_started: 1358160926.786563
+...
+---
+input: atwiki.jp:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.4381730556488037
+test_started: 1358160928.331668
+...
+---
+input: skycn.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.4498472213745117
+test_started: 1358160928.334509
+...
+---
+input: speakasiaonline.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.4636881351470947
+test_started: 1358160928.328939
+...
+---
+input: babycenter.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.4740719795227051
+test_started: 1358160928.326222
+...
+---
+input: nikkeibp.co.jp:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.4892089366912842
+test_started: 1358160928.318434
+...
+---
+input: logmein.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.49164605140686035
+test_started: 1358160928.32361
+...
+---
+input: yousendit.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7094089984893799
+test_started: 1358160928.33739
+...
+---
+input: citibank.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.790999174118042
+test_started: 1358160928.342841
+...
+---
+input: aftonbladet.se:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9446840286254883
+test_started: 1358160928.321098
+...
+---
+input: welt.de:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9382350444793701
+test_started: 1358160928.340062
+...
+---
+input: aizhan.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.42582201957702637
+test_started: 1358160929.29797
+...
+---
+input: vivanews.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5525381565093994
+test_started: 1358160929.303299
+...
+---
+input: webhostingtalk.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5559401512145996
+test_started: 1358160929.311343
+...
+---
+input: cmbchina.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5677230358123779
+test_started: 1358160929.308748
+...
+---
+input: nikkei.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8172690868377686
+test_started: 1358160929.322269
+...
+---
+input: ctrip.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8427479267120361
+test_started: 1358160929.319524
+...
+---
+input: gap.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8707029819488525
+test_started: 1358160929.300636
+...
+---
+input: sears.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8619949817657471
+test_started: 1358160929.31684
+...
+---
+input: earthlink.net:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.9726839065551758
+test_started: 1358160929.306031
+...
+---
+input: haberturk.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 2.702085018157959
+test_started: 1358160929.314072
+...
+---
+input: trulia.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.283301830291748
+test_started: 1358160932.053219
+...
+---
+input: m-w.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.2892589569091797
+test_started: 1358160932.058383
+...
+---
+input: seobook.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.299401044845581
+test_started: 1358160932.055732
+...
+---
+input: quikr.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.3184168338775635
+test_started: 1358160932.044918
+...
+---
+input: pixnet.net:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.8208730220794678
+test_started: 1358160932.064266
+...
+---
+input: goo.gl:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.9552950859069824
+test_started: 1358160932.061554
+...
+---
+input: pornerbros.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 2.043436050415039
+test_started: 1358160932.067062
+...
+---
+input: rtl.de:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 2.0741469860076904
+test_started: 1358160932.050217
+...
+---
+input: sueddeutsche.de:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 2.2034201622009277
+test_started: 1358160932.047473
+...
+---
+input: varzesh3.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 2.220921039581299
+test_started: 1358160932.041983
+...
+---
+input: yoka.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.201512098312378
+test_started: 1358160934.290628
+...
+---
+input: makepolo.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.423076868057251
+test_started: 1358160934.307553
+...
+---
+input: sweetim.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.437222957611084
+test_started: 1358160934.301636
+...
+---
+input: tuan800.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.851811170578003
+test_started: 1358160934.28785
+...
+---
+input: made-in-china.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.9428150653839111
+test_started: 1358160934.31073
+...
+---
+input: rolandgarros.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.9775168895721436
+test_started: 1358160934.296143
+...
+---
+input: linternaute.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 2.1580779552459717
+test_started: 1358160934.304373
+...
+---
+input: nipic.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 2.2411611080169678
+test_started: 1358160934.284988
+...
+---
+input: europa.eu:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 2.7697908878326416
+test_started: 1358160934.293493
+...
+---
+input: pagesjaunes.fr:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 2.982595920562744
+test_started: 1358160934.298908
+...
+---
+input: letv.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5216331481933594
+test_started: 1358160937.326938
+...
+---
+input: perezhilton.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.5488100051879883
+test_started: 1358160937.311696
+...
+---
+input: taleo.net:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7817239761352539
+test_started: 1358160937.309148
+...
+---
+input: opera.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7802751064300537
+test_started: 1358160937.321817
+...
+---
+input: magentocommerce.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7933049201965332
+test_started: 1358160937.316795
+...
+---
+input: bahn.de:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0821590423583984
+test_started: 1358160937.305955
+...
+---
+input: stern.de:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0802559852600098
+test_started: 1358160937.319275
+...
+---
+input: dict.cc:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0942409038543701
+test_started: 1358160937.314234
+...
+---
+input: asahi.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 1.0918850898742676
+test_started: 1358160937.324446
+...
+---
+input: ninemsn.com.au:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.818753957748413
+test_started: 1358160937.32959
+...
+---
+input: google.lk:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7790799140930176
+test_started: 1358160939.188463
+...
+---
+input: dealextreme.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8009037971496582
+test_started: 1358160939.180138
+...
+---
+input: inbox.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8115260601043701
+test_started: 1358160939.177461
+...
+---
+input: td.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.8144629001617432
+test_started: 1358160939.182728
+...
+---
+input: tubegalore.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 2.028977870941162
+test_started: 1358160939.19614
+...
+---
+input: clarin.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 2.0395898818969727
+test_started: 1358160939.198847
+...
+---
+input: allocine.fr:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 4.793554067611694
+test_started: 1358160939.190985
+...
+---
+input: rian.ru:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 6.109376907348633
+test_started: 1358160939.185691
+...
+---
+input: nhk.or.jp:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 6.109806060791016
+test_started: 1358160939.193549
+...
+---
+input: liveperson.net:80
+report: {connection: generic_timeout_error}
+test_name: test_connect
+test_runtime: 30.01086401939392
+test_started: 1358160939.174054
+...
+---
+input: v1.cn:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.3766601085662842
+test_started: 1358160969.221613
+...
+---
+input: dhgate.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0593199729919434
+test_started: 1358160969.224135
+...
+---
+input: nhl.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0815060138702393
+test_started: 1358160969.21356
+...
+---
+input: lowes.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0709190368652344
+test_started: 1358160969.231746
+...
+---
+input: compete.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.0863380432128906
+test_started: 1358160969.229245
+...
+---
+input: mangafox.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.1045830249786377
+test_started: 1358160969.218648
+...
+---
+input: macys.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.096177101135254
+test_started: 1358160969.234644
+...
+---
+input: orf.at:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.8046128749847412
+test_started: 1358160969.226701
+...
+---
+input: cookpad.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.9472119808197021
+test_started: 1358160969.21608
+...
+---
+input: google.com.kw:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 10.296067953109741
+test_started: 1358160969.210606
+...
+---
+input: allabout.co.jp:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.305920124053955
+test_started: 1358160979.545311
+...
+---
+input: norton.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.3861629962921143
+test_started: 1358160979.539878
+...
+---
+input: woot.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.4070701599121094
+test_started: 1358160979.531637
+...
+---
+input: incredimail.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.4122209548950195
+test_started: 1358160979.534347
+...
+---
+input: sky.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.58748197555542
+test_started: 1358160979.547803
+...
+---
+input: ucoz.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.602679967880249
+test_started: 1358160979.542563
+...
+---
+input: tabnak.ir:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 2.3722429275512695
+test_started: 1358160979.550367
+...
+---
+input: alphaporno.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 3.4336278438568115
+test_started: 1358160979.555422
+...
+---
+input: mcssl.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 5.9284679889678955
+test_started: 1358160979.552931
+...
+---
+input: zhubajie.com:80
+report: {connection: generic_timeout_error}
+test_name: test_connect
+test_runtime: 30.005929946899414
+test_started: 1358160979.536928
+...
+---
+input: 178.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.20778489112854004
+test_started: 1358161009.572891
+...
+---
+input: google.bg:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.29656481742858887
+test_started: 1358161009.578195
+...
+---
+input: namecheap.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.3197360038757324
+test_started: 1358161009.575503
+...
+---
+input: gametrailers.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.3128941059112549
+test_started: 1358161009.591848
+...
+---
+input: sxc.hu:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 1.4267849922180176
+test_started: 1358161009.580961
+...
+---
+input: ikariam.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 4.3212831020355225
+test_started: 1358161009.570225
+...
+---
+input: aruba.it:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 4.314323902130127
+test_started: 1358161009.589045
+...
+---
+input: intuit.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 4.328049898147583
+test_started: 1358161009.583559
+...
+---
+input: gumtree.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 4.332692861557007
+test_started: 1358161009.586266
+...
+---
+input: indianrail.gov.in:80
+report: {connection: generic_timeout_error}
+test_name: test_connect
+test_runtime: 30.004554986953735
+test_started: 1358161009.56756
+...
+---
+input: adscale.de:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.052369832992554
+test_started: 1358161039.597999
+...
+---
+input: nikkansports.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.05088210105896
+test_started: 1358161039.611508
+...
+---
+input: nokia.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.05638313293457
+test_started: 1358161039.614389
+...
+---
+input: ft.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.071025848388672
+test_started: 1358161039.608561
+...
+---
+input: picnik.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.081855058670044
+test_started: 1358161039.606024
+...
+---
+input: marketgid.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.093054056167603
+test_started: 1358161039.603451
+...
+---
+input: eventbrite.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.088505029678345
+test_started: 1358161039.617174
+...
+---
+input: topix.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.091243028640747
+test_started: 1358161039.623231
+...
+---
+input: manzuo.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.10228180885315
+test_started: 1358161039.620366
+...
+---
+input: technorati.com:80
+report: {connection: generic_timeout_error}
+test_name: test_connect
+test_runtime: 30.009246110916138
+test_started: 1358161039.60092
+...
+---
+input: pinterest.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.04743504524231
+test_started: 1358161069.636555
+...
+---
+input: popeater.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.063805103302002
+test_started: 1358161069.633813
+...
+---
+input: alice.it:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.075340032577515
+test_started: 1358161069.630606
+...
+---
+input: joy.cn:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.07479500770569
+test_started: 1358161069.6393
+...
+---
+input: airtelforum.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.077539920806885
+test_started: 1358161069.644895
+...
+---
+input: xyxy.net:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.088778018951416
+test_started: 1358161069.642117
+...
+---
+input: freakshare.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.08341407775879
+test_started: 1358161069.656333
+...
+---
+input: cbslocal.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.101481914520264
+test_started: 1358161069.647566
+...
+---
+input: oricon.co.jp:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.10405707359314
+test_started: 1358161069.653535
+...
+---
+input: zendesk.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.115500926971436
+test_started: 1358161069.650461
+...
+---
+input: independent.co.uk:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.049323081970215
+test_started: 1358161089.787945
+...
+---
+input: qunar.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.053085803985596
+test_started: 1358161089.796533
+...
+---
+input: zazzle.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.07317304611206
+test_started: 1358161089.785163
+...
+---
+input: tiexue.net:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.07695198059082
+test_started: 1358161089.79073
+...
+---
+input: impress.co.jp:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.075361013412476
+test_started: 1358161089.802424
+...
+---
+input: modelmayhem.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.086830854415894
+test_started: 1358161089.79955
+...
+---
+input: giveawayoftheday.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.102220058441162
+test_started: 1358161089.793457
+...
+---
+input: hostmonster.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.096072912216187
+test_started: 1358161089.808135
+...
+---
+input: naver.jp:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.107065200805664
+test_started: 1358161089.80524
+...
+---
+input: pho.to:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.109228134155273
+test_started: 1358161089.811313
+...
+---
+input: quora.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.029151916503906
+test_started: 1358161109.961811
+...
+---
+input: gaopeng.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.056203842163086
+test_started: 1358161109.942984
+...
+---
+input: sitepoint.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.054188013076782
+test_started: 1358161109.95364
+...
+---
+input: ip138.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.065670013427734
+test_started: 1358161109.950999
+...
+---
+input: justdial.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.087727069854736
+test_started: 1358161109.940275
+...
+---
+input: mail.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.074201822280884
+test_started: 1358161109.964301
+...
+---
+input: 24h.com.vn:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.099162101745605
+test_started: 1358161109.948324
+...
+---
+input: 24quan.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.100841999053955
+test_started: 1358161109.956175
+...
+---
+input: java.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.120208978652954
+test_started: 1358161109.94564
+...
+---
+input: dafont.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.11538815498352
+test_started: 1358161109.958752
+...
+---
+input: 7k7k.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.053366899490356
+test_started: 1358161130.099694
+...
+---
+input: sidereel.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.062444925308228
+test_started: 1358161130.10225
+...
+---
+input: novinky.cz:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.08015203475952
+test_started: 1358161130.093209
+...
+---
+input: google.com.qa:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.076640129089355
+test_started: 1358161130.104878
+...
+---
+input: tenpay.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.093374013900757
+test_started: 1358161130.096494
+...
+---
+input: askmen.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.090948820114136
+test_started: 1358161130.107525
+...
+---
+input: egotastic.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.08884310722351
+test_started: 1358161130.118383
+...
+---
+input: delta.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.100061178207397
+test_started: 1358161130.115625
+...
+---
+input: foodnetwork.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.110930919647217
+test_started: 1358161130.112986
+...
+---
+input: idnes.cz:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.122106075286865
+test_started: 1358161130.11028
+...
+---
+input: cbssports.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.046442985534668
+test_started: 1358161150.257299
+...
+---
+input: youboy.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.07011103630066
+test_started: 1358161150.250988
+...
+---
+input: weather.gov:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.06032395362854
+test_started: 1358161150.273636
+...
+---
+input: skysports.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.074461221694946
+test_started: 1358161150.267861
+...
+---
+input: ultimate-guitar.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.08826518058777
+test_started: 1358161150.262554
+...
+---
+input: docstoc.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.105812072753906
+test_started: 1358161150.254149
+...
+---
+input: hawaaworld.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.108141899108887
+test_started: 1358161150.259787
+...
+---
+input: weiphone.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.099731922149658
+test_started: 1358161150.276303
+...
+---
+input: pcmag.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.118757009506226
+test_started: 1358161150.265258
+...
+---
+input: 5d6d.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.121681928634644
+test_started: 1358161150.270564
+...
+---
+input: shopathome.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.05488085746765
+test_started: 1358161170.414169
+...
+---
+input: list-manage.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.05767011642456
+test_started: 1358161170.425412
+...
+---
+input: kioskea.net:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.08047914505005
+test_started: 1358161170.411434
+...
+---
+input: fishki.net:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.08347988128662
+test_started: 1358161170.416901
+...
+---
+input: apache.org:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.08606505393982
+test_started: 1358161170.422632
+...
+---
+input: 2leep.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.097496032714844
+test_started: 1358161170.419853
+...
+---
+input: cyworld.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.09358787536621
+test_started: 1358161170.432214
+...
+---
+input: auto.ru:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.09679102897644
+test_started: 1358161170.437759
+...
+---
+input: timesjobs.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.113429069519043
+test_started: 1358161170.429262
+...
+---
+input: postbank.de:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.115672826766968
+test_started: 1358161170.435228
+...
+---
+input: craigslist.ca:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.047922134399414
+test_started: 1358161190.598512
+...
+---
+input: sanspo.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.063016176223755
+test_started: 1358161190.594787
+...
+---
+input: networksolutions.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.06614589691162
+test_started: 1358161190.601604
+...
+---
+input: blackhatteam.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.07167100906372
+test_started: 1358161190.604104
+...
+---
+input: musica.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.06501603126526
+test_started: 1358161190.619243
+...
+---
+input: uploaded.to:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.076149940490723
+test_started: 1358161190.616528
+...
+---
+input: sponichi.co.jp:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.090181827545166
+test_started: 1358161190.610876
+...
+---
+input: pantip.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.096188068389893
+test_started: 1358161190.613873
+...
+---
+input: makemytrip.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.096298933029175
+test_started: 1358161190.621987
+...
+---
+input: lacaixa.es:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.122350215911865
+test_started: 1358161190.606866
+...
+---
+input: rightmove.co.uk:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.061241149902344
+test_started: 1358161210.750934
+...
+---
+input: hidemyass.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.07049012184143
+test_started: 1358161210.75645
+...
+---
+input: worldstarhiphop.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.08121085166931
+test_started: 1358161210.753735
+...
+---
+input: iconfinder.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.095221042633057
+test_started: 1358161210.748152
+...
+---
+input: 120ask.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.08695697784424
+test_started: 1358161210.765131
+...
+---
+input: mangastream.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.101157903671265
+test_started: 1358161210.759403
+...
+---
+input: 1and1.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.106948137283325
+test_started: 1358161210.762234
+...
+---
+input: friendster.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.10544991493225
+test_started: 1358161210.772088
+...
+---
+input: yam.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.11673402786255
+test_started: 1358161210.768812
+...
+---
+input: ligatus.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 20.118705987930298
+test_started: 1358161210.775078
+...
+---
+input: japanpost.jp:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.15989899635314941
+test_started: 1358161230.91303
+...
+---
+input: 7794.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.16736698150634766
+test_started: 1358161230.918435
+...
+---
+input: easyhits4u.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.2430119514465332
+test_started: 1358161230.935169
+...
+---
+input: lenovo.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.25688600540161133
+test_started: 1358161230.93837
+...
+---
+input: kongregate.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.31436896324157715
+test_started: 1358161230.929279
+...
+---
+input: google.az:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.3448820114135742
+test_started: 1358161230.923763
+...
+---
+input: bigfishgames.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.38686203956604004
+test_started: 1358161230.926514
+...
+---
+input: wikimapia.org:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.40451812744140625
+test_started: 1358161230.921141
+...
+---
+input: wer-kennt-wen.de:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7165968418121338
+test_started: 1358161230.915738
+...
+---
+input: gazeta.ru:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.7877469062805176
+test_started: 1358161230.932285
+...

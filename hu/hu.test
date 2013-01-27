@@ -1,0 +1,110 @@
+###########################################
+# OONI Probe Report for HTTP Requests Test test
+# Wed Jan  9 22:23:44 2013
+###########################################
+---
+options:
+  collector: null
+  help: 0
+  logfile: null
+  parallelism: '10'
+  pcapfile: null
+  reportfile: hu.test
+  resume: 0
+  subargs: [-f, example_inputs/url_lists_file.txt]
+  test: nettests/blocking/http_requests.py
+probe_asn: AS0
+probe_cc: HU
+probe_ip: 127.0.0.1
+software_name: ooniprobe
+software_version: 0.0.10
+start_time: 1357694624.0
+test_name: HTTP Requests Test
+test_version: '0.1'
+...
+---
+input: http://torproject.org/
+report:
+  agent: agent
+  requests:
+  - request:
+      body: null
+      headers:
+      - - User-Agent
+        - - &id001 ['Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7.5) Gecko/20060127
+              Netscape/8.1', 'Netscape 8.1, Windows XP']
+      method: GET
+      url: http://torproject.org/
+    response:
+      body: ''
+      code: 302
+      headers:
+      - - Content-Length
+        - ['275']
+      - - Vary
+        - [Accept-Encoding]
+      - - Server
+        - [Apache]
+      - - Connection
+        - [close]
+      - - Location
+        - ['https://www.torproject.org/']
+      - - Date
+        - ['Wed, 09 Jan 2013 11:23:45 GMT']
+      - - Content-Type
+        - [text/html; charset=iso-8859-1]
+  - failure: response_never_received
+    request:
+      body: null
+      headers:
+      - - User-Agent
+        - - *id001
+      method: GET
+      url: shttp://torproject.org/
+  socksproxy: null
+test_name: test_get
+test_runtime: 11.331254959106445
+test_started: 1357730624.03388
+...
+---
+input: http://ooni.nu/test
+report:
+  agent: agent
+  requests:
+  - request:
+      body: null
+      headers:
+      - - User-Agent
+        - - &id001 ['Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7.5) Gecko/20060127
+              Netscape/8.1', 'Netscape 8.1, Windows XP']
+      method: GET
+      url: http://ooni.nu/test
+    response:
+      body: ''
+      code: 302
+      headers:
+      - - Content-Length
+        - ['154']
+      - - Server
+        - [nginx/1.2.6]
+      - - Connection
+        - [close]
+      - - Location
+        - ['https://ooni.torproject.org']
+      - - Date
+        - ['Wed, 09 Jan 2013 11:23:45 GMT']
+      - - Content-Type
+        - [text/html]
+  - failure: response_never_received
+    request:
+      body: null
+      headers:
+      - - User-Agent
+        - - *id001
+      method: GET
+      url: shttp://ooni.nu/test
+  socksproxy: null
+test_name: test_get
+test_runtime: 11.36676287651062
+test_started: 1357730624.026245
+...

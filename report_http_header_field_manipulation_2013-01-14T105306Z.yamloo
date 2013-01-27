@@ -1,0 +1,308 @@
+###########################################
+# OONI Probe Report for HTTP Header Field Manipulation test
+# Mon Jan 14 21:53:06 2013
+###########################################
+---
+options:
+  collector: httpo://nkvphnp3p6agi5qq.onion
+  help: 0
+  logfile: null
+  parallelism: '10'
+  pcapfile: null
+  reportfile: null
+  resume: 0
+  subargs: [-b, 'http://93.95.227.200']
+  test: nettests/manipulation/http_header_field_manipulation.py
+probe_asn: AS0
+probe_cc: null
+probe_ip: 127.0.0.1
+software_name: ooniprobe
+software_version: 0.0.10
+start_time: 1358124786.0
+test_name: HTTP Header Field Manipulation
+test_version: 0.1.3
+...
+---
+input: null
+report:
+  agent: agent
+  requests:
+  - request:
+      body: null
+      headers:
+      - - Accept-Language
+        - ['en-US,en;q=0.8']
+      - - Accept-Encoding
+        - ['gzip,deflate,sdch']
+      - - Accept
+        - ['text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8']
+      - - User-Agent
+        - [Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)]
+      - - Accept-Charset
+        - ['ISO-8859-1,utf-8;q=0.7,*;q=0.3']
+      - - Host
+        - [fOH8bXGg67zFfG8.com]
+      method: PUT
+      url: http://93.95.227.200
+    response:
+      body: '{"headers_dict": {"Accept-Language": ["en-US,en;q=0.8"], "Accept-Encoding":
+        ["gzip,deflate,sdch"], "Host": ["fOH8bXGg67zFfG8.com"], "Accept": ["text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"],
+        "User-Agent": ["Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)"], "Accept-Charset":
+        ["ISO-8859-1,utf-8;q=0.7,*;q=0.3"], "Connection": ["close"]}, "request_line":
+        "PUT / HTTP/1.1", "request_headers": [["Connection", "close"], ["Accept-Language",
+        "en-US,en;q=0.8"], ["Accept-Encoding", "gzip,deflate,sdch"], ["Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"],
+        ["User-Agent", "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)"], ["Accept-Charset",
+        "ISO-8859-1,utf-8;q=0.7,*;q=0.3"], ["Host", "fOH8bXGg67zFfG8.com"]]}'
+      code: 200
+      headers: []
+  socksproxy: null
+  tampering:
+    header_field_name: false
+    header_field_number: false
+    header_field_value: false
+    header_name_capitalization: false
+    header_name_diff: []
+    request_line_capitalization: false
+    total: false
+test_name: test_put
+test_runtime: 1.0731711387634277
+test_started: 1358160786.259564
+...
+---
+input: null
+report:
+  agent: agent
+  requests:
+  - request:
+      body: null
+      headers:
+      - - AccePt-LaNguAGE
+        - ['en-US,en;q=0.8']
+      - - aCCEPt-enCOdINg
+        - ['gzip,deflate,sdch']
+      - - accept
+        - ['text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8']
+      - - usEr-aGeNT
+        - [Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.1.4322)]
+      - - AccEPt-charseT
+        - ['ISO-8859-1,utf-8;q=0.7,*;q=0.3']
+      - - hOST
+        - [MoMXQpaIcKJLpvU.com]
+      method: gEt
+      url: http://93.95.227.200
+    response:
+      body: '{"headers_dict": {"AccePt-LaNguAGE": ["en-US,en;q=0.8"], "aCCEPt-enCOdINg":
+        ["gzip,deflate,sdch"], "hOST": ["MoMXQpaIcKJLpvU.com"], "accept": ["text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"],
+        "usEr-aGeNT": ["Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR
+        1.1.4322)"], "AccEPt-charseT": ["ISO-8859-1,utf-8;q=0.7,*;q=0.3"], "Connection":
+        ["close"]}, "request_line": "gEt / HTTP/1.1", "request_headers": [["Connection",
+        "close"], ["AccePt-LaNguAGE", "en-US,en;q=0.8"], ["aCCEPt-enCOdINg", "gzip,deflate,sdch"],
+        ["accept", "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"],
+        ["usEr-aGeNT", "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR
+        1.1.4322)"], ["AccEPt-charseT", "ISO-8859-1,utf-8;q=0.7,*;q=0.3"], ["hOST",
+        "MoMXQpaIcKJLpvU.com"]]}'
+      code: 200
+      headers: []
+  socksproxy: null
+  tampering:
+    header_field_name: false
+    header_field_number: false
+    header_field_value: false
+    header_name_capitalization: false
+    header_name_diff: []
+    request_line_capitalization: false
+    total: false
+test_name: test_get_random_capitalization
+test_runtime: 1.0951449871063232
+test_started: 1358160786.264675
+...
+---
+input: null
+report:
+  agent: agent
+  requests:
+  - request:
+      body: null
+      headers:
+      - - acCePT-LaNGUagE
+        - ['en-US,en;q=0.8']
+      - - AccEPT-ENcoDInG
+        - ['gzip,deflate,sdch']
+      - - aCCept
+        - ['text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8']
+      - - USER-aGENT
+        - ['Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.8.1.6) Gecko/20070725
+            Firefox/2.0.0.6']
+      - - aCCepT-chaRSeT
+        - ['ISO-8859-1,utf-8;q=0.7,*;q=0.3']
+      - - hOst
+        - [8Xiyj6BspcHGMkl.com]
+      method: GET
+      url: http://93.95.227.200
+    response:
+      body: '{"headers_dict": {"acCePT-LaNGUagE": ["en-US,en;q=0.8"], "AccEPT-ENcoDInG":
+        ["gzip,deflate,sdch"], "hOst": ["8Xiyj6BspcHGMkl.com"], "aCCept": ["text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"],
+        "USER-aGENT": ["Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.8.1.6)
+        Gecko/20070725 Firefox/2.0.0.6"], "aCCepT-chaRSeT": ["ISO-8859-1,utf-8;q=0.7,*;q=0.3"],
+        "Connection": ["close"]}, "request_line": "GET / HTTP/1.1", "request_headers":
+        [["Connection", "close"], ["acCePT-LaNGUagE", "en-US,en;q=0.8"], ["AccEPT-ENcoDInG",
+        "gzip,deflate,sdch"], ["aCCept", "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"],
+        ["USER-aGENT", "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.8.1.6)
+        Gecko/20070725 Firefox/2.0.0.6"], ["aCCepT-chaRSeT", "ISO-8859-1,utf-8;q=0.7,*;q=0.3"],
+        ["hOst", "8Xiyj6BspcHGMkl.com"]]}'
+      code: 200
+      headers: []
+  socksproxy: null
+  tampering:
+    header_field_name: false
+    header_field_number: false
+    header_field_value: false
+    header_name_capitalization: false
+    header_name_diff: []
+    request_line_capitalization: false
+    total: false
+test_name: test_get
+test_runtime: 1.1114859580993652
+test_started: 1358160786.276063
+...
+---
+input: null
+report:
+  agent: agent
+  requests:
+  - request:
+      body: null
+      headers:
+      - - accEpT-laNGUAge
+        - ['en-US,en;q=0.8']
+      - - accepT-eNCodiNg
+        - ['gzip,deflate,sdch']
+      - - acCepT
+        - ['text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8']
+      - - uSEr-AgeNT
+        - [Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)]
+      - - aCcEpt-chaRsEt
+        - ['ISO-8859-1,utf-8;q=0.7,*;q=0.3']
+      - - hOST
+        - [KwwM6HwfPNBi7IH.com]
+      method: poST
+      url: http://93.95.227.200
+    response:
+      body: '{"headers_dict": {"accEpT-laNGUAge": ["en-US,en;q=0.8"], "accepT-eNCodiNg":
+        ["gzip,deflate,sdch"], "hOST": ["KwwM6HwfPNBi7IH.com"], "acCepT": ["text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"],
+        "uSEr-AgeNT": ["Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)"], "aCcEpt-chaRsEt":
+        ["ISO-8859-1,utf-8;q=0.7,*;q=0.3"], "Connection": ["close"]}, "request_line":
+        "poST / HTTP/1.1", "request_headers": [["Connection", "close"], ["accEpT-laNGUAge",
+        "en-US,en;q=0.8"], ["accepT-eNCodiNg", "gzip,deflate,sdch"], ["acCepT", "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"],
+        ["uSEr-AgeNT", "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)"], ["aCcEpt-chaRsEt",
+        "ISO-8859-1,utf-8;q=0.7,*;q=0.3"], ["hOST", "KwwM6HwfPNBi7IH.com"]]}'
+      code: 200
+      headers: []
+  socksproxy: null
+  tampering:
+    header_field_name: false
+    header_field_number: false
+    header_field_value: false
+    header_name_capitalization: false
+    header_name_diff: []
+    request_line_capitalization: false
+    total: false
+test_name: test_post_random_capitalization
+test_runtime: 1.1469378471374512
+test_started: 1358160786.268614
+...
+---
+input: null
+report:
+  agent: agent
+  requests:
+  - request:
+      body: null
+      headers:
+      - - Accept-Language
+        - ['en-US,en;q=0.8']
+      - - Accept-Encoding
+        - ['gzip,deflate,sdch']
+      - - Accept
+        - ['text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8']
+      - - User-Agent
+        - [Mozilla/4.0 (compatible; MSIE 5.0; Windows NT 5.1; .NET CLR 1.1.4322)]
+      - - Accept-Charset
+        - ['ISO-8859-1,utf-8;q=0.7,*;q=0.3']
+      - - Host
+        - [Ef24bWsT9zp50zS.com]
+      method: POST
+      url: http://93.95.227.200
+    response:
+      body: '{"headers_dict": {"Accept-Language": ["en-US,en;q=0.8"], "Accept-Encoding":
+        ["gzip,deflate,sdch"], "Host": ["Ef24bWsT9zp50zS.com"], "Accept": ["text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"],
+        "User-Agent": ["Mozilla/4.0 (compatible; MSIE 5.0; Windows NT 5.1; .NET CLR
+        1.1.4322)"], "Accept-Charset": ["ISO-8859-1,utf-8;q=0.7,*;q=0.3"], "Connection":
+        ["close"]}, "request_line": "POST / HTTP/1.1", "request_headers": [["Connection",
+        "close"], ["Accept-Language", "en-US,en;q=0.8"], ["Accept-Encoding", "gzip,deflate,sdch"],
+        ["Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"],
+        ["User-Agent", "Mozilla/4.0 (compatible; MSIE 5.0; Windows NT 5.1; .NET CLR
+        1.1.4322)"], ["Accept-Charset", "ISO-8859-1,utf-8;q=0.7,*;q=0.3"], ["Host",
+        "Ef24bWsT9zp50zS.com"]]}'
+      code: 200
+      headers: []
+  socksproxy: null
+  tampering:
+    header_field_name: false
+    header_field_number: false
+    header_field_value: false
+    header_name_capitalization: false
+    header_name_diff: []
+    request_line_capitalization: false
+    total: false
+test_name: test_post
+test_runtime: 1.1700918674468994
+test_started: 1358160786.273066
+...
+---
+input: null
+report:
+  agent: agent
+  requests:
+  - request:
+      body: null
+      headers:
+      - - ACCEpT-LAnGuaGE
+        - ['en-US,en;q=0.8']
+      - - aCcEpT-encOdINg
+        - ['gzip,deflate,sdch']
+      - - acCEpt
+        - ['text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8']
+      - - User-AGEnT
+        - [Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en) Opera 8.50]
+      - - AcCept-ChArSet
+        - ['ISO-8859-1,utf-8;q=0.7,*;q=0.3']
+      - - HOST
+        - [TUnIsJi6uUrczx0.com]
+      method: pUt
+      url: http://93.95.227.200
+    response:
+      body: '{"headers_dict": {"ACCEpT-LAnGuaGE": ["en-US,en;q=0.8"], "aCcEpT-encOdINg":
+        ["gzip,deflate,sdch"], "HOST": ["TUnIsJi6uUrczx0.com"], "acCEpt": ["text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"],
+        "User-AGEnT": ["Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en) Opera
+        8.50"], "AcCept-ChArSet": ["ISO-8859-1,utf-8;q=0.7,*;q=0.3"], "Connection":
+        ["close"]}, "request_line": "pUt / HTTP/1.1", "request_headers": [["Connection",
+        "close"], ["ACCEpT-LAnGuaGE", "en-US,en;q=0.8"], ["aCcEpT-encOdINg", "gzip,deflate,sdch"],
+        ["acCEpt", "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"],
+        ["User-AGEnT", "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en) Opera
+        8.50"], ["AcCept-ChArSet", "ISO-8859-1,utf-8;q=0.7,*;q=0.3"], ["HOST", "TUnIsJi6uUrczx0.com"]]}'
+      code: 200
+      headers: []
+  socksproxy: null
+  tampering:
+    header_field_name: false
+    header_field_number: false
+    header_field_value: false
+    header_name_capitalization: false
+    header_name_diff: []
+    request_line_capitalization: false
+    total: false
+test_name: test_put_random_capitalization
+test_runtime: 1.191727876663208
+test_started: 1358160786.279536
+...

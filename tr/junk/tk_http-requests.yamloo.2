@@ -1,0 +1,148 @@
+###########################################
+# OONI Probe Report for HTTP Requests Test test
+# Sat Jan 12 21:48:55 2013
+###########################################
+---
+options:
+  collector: null
+  help: 0
+  logfile: null
+  parallelism: '10'
+  pcapfile: null
+  reportfile: tk_http-requests.yamloo
+  resume: 0
+  subargs: [-f, example_inputs/url_lists_file.txt]
+  test: nettests/blocking/http_requests.py
+probe_asn: AS0
+probe_cc: TR
+probe_ip: 127.0.0.1
+software_name: ooniprobe
+software_version: 0.0.10
+start_time: 1357951735.0
+test_name: HTTP Requests Test
+test_version: '0.1'
+...
+---
+input: http://ooni.nu/test
+report:
+  agent: agent
+  body_length_match: true
+  body_proportion: 1.0
+  factor: 0.8
+  requests:
+  - request:
+      body: null
+      headers:
+      - - User-Agent
+        - - &id001 [Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en) Opera 8.0,
+            'Opera 8.0, Windows XP']
+      method: GET
+      url: http://ooni.nu/test
+    response:
+      body: ''
+      code: 302
+      headers:
+      - - Content-Length
+        - ['154']
+      - - Server
+        - [nginx/1.2.6]
+      - - Connection
+        - [close]
+      - - Location
+        - ['https://ooni.torproject.org']
+      - - Date
+        - ['Sat, 12 Jan 2013 10:48:56 GMT']
+      - - Content-Type
+        - [text/html]
+  - request:
+      body: null
+      headers:
+      - - User-Agent
+        - - *id001
+      method: GET
+      url: shttp://ooni.nu/test
+    response:
+      body: ''
+      code: 302
+      headers:
+      - - Content-Length
+        - ['154']
+      - - Server
+        - [nginx/1.2.6]
+      - - Connection
+        - [close]
+      - - Location
+        - ['https://ooni.torproject.org']
+      - - Date
+        - ['Sat, 12 Jan 2013 10:48:57 GMT']
+      - - Content-Type
+        - [text/html]
+  socksproxy: null
+test_name: test_get
+test_runtime: 2.399724006652832
+test_started: 1357987735.297999
+...
+---
+input: http://torproject.org/
+report:
+  agent: agent
+  body_length_match: true
+  body_proportion: 1.0
+  factor: 0.8
+  requests:
+  - request:
+      body: null
+      headers:
+      - - User-Agent
+        - - &id001 [Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en) Opera 8.0,
+            'Opera 8.0, Windows XP']
+      method: GET
+      url: shttp://torproject.org/
+    response:
+      body: ''
+      code: 302
+      headers:
+      - - Content-Length
+        - ['275']
+      - - Vary
+        - [Accept-Encoding]
+      - - Server
+        - [Apache]
+      - - Connection
+        - [close]
+      - - Location
+        - ['https://www.torproject.org/']
+      - - Date
+        - ['Sat, 12 Jan 2013 10:48:56 GMT']
+      - - Content-Type
+        - [text/html; charset=iso-8859-1]
+  - request:
+      body: null
+      headers:
+      - - User-Agent
+        - - *id001
+      method: GET
+      url: http://torproject.org/
+    response:
+      body: ''
+      code: 302
+      headers:
+      - - Content-Length
+        - ['275']
+      - - Vary
+        - [Accept-Encoding]
+      - - Server
+        - [Apache]
+      - - Connection
+        - [close]
+      - - Location
+        - ['https://www.torproject.org/']
+      - - Date
+        - ['Sat, 12 Jan 2013 10:49:05 GMT']
+      - - Content-Type
+        - [text/html; charset=iso-8859-1]
+  socksproxy: null
+test_name: test_get
+test_runtime: 10.638150930404663
+test_started: 1357987735.305571
+...

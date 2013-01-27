@@ -1,0 +1,87 @@
+###########################################
+# OONI Probe Report for TCP Connect test
+# Mon Jan 14 08:50:22 2013
+###########################################
+---
+options:
+  collector: null
+  help: 0
+  logfile: null
+  parallelism: '10'
+  pcapfile: null
+  reportfile: tk_kurd_tcp.yamloo
+  resume: 0
+  subargs: [-f, k_tcp.txt]
+  test: nettests/blocking/tcpconnect.py
+probe_asn: AS0
+probe_cc: null
+probe_ip: 127.0.0.1
+software_name: ooniprobe
+software_version: 0.0.10
+start_time: 1358077822.0
+test_name: TCP Connect
+test_version: '0.1'
+...
+---
+input: kurdinfo.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.08663392066955566
+test_started: 1358113822.88998
+...
+---
+input: ekurd.net:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.09905600547790527
+test_started: 1358113822.892533
+...
+---
+input: kurdistan-post.eu:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.11541318893432617
+test_started: 1358113822.887014
+...
+---
+input: kurdshow.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.10694098472595215
+test_started: 1358113822.9038
+...
+---
+input: kerkuk-kurdistan.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.12003707885742188
+test_started: 1358113822.898788
+...
+---
+input: kurdishcentre.org:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.12516307830810547
+test_started: 1358113822.90132
+...
+---
+input: sorankurdistani.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.12789201736450195
+test_started: 1358113822.906461
+...
+---
+input: koord.com:80
+report: {connection: success}
+test_name: test_connect
+test_runtime: 0.13647103309631348
+test_started: 1358113822.909122
+...
+---
+input: hnportal.com:80
+report: {connection: dns_lookup_error}
+test_name: test_connect
+test_runtime: 9.696889877319336
+test_started: 1358113822.895378
+...

@@ -1,0 +1,1851 @@
+###########################################
+# OONI Probe Report for HTTP Requests Test test
+# Mon Jan 14 08:48:04 2013
+###########################################
+---
+options:
+  collector: null
+  help: 0
+  logfile: null
+  parallelism: '10'
+  pcapfile: null
+  reportfile: tk_kurd_http-requests.yamloo
+  resume: 0
+  subargs: [-f, k_sites.txt]
+  test: nettests/blocking/http_requests.py
+probe_asn: AS0
+probe_cc: null
+probe_ip: 127.0.0.1
+software_name: ooniprobe
+software_version: 0.0.10
+start_time: 1358077684.0
+test_name: HTTP Requests Test
+test_version: '0.1'
+...
+---
+input: http://kurdistan-post.eu
+report:
+  agent: agent
+  requests:
+  - request:
+      body: null
+      headers:
+      - - User-Agent
+        - - &id001 ['Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7.5) Gecko/20060127
+              Netscape/8.1', 'Netscape 8.1, Windows XP']
+      method: GET
+      url: http://kurdistan-post.eu
+    response:
+      body: "<!DOCTYPE html>\n<html lang=\"tr\" dir=\"ltr\" \n  xmlns:fb=\"http://www.facebook.com/2008/fbml\"\
+        \n  xmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n  xmlns:dc=\"\
+        http://purl.org/dc/terms/\"\n  xmlns:foaf=\"http://xmlns.com/foaf/0.1/\"\n\
+        \  xmlns:og=\"http://ogp.me/ns#\"\n  xmlns:rdfs=\"http://www.w3.org/2000/01/rdf-schema#\"\
+        \n  xmlns:sioc=\"http://rdfs.org/sioc/ns#\"\n  xmlns:sioct=\"http://rdfs.org/sioc/types#\"\
+        \n  xmlns:skos=\"http://www.w3.org/2004/02/skos/core#\"\n  xmlns:xsd=\"http://www.w3.org/2001/XMLSchema#\"\
+        >\n\n<head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"\
+        \ />\n<link rel=\"shortcut icon\" href=\"http://kurdistan-post.eu/sites/all/themes/masthead/favicon.ico\"\
+        \ type=\"image/vnd.microsoft.icon\" />\n<meta about=\"/tr/kurdistan\" typeof=\"\
+        skos:Concept\" property=\"rdfs:label skos:prefLabel\" content=\"Kurdistan\"\
+        \ />\n<link rel=\"alternate\" type=\"application/rss+xml\" title=\"RSS - Kurdistan\"\
+        \ href=\"http://kurdistan-post.eu/tr/taxonomy/term/12/feed\" />\n<meta name=\"\
+        Generator\" content=\"Drupal 7 (http://drupal.org)\" />\n  <title>Kurdistan\
+        \ | KURDISTAN-POST.eu</title>  \n  <link type=\"text/css\" rel=\"stylesheet\"\
+        \ href=\"http://kurdistan-post.eu/sites/default/files/css/css_pbm0lsQQJ7A7WCCIMgxLho6mI_kBNgznNUWmTWcnfoE.css\"\
+        \ media=\"all\" />\n<link type=\"text/css\" rel=\"stylesheet\" href=\"http://kurdistan-post.eu/sites/default/files/css/css_O1rOai3RK78xx1pXugmdYZ1SsIrSujNFfNrcAMqFjIM.css\"\
+        \ media=\"all\" />\n<link type=\"text/css\" rel=\"stylesheet\" href=\"http://kurdistan-post.eu/sites/default/files/css/css__XU-na0TFvz-rRlzGUcK9dLef9fToS-xG1-VQQPM-MM.css\"\
+        \ media=\"all\" />\n<link type=\"text/css\" rel=\"stylesheet\" href=\"http://kurdistan-post.eu/sites/default/files/css/css_OgpePyl9eVgk5Uz01-hdQXc0a5N5mk0ES3UxwxBeE6M.css\"\
+        \ media=\"all\" />\n<link type=\"text/css\" rel=\"stylesheet\" href=\"http://kurdistan-post.eu/sites/default/files/css/css_sSUBoimq8gQafI-hZ0tBcIOUQV2Aw5Rd0BZ_fHNkAos.css\"\
+        \ media=\"all\" />\n  <script type=\"text/javascript\" src=\"http://kurdistan-post.eu/sites/default/files/js/js_3jHghlMLrjr9xXAC0JufqSSch3oAbkZstSqYdc4uuck.js\"\
+        ></script>\n<script type=\"text/javascript\" src=\"http://kurdistan-post.eu/sites/default/files/js/js_77Ctke5y0-K1_K8BD7dZskl-3sfD_t8MJKLSguEkuKg.js\"\
+        ></script>\n<script type=\"text/javascript\" src=\"http://kurdistan-post.eu/sites/default/files/js/js_5H5rX_dz-Sdllv_jrYDSdxrT2Q_kwG5slVhHRYdZ5do.js\"\
+        ></script>\n<script type=\"text/javascript\" src=\"http://widgets.twimg.com/j/2/widget.js\"\
+        ></script>\n<script type=\"text/javascript\" src=\"http://kurdistan-post.eu/sites/default/files/js/js_lWoluPoL3J9M81EazNqqKa-gkQepJPKo2G_4N0TxETU.js\"\
+        ></script>\n<script type=\"text/javascript\" src=\"http://kurdistan-post.eu/sites/default/files/js/js_t7v4uAoCxkfsbtW3Dw7XAD6_FM_Mw1LvOzO7x11Hm9I.js\"\
+        ></script>\n<script type=\"text/javascript\">\n<!--//--><![CDATA[//><!--\n\
+        jQuery.extend(Drupal.settings, {\"basePath\":\"\\/\",\"pathPrefix\":\"tr\\\
+        /\",\"ajaxPageState\":{\"theme\":\"masthead\",\"theme_token\":\"0Y6r0h62weQspeUEhI2HoEH7ihsUdmJIdvtK8maYD-w\"\
+        ,\"js\":{\"0\":1,\"misc\\/jquery.js\":1,\"misc\\/jquery.once.js\":1,\"misc\\\
+        /drupal.js\":1,\"sites\\/all\\/modules\\/addthis\\/addthis.js\":1,\"misc\\\
+        /progress.js\":1,\"public:\\/\\/languages\\/tr_71qfeSzugeKa7FoMFnPaLG6TGyLX02wnlTH6bJR5Noo.js\"\
+        :1,\"http:\\/\\/widgets.twimg.com\\/j\\/2\\/widget.js\":1,\"sites\\/all\\\
+        /modules\\/views_slideshow\\/js\\/views_slideshow.js\":1,\"sites\\/all\\/libraries\\\
+        /jquery.cycle\\/jquery.cycle.all.js\":1,\"sites\\/all\\/modules\\/views_slideshow\\\
+        /contrib\\/views_slideshow_cycle\\/js\\/views_slideshow_cycle.js\":1,\"sites\\\
+        /all\\/modules\\/quicktabs\\/js\\/quicktabs.js\":1,\"sites\\/all\\/themes\\\
+        /bones\\/js\\/jquery.formalize.min.js\":1,\"sites\\/all\\/themes\\/bones\\\
+        /js\\/superfish.js\":1,\"sites\\/all\\/themes\\/masthead\\/js\\/scripts.js\"\
+        :1,\"sites\\/all\\/themes\\/bones\\/js\\/jquery.easing.1.3.js\":1,\"sites\\\
+        /all\\/themes\\/bones\\/js\\/jquery.equal-height-columns.js\":1,\"sites\\\
+        /all\\/themes\\/masthead\\/js\\/jquery.mobilemenu.min.js\":1,\"sites\\/all\\\
+        /themes\\/masthead\\/js\\/jquery.color.js\":1,\"sites\\/all\\/themes\\/masthead\\\
+        /js\\/jquery-glowing.js\":1},\"css\":{\"modules\\/system\\/system.base.css\"\
+        :1,\"modules\\/system\\/system.menus.css\":1,\"modules\\/system\\/system.messages.css\"\
+        :1,\"modules\\/system\\/system.theme.css\":1,\"modules\\/aggregator\\/aggregator.css\"\
+        :1,\"modules\\/comment\\/comment.css\":1,\"modules\\/field\\/theme\\/field.css\"\
+        :1,\"modules\\/node\\/node.css\":1,\"modules\\/poll\\/poll.css\":1,\"modules\\\
+        /search\\/search.css\":1,\"modules\\/user\\/user.css\":1,\"modules\\/forum\\\
+        /forum.css\":1,\"sites\\/all\\/modules\\/views\\/css\\/views.css\":1,\"sites\\\
+        /all\\/modules\\/ctools\\/css\\/ctools.css\":1,\"sites\\/all\\/modules\\/twitter_profile_widget\\\
+        /twitter_profile_widget.css\":1,\"sites\\/all\\/modules\\/views_slideshow\\\
+        /views_slideshow.css\":1,\"sites\\/all\\/modules\\/views_slideshow\\/contrib\\\
+        /views_slideshow_cycle\\/views_slideshow_cycle.css\":1,\"modules\\/taxonomy\\\
+        /taxonomy.css\":1,\"sites\\/all\\/modules\\/quicktabs\\/css\\/quicktabs.css\"\
+        :1,\"sites\\/all\\/themes\\/bones\\/css\\/normalize.css\":1,\"sites\\/all\\\
+        /themes\\/bones\\/css\\/formalize.css\":1,\"sites\\/all\\/themes\\/bones\\\
+        /css\\/grid_12.css\":1,\"sites\\/all\\/themes\\/bones\\/css\\/layout.css\"\
+        :1,\"sites\\/all\\/themes\\/masthead\\/style.css\":1,\"sites\\/all\\/themes\\\
+        /masthead\\/css\\/style1.css\":1,\"sites\\/all\\/themes\\/masthead\\/css\\\
+        /responsive.css\":1}},\"viewsSlideshow\":{\"news_slideshow-block\":{\"methods\"\
+        :{\"goToSlide\":[\"viewsSlideshowPager\",\"viewsSlideshowSlideCounter\",\"\
+        viewsSlideshowCycle\"],\"nextSlide\":[\"viewsSlideshowPager\",\"viewsSlideshowSlideCounter\"\
+        ,\"viewsSlideshowCycle\"],\"pause\":[\"viewsSlideshowControls\",\"viewsSlideshowCycle\"\
+        ],\"play\":[\"viewsSlideshowControls\",\"viewsSlideshowCycle\"],\"previousSlide\"\
+        :[\"viewsSlideshowPager\",\"viewsSlideshowSlideCounter\",\"viewsSlideshowCycle\"\
+        ],\"transitionBegin\":[\"viewsSlideshowPager\",\"viewsSlideshowSlideCounter\"\
+        ],\"transitionEnd\":[]},\"paused\":0}},\"viewsSlideshowPager\":{\"news_slideshow-block\"\
+        :{\"bottom\":{\"type\":\"viewsSlideshowPagerFields\"}}},\"viewsSlideshowPagerFields\"\
+        :{\"news_slideshow-block\":{\"bottom\":{\"activatePauseOnHover\":1}}},\"viewsSlideshowCycle\"\
+        :{\"#views_slideshow_cycle_main_news_slideshow-block\":{\"num_divs\":6,\"\
+        id_prefix\":\"#views_slideshow_cycle_main_\",\"div_prefix\":\"#views_slideshow_cycle_div_\"\
+        ,\"vss_id\":\"news_slideshow-block\",\"effect\":\"fade\",\"transition_advanced\"\
+        :0,\"timeout\":5000,\"speed\":700,\"delay\":0,\"sync\":1,\"random\":0,\"pause\"\
+        :1,\"pause_on_click\":0,\"action_advanced\":0,\"start_paused\":0,\"remember_slide\"\
+        :0,\"remember_slide_days\":1,\"pause_when_hidden\":0,\"pause_when_hidden_type\"\
+        :\"full\",\"amount_allowed_visible\":\"\",\"nowrap\":0,\"fixed_height\":1,\"\
+        items_per_slide\":1,\"wait_for_image_load\":1,\"wait_for_image_load_timeout\"\
+        :3000,\"cleartype\":0,\"cleartypenobg\":0,\"advanced_options\":\"{}\"}},\"\
+        addthis\":{\"widget_url\":\"http:\\/\\/s7.addthis.com\\/js\\/250\\/addthis_widget.js?async=1\"\
+        },\"quicktabs\":{\"qt_quicktabs\":{\"name\":\"quicktabs\",\"tabs\":[{\"bid\"\
+        :\"aggregator_delta_feed-4\",\"hide_title\":1},{\"bid\":\"aggregator_delta_feed-5\"\
+        ,\"hide_title\":1},{\"bid\":\"aggregator_delta_feed-6\",\"hide_title\":1}],\"\
+        viewsSlideshowCycle\":{\"#views_slideshow_cycle_main_news_slideshow-block\"\
+        :{\"num_divs\":6,\"id_prefix\":\"#views_slideshow_cycle_main_\",\"div_prefix\"\
+        :\"#views_slideshow_cycle_div_\",\"vss_id\":\"news_slideshow-block\",\"effect\"\
+        :\"fade\",\"transition_advanced\":0,\"timeout\":5000,\"speed\":700,\"delay\"\
+        :0,\"sync\":1,\"random\":0,\"pause\":1,\"pause_on_click\":0,\"action_advanced\"\
+        :0,\"start_paused\":0,\"remember_slide\":0,\"remember_slide_days\":1,\"pause_when_hidden\"\
+        :0,\"pause_when_hidden_type\":\"full\",\"amount_allowed_visible\":\"\",\"\
+        nowrap\":0,\"fixed_height\":1,\"items_per_slide\":1,\"wait_for_image_load\"\
+        :1,\"wait_for_image_load_timeout\":3000,\"cleartype\":0,\"cleartypenobg\"\
+        :0,\"advanced_options\":\"{}\"}}}}});\n//--><!]]>\n</script>\n  <meta name=\"\
+        viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\"\
+        >  \n  <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet'\
+        \ type='text/css'>\n  <!--[if lt IE 9]><script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"\
+        ></script><![endif]-->\n  <style>\n  .view-kp-niviskar2 img { float: left;\
+        \ margin-right: 10px; }\n  .view-kp-niviskar2 a.username { font-weight: bold;\
+        \ }\n  nav#user-menu { border-top: 1px solid #ddd; }\n  #block-views-newest-blog-entries-block\
+        \ table tr td { vertical-align: top; border-width: 0 10px 10px 0; border-color:\
+        \ #fff; background-color: #f0f0f0; margin: 2px; }\n  #block-views-alt-manset1-view-block\
+        \ tr td { vertical-align: top; border-width: 0 10px 10px 0; border-color:\
+        \ #fff; margin: 2px; }\n  #block-views-alt-manset1-view-block.block  a span\
+        \ { color:#036; font-weight:bold; font-size:16px; }\n  #block-views-alt-manset1-view-block.block\
+        \ table tr td { border-width:4px;}\n  .xurt { font-weight: bold; color: #036;}\n\
+        \ h2 a { color: #063a6a; }\n h3 .title span{color: #063a6a;}\n .footer-wrapper\
+        \ { background-color: #063a6a; }\n #edit-search-block-form--2 { background-color:\
+        \ #ffcc99; background-image: url('/sites/all/themes/masthead/logo.png'); }\n\
+        \ div#block-views-newest-blog-entries-block.block .field-content a span {\
+        \ color: #036; font-weight: bold;font-size: 14px; }\n div.block-inner h3.title\
+        \ {color: #036; font-weight: bold;font-size: 14px;}\n h2.title {text-transform:none;}\n\
+        \ #block-system-main.block div.block-inner div.content  h2.title a{color:\
+        \ #036; font-weight: bold;font-size: 14px; font-family: Arial, Helvetica,\
+        \ sans-serif; }\n \n .xslideshow-thumb-border { float:left; margin-top: 20px;\
+        \ }\n .xslideshow-image { margin-left: 14px; }\n .xslideshow-image a span\
+        \ img{ border: 1px solid black; }\n .xslideshow-view {  width:100%;}\n .xslideshow-big-picture{\
+        \ float: right; width: 400px;}\n .xslideshow-body { height: 200px; width:160px;\
+        \ border:0px; font-size: 16px; margin-right: 50px;}\n .xslideshow { height:\
+        \ 200px; width: 576px; background-color: #fff;}\n .xslideshow-title {font-size:\
+        \ 20px; font-weight: bold; margin-bottom: 15px;}\n .xslideshow-title a span{\
+        \ color:#036; }\n \n #quicktabs-quicktabs.quicktabs-wrapper {margin-top: 10px;}\n\
+        \ \n div.view-content table.views-view-grid tbody tr.row-1 td { background-color:\
+        \ #f0f0f0;}\n #block-block-11.block div.block-inner div.content p strong a\
+        \ { color:#036; font-size: 18px;}\n#highlighted div.region div#block-views-alt-manset1-view-block.block\
+        \  div.views-field div.field-content a span img {margin-top: 10px;}\ndiv#page\
+        \ div.page-inner div.main-content-wrapper div.main-content-wrapper-inner section#main-content\
+        \ div.main div.main-inner article#node-172.node div.node-content-wrapper div.content\
+        \ { font-size:24px; color:red !important;}\nhtml.js body.html div#page div.page-inner\
+        \ div.main-content-wrapper div.main-content-wrapper-inner section#main-content\
+        \ div.main div.main-inner .node div.node-content-wrapper div.content {font-size:\
+        \ 15px;}\n\n#block-block-14.block div.block-inner div.content h2 { color:#036;\
+        \ }\nh1#page-title.title { color:#036; }\n#block-views-roportaj-view-block.block\
+        \ a span { color: #036; font-size: 12px; font-weight: bold;}\n#block-views-pirtuk-view-block.block\
+        \ a span { color: #036; font-size: 12px; font-weight: bold; }\ndiv.views-row\
+        \ div.views-field div.field-content  { text-align: center; }\n</style>\n</head>\n\
+        \n<body class=\"html front not-logged-in one-sidebar sidebar-second page-taxonomy\
+        \ page-taxonomy-term page-taxonomy-term- page-taxonomy-term-12 i18n-tr sidebars-split\
+        \ kurdistan\">\n  <div id=\"skip-link\">\n    <a href=\"#main-content\" class=\"\
+        element-invisible element-focusable\">Ana i\xE7eri\u011Fe atla</a>\n  </div>\n\
+        \    <div id=\"page\"><div class=\"page-inner container_12\">\n\n\n     \n\
+        \t<div style=\"height: 76px; width: 100%; background-color: #fff;\"> \n\t\
+        \  <div class=\"region region-kp-top-niviskar\">\n    <div id=\"block-niviskar-rast-niviskar-jor\"\
+        \ class=\"block block-niviskar-rast\"><div class=\"block-inner\">\n\n\t  \
+        \   \n  <div class=\"content\">\n\t\t\n\t\t\t <div style=\"float: left; width:\
+        \ 148px; height: 92px; border: 1px dotted #ccc; height: 64px; padding: 2px;\
+        \ background-color: #f3f3f3; margin: 2px 0;  \">\n\t\t\t\t<div style=\"width:\
+        \ 40px; height: 60px; float: left; margin-right: 4px;\"><img typeof=\"foaf:Image\"\
+        \ src=\"http://kurdistan-post.eu/sites/default/files/styles/w40h60/public/pictures/picture-10-1350238996.jpg\"\
+        \ alt=\"Ehmed\xEA Xan\xEE\" /></div>\n\t\t\t\t<a href=\"/tr/blogs/ehmede-xani\"\
+        \ class=\"xurt\"><span>Ehmed\xEA Xan\xEE</span></a><br />\n\t\t\t\t<a href=\"\
+        /tr/ger-de-hebuya-me-ittifaqek\"><span>Ger d\xEA heb\xFBya me ittifaqek  \
+        \ </span></a>\n\t\t\t</div>\n\t\t\t <div style=\"float: left; width: 148px;\
+        \ height: 92px; border: 1px dotted #ccc; height: 64px; padding: 2px; background-color:\
+        \ #f3f3f3; margin: 2px 0; margin-left: 7px; \">\n\t\t\t\t<div style=\"width:\
+        \ 40px; height: 60px; float: left; margin-right: 4px;\"><img typeof=\"foaf:Image\"\
+        \ src=\"http://kurdistan-post.eu/sites/default/files/styles/w40h60/public/pictures/picture-11-1350239067.jpg\"\
+        \ alt=\"C. Al\xEE Bedirxan\" /></div>\n\t\t\t\t<a href=\"/tr/blogs/c-ali-bedirxan\"\
+        \ class=\"xurt\"><span>C. Al\xEE Bedirxan</span></a><br />\n\t\t\t\t<a href=\"\
+        /tr/li-ser-yekitiya-zimane-kurdi\"><span>Li ser yek\xEEtiya ziman\xEA kurd\xEE\
+        \ </span></a>\n\t\t\t</div>\n\t\t\t <div style=\"float: left; width: 148px;\
+        \ height: 92px; border: 1px dotted #ccc; height: 64px; padding: 2px; background-color:\
+        \ #f3f3f3; margin: 2px 0; margin-left: 7px; \">\n\t\t\t\t<div style=\"width:\
+        \ 40px; height: 60px; float: left; margin-right: 4px;\"><img typeof=\"foaf:Image\"\
+        \ src=\"http://kurdistan-post.eu/sites/default/files/styles/w40h60/public/pictures/picture-31-1351696427.jpg\"\
+        \ alt=\"Dr. Qasimlo\" /></div>\n\t\t\t\t<a href=\"/tr/blogs/dr-qasimlo\" class=\"\
+        xurt\"><span>Dr. Qasimlo</span></a><br />\n\t\t\t\t<a href=\"/tr/node/117\"\
+        ><span>Kurtejiyan</span></a>\n\t\t\t</div>\n\t\t\t <div style=\"float: left;\
+        \ width: 148px; height: 92px; border: 1px dotted #ccc; height: 64px; padding:\
+        \ 2px; background-color: #f3f3f3; margin: 2px 0; margin-left: 7px; \">\n\t\
+        \t\t\t<div style=\"width: 40px; height: 60px; float: left; margin-right: 4px;\"\
+        ><img typeof=\"foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/w40h60/public/pictures/picture-12-1350238980.jpg\"\
+        \ alt=\"Musa Anter\" /></div>\n\t\t\t\t<a href=\"/tr/blogs/musa-anter\" class=\"\
+        xurt\"><span>Musa Anter</span></a><br />\n\t\t\t\t<a href=\"/tr/dibejin-ku-kerkuke-xwin-digiri\"\
+        ><span>Dib\xEAjin ku Kerk\xFBk\xEA xw\xEEn digir\xEE </span></a>\n\t\t\t</div>\n\
+        \t\t\t <div style=\"float: left; width: 148px; height: 92px; border: 1px dotted\
+        \ #ccc; height: 64px; padding: 2px; background-color: #f3f3f3; margin: 2px\
+        \ 0; margin-left: 7px; \">\n\t\t\t\t<div style=\"width: 40px; height: 60px;\
+        \ float: left; margin-right: 4px;\"><img typeof=\"foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/w40h60/public/pictures/picture-13-1350238964.jpg\"\
+        \ alt=\"\u0130smail Be\u015Fik\xE7i\" /></div>\n\t\t\t\t<a href=\"/tr/blogs/ismail-besikci\"\
+        \ class=\"xurt\"><span>\u0130smail Be\u015Fik\xE7i</span></a><br />\n\t\t\t\
+        \t<a href=\"/tr/insan-haklari-dersi\"><span>\u0130nsan Haklar\u0131 Dersi</span></a>\n\
+        \t\t\t</div>\n\t\t\t <div style=\"float: left; width: 148px; height: 92px;\
+        \ border: 1px dotted #ccc; height: 64px; padding: 2px; background-color: #f3f3f3;\
+        \ margin: 2px 0; margin-left: 7px; \">\n\t\t\t\t<div style=\"width: 40px;\
+        \ height: 60px; float: left; margin-right: 4px;\"><img typeof=\"foaf:Image\"\
+        \ src=\"http://kurdistan-post.eu/sites/default/files/styles/w40h60/public/pictures/picture-14-1350239110.png\"\
+        \ alt=\"Ya\u015Far Kaya\" /></div>\n\t\t\t\t<a href=\"/tr/blogs/yasar-kaya\"\
+        \ class=\"xurt\"><span>Ya\u015Far Kaya</span></a><br />\n\t\t\t\t<a href=\"\
+        /tr/uzun-yuruyusler\"><span>Uzun Y\xFCr\xFCy\xFC\u015Fler</span></a>\n\t\t\
+        \t</div>  </div>\n\n</div></div>   </div>\n\t\t<div style=\"clear: both;\"\
+        > </div>\n\t</div>\n  \n\n     \n    <nav id=\"user-menu\" class=\"clearfix\"\
+        >\n        <div class=\"region region-user-menu\">\n    <div id=\"block-system-user-menu\"\
+        \ class=\"block block-system block-menu\"><div class=\"block-inner\">\n\n\t\
+        \      <h3 class=\"title\"><span>User menu</span></h3>\n     \n  <div class=\"\
+        content\">\n\t\t<ul class=\"menu\"><li class=\"first leaf\"><a href=\"http://www.kurdistan-post.eu/ku\"\
+        \ title=\"\"><span>Kurd\xEE</span></a></li>\n<li class=\"leaf\"><a href=\"\
+        http://www.kurdistan-post.eu/ru\" title=\"\"><span>\u0420\u0443\u0441\u0441\
+        \u043A\u0438\u0439</span></a></li>\n<li class=\"leaf\"><a href=\"http://www.kurdistan-post.eu/tr\"\
+        \ title=\"\"><span>T\xFCrk\xE7e</span></a></li>\n<li class=\"leaf\"><a href=\"\
+        /tr\" title=\"\" class=\"active\"><span>-</span></a></li>\n<li class=\"leaf\"\
+        ><a href=\"http://eu.kurdistan-post.eu\" title=\"\"><span>Ar\u015Fiv</span></a></li>\n\
+        <li class=\"leaf\"><a href=\"/tr/contact\" title=\"\"><span>\u0130leti\u015F\
+        im</span></a></li>\n<li class=\"last leaf\"><a href=\"/tr/user/login\" title=\"\
+        \"><span>G\u0130R\u0130\u015E</span></a></li>\n</ul>  </div>\n\n</div></div>\
+        \   </div>\n        <div class=\"region region-search-box\">\n    <div id=\"\
+        block-search-form\" class=\"block block-search\"><div class=\"block-inner\"\
+        >\n\n\t     \n  <div class=\"content\">\n\t\t<form onsubmit=\"if(this.search_block_form.value==&#039;Search&#039;){\
+        \ alert(&#039;Please enter a search&#039;); return false; }\" action=\"/\"\
+        \ method=\"post\" id=\"search-block-form\" accept-charset=\"UTF-8\"><div><div\
+        \ class=\"container-inline\">\n      <h2 class=\"element-invisible\">Arama\
+        \ formu</h2>\n    <div class=\"form-item form-type-textfield form-item-search-block-form\"\
+        >\n  <label class=\"element-invisible\" for=\"edit-search-block-form--2\"\
+        >Ara </label>\n <input title=\"Aramak istedi\u011Finiz terimleri giriniz.\"\
+        \ onblur=\"if (this.value == &#039;&#039;) {this.value = &#039;Search&#039;;}\"\
+        \ onfocus=\"if (this.value == &#039;Search&#039;) {this.value = &#039;&#039;;}\"\
+        \ type=\"text\" id=\"edit-search-block-form--2\" name=\"search_block_form\"\
+        \ value=\"\" size=\"15\" maxlength=\"128\" class=\"form-text\" />\n</div>\n\
+        <div class=\"form-actions form-wrapper\" id=\"edit-actions\"><input type=\"\
+        submit\" id=\"edit-submit\" name=\"op\" value=\"Ara\" class=\"form-submit\"\
+        \ /></div><input type=\"hidden\" name=\"form_build_id\" value=\"form-oLXWdohhKK7dr8Sa0jBHhTUF19CnxpGpnZIkpLWYtu4\"\
+        \ />\n<input type=\"hidden\" name=\"form_id\" value=\"search_block_form\"\
+        \ />\n</div>\n</div></form>  </div>\n\n</div></div>   </div>\n      <div id=\"\
+        social\">\n        <ul class=\"social-links\">\n          <li><a class=\"\
+        rss\" href=\"/rss.xml\"></a></li>\n          <li><a class=\"twitter\" href=\"\
+        http://twitter.com/Kurdistan_Post\"></a></li>\n          <li><a class=\"facebook\"\
+        \ href=\"http://www.facebook.com/kurdistanposteu\"></a></li>\n        </ul>\n\
+        \      </div>           \n    </nav>      \n      \n\n  <div class=\"header-wrapper\
+        \ clearfix\"><div class=\"header-wrapper-inner grid_12\">\n  <div style=\"\
+        float:right;\"><img src=\"/sites/default/files/ala-kurdistan.gif \" alt=\"\
+        ala kurdistan\" width=60 height=45><br /><a href=\"/ey-reqib\">Ey Req\xEE\
+        b</a></div>\n  \n        \n\t<div style=\"float: right; border: 0px dotted\
+        \ #AABBCC; height: 64px; width: 50%; padding-right:40px;\"> \n\t  <div class=\"\
+        region region-kp-top-ads\">\n    <div id=\"block-block-3\" class=\"block block-block\"\
+        ><div class=\"block-inner\">\n\n\t     \n  <div class=\"content\">\n\t\t<p><object\
+        \ classid=\"clsid:D27CDB6E-AE6D-11cf-96B8-444553540000\" codebase=\"http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0\"\
+        \ height=\"60\" id=\"Movie1\" width=\"468\"><param name=\"wmode\" value=\"\
+        transparent\" /><param name=\"Movie\" value=\"http://www.diplo-kurdi.com/ads/468x60.swf?ref=your-site\"\
+        \ /><param name=\"Src\" value=\"http://www.diplo-kurdi.com/ads/468x60.swf?ref=your-site\"\
+        \ /><param name=\"WMode\" value=\"Window\" /><param name=\"Play\" value=\"\
+        -1\" /><param name=\"Loop\" value=\"-1\" /><param name=\"Quality\" value=\"\
+        High\" /><param name=\"Menu\" value=\"-1\" /><param name=\"AllowScriptAccess\"\
+        \ value=\"sameDomain\" /><param name=\"BGColor\" value=\"FFFFFF\" /><param\
+        \ name=\"AllowNetworking\" value=\"all\" /><embed allowscriptaccess=\"samedomain\"\
+        \ bgcolor=\"#FFFFFF\" height=\"60\" name=\"Movie6\" pluginspage=\"http://www.adobe.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash\"\
+        \ quality=\"high\" seamlesstabbing=\"false\" src=\"http://www.diplo-kurdi.com/ads/468x60.swf?ref=your-site\"\
+        \ type=\"application/x-shockwave-flash\" width=\"468\" wmode=\"transparent\"\
+        ></embed></object></p>\n  </div>\n\n</div></div>   </div>\n \n\t</div>\n \
+        \ \n    <header>\n\t\n\n\t \n\t\n              <div class=\"site-logo\">\n\
+        \          <a href=\"/tr\"><img src=\"http://kurdistan-post.eu/sites/all/themes/masthead/logo.png\"\
+        \ alt=\"\" /></a>\n        </div>\n      \t      \n      \n      <hgroup>\n\
+        \      \n                \n            \n      \n      </hgroup>\n    \n\t\
+        \n\t\n  \n\t\n    </header>\n      \n  </div></div>\n  \n      \n    <div\
+        \ class=\"main-menu-wrapper clearfix\"><div class=\"main-menu-wrapper-inner\"\
+        >  \n      <nav id=\"main-menu\" class=\"grid_12\">\n          <div class=\"\
+        region region-main-menu\">\n    <div id=\"block-system-main-menu\" class=\"\
+        block block-system block-menu\"><div class=\"block-inner\">\n\n\t      <h3\
+        \ class=\"title\"><span>Ana men\xFC</span></h3>\n     \n  <div class=\"content\"\
+        >\n\t\t<ul class=\"menu\"><li class=\"first expanded active-trail\"><a href=\"\
+        /tr/kurdistan\" title=\"\" class=\"active-trail active\"><span>Welat\xEA me</span></a><ul\
+        \ class=\"menu\"><li class=\"first leaf\"><a href=\"/tr/aktuel\" title=\"\"\
+        ><span>G\xFCncel</span></a></li>\n<li class=\"leaf\"><a href=\"/tr/siyaset\"\
+        \ title=\"\"><span>Siyaset</span></a></li>\n<li class=\"leaf active-trail\"\
+        ><a href=\"/tr/kurdistan\" title=\"\" class=\"active-trail active\"><span>Kurdistan</span></a></li>\n\
+        <li class=\"leaf\"><a href=\"/tr/civak\" title=\"\"><span>Toplum</span></a></li>\n\
+        <li class=\"leaf\"><a href=\"/tr/medya\" title=\"\"><span>Medya</span></a></li>\n\
+        <li class=\"leaf\"><a href=\"/tr/jiyan\" title=\"\"><span>Ya\u015Fam</span></a></li>\n\
+        <li class=\"leaf\"><a href=\"/tr/jin\" title=\"\"><span>Kad\u0131n</span></a></li>\n\
+        <li class=\"leaf\"><a href=\"/tr/cihan\" title=\"\"><span>D\xFCnyadan</span></a></li>\n\
+        <li class=\"leaf\"><a href=\"/tr/cand-u-huner\" title=\"\"><span>Sanat K\xFC\
+        lt\xFCr</span></a></li>\n<li class=\"leaf\"><a href=\"/tr/dirok\" title=\"\
+        \"><span>Tarih</span></a></li>\n<li class=\"leaf\"><a href=\"/tr/zanin\" title=\"\
+        \"><span>Bilim-Teknik</span></a></li>\n<li class=\"leaf\"><a href=\"/tr/abori\"\
+        \ title=\"\"><span>Ekonomi</span></a></li>\n<li class=\"last leaf\"><a href=\"\
+        /tr/spor\" title=\"\"><span>Spor</span></a></li>\n</ul></li>\n<li class=\"\
+        leaf\"><a href=\"/tr/analiz\" title=\"\"><span>Analiz</span></a></li>\n<li\
+        \ class=\"leaf\"><a href=\"/tr/roportaj\" title=\"\"><span>R\xF6portajlar</span></a></li>\n\
+        <li class=\"leaf\"><a href=\"/tr/diaspora\" title=\"\"><span>Diaspora</span></a></li>\n\
+        <li class=\"leaf\"><a href=\"/tr/besa-xwendevanan\" title=\"\"><span>Okur\
+        \ k\xF6\u015Fesi</span></a></li>\n<li class=\"leaf\"><a href=\"/tr/pirtuk\"\
+        \ title=\"Kitaplar\"><span>Kitaplar</span></a></li>\n<li class=\"last leaf\"\
+        ><a href=\"/tr/video\" title=\"\"><span>Video</span></a></li>\n</ul>  </div>\n\
+        \n</div></div>   </div>\n      \n      </nav>\n    </div></div> \n   \n  \n\
+        \      \n    <div class=\"main-menu-second-level-wrapper clearfix\"><div class=\"\
+        main-menu-second-level-wrapper-inner\">  \n      <nav id=\"main-menu-second-level\"\
+        \ class=\"grid_12\">\n          <div class=\"region region-main-menu-second-level\"\
+        >\n    <div id=\"block-menu-block-1\" class=\"block block-menu-block\"><div\
+        \ class=\"block-inner\">\n\n\t      <h3 class=\"title\"><span>Welat\xEA me</span></h3>\n\
+        \     \n  <div class=\"content\">\n\t\t<div class=\"menu-block-wrapper menu-block-1\
+        \ menu-name-main-menu parent-mlid-0 menu-level-2\">\n  <ul class=\"menu\"\
+        ><li class=\"first leaf menu-mlid-968\"><a href=\"/tr/aktuel\" title=\"\"\
+        ><span>G\xFCncel</span></a></li>\n<li class=\"leaf menu-mlid-967\"><a href=\"\
+        /tr/siyaset\" title=\"\"><span>Siyaset</span></a></li>\n<li class=\"leaf active-trail\
+        \ active menu-mlid-969\"><a href=\"/tr/kurdistan\" title=\"\" class=\"active-trail\
+        \ active\"><span>Kurdistan</span></a></li>\n<li class=\"leaf menu-mlid-970\"\
+        ><a href=\"/tr/civak\" title=\"\"><span>Toplum</span></a></li>\n<li class=\"\
+        leaf menu-mlid-971\"><a href=\"/tr/medya\" title=\"\"><span>Medya</span></a></li>\n\
+        <li class=\"leaf menu-mlid-972\"><a href=\"/tr/jiyan\" title=\"\"><span>Ya\u015F\
+        am</span></a></li>\n<li class=\"leaf menu-mlid-974\"><a href=\"/tr/jin\" title=\"\
+        \"><span>Kad\u0131n</span></a></li>\n<li class=\"leaf menu-mlid-975\"><a href=\"\
+        /tr/cihan\" title=\"\"><span>D\xFCnyadan</span></a></li>\n<li class=\"leaf\
+        \ menu-mlid-976\"><a href=\"/tr/cand-u-huner\" title=\"\"><span>Sanat K\xFC\
+        lt\xFCr</span></a></li>\n<li class=\"leaf menu-mlid-977\"><a href=\"/tr/dirok\"\
+        \ title=\"\"><span>Tarih</span></a></li>\n<li class=\"leaf menu-mlid-978\"\
+        ><a href=\"/tr/zanin\" title=\"\"><span>Bilim-Teknik</span></a></li>\n<li\
+        \ class=\"leaf menu-mlid-979\"><a href=\"/tr/abori\" title=\"\"><span>Ekonomi</span></a></li>\n\
+        <li class=\"last leaf menu-mlid-981\"><a href=\"/tr/spor\" title=\"\"><span>Spor</span></a></li>\n\
+        </ul></div>\n  </div>\n\n</div></div>   </div>\n      \n      </nav>\n   \
+        \ </div></div> \n      \n     \n<!-- Main Content -->  \n  <div class=\"main-content-wrapper\
+        \ clearfix\"><div class=\"main-content-wrapper-inner\">\n    <section id=\"\
+        main-content\">       \t   \n\n          \n    \n      <div class=\"main\"\
+        >\n        <div class=\"main-inner  grid_8\">\n        \n\t\t            \
+        \  <div class=\"slideshow-wrapper clearfix\"><div class=\"slideshow-wrapper-inner\"\
+        >\n              <div id=\"slideshow\">\n                  <div class=\"region\
+        \ region-slideshow\">\n    <div id=\"block-views-news-slideshow-block\" class=\"\
+        block block-views\"><div class=\"block-inner\">\n\n\t     \n  <div class=\"\
+        content\">\n\t\t<div class=\"view view-news-slideshow view-id-news_slideshow\
+        \ view-display-id-block view-dom-id-4970727dbd0a4fe835ce01f08b012755\">\n\
+        \        \n  \n  \n      <div class=\"view-content\">\n      \n<div class=\"\
+        skin-default\">\n  \n  <div id=\"views_slideshow_cycle_main_news_slideshow-block\"\
+        \ class=\"views_slideshow_cycle_main views_slideshow_main\"><div id=\"views_slideshow_cycle_teaser_section_news_slideshow-block\"\
+        \ class=\"views-slideshow-cycle-main-frame views_slideshow_cycle_teaser_section\"\
+        >\n  <div id=\"views_slideshow_cycle_div_news_slideshow-block_0\" class=\"\
+        views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide\
+        \ views-row-1 views-row-odd\">\n  <div class=\"views-slideshow-cycle-main-frame-row-item\
+        \ views-row views-row-0 views-row-first views-row-odd\">\n    \n  <div class=\"\
+        views-field views-field-nid\">        <span class=\"field-content\"><div class=\"\
+        xslideshow\">\n\t<div class=\"xslideshow-view\">\n\t\t<div class=\"xslideshow-title\"\
+        ><a href=\"/tr/kurdistan/kurdistani-gomemezsiniz-hejare-samil\"><span>Kurdistan&#039;\u0131\
+        \ G\xF6memezsiniz! - Hejar\xEA \u015Eamil</span></a></div>               \
+        \ \n\t\t<div class=\"xslideshow-big-picture\"><a href=\"/tr/kurdistan/kurdistani-gomemezsiniz-hejare-samil\"\
+        ><span><img typeof=\"foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/w400h200/public/field/image/hejare_shamil_sakine_cansiz.jpg\"\
+        \ width=\"400\" height=\"280\" alt=\"\" /></span></a></div>\n\t\t<div class=\"\
+        xslideshow-body\">Leyla, Sakine ve Fidan\u2019\u0131n mezar ta\u015Flar\u0131\
+        na ne yaz\u0131laca\u011F\u0131n\u0131 \u015Fimdiden merak etmeye ba\u015F\
+        lad\u0131m. \u2018Demokrasi \u015Fehidi\u2019, \u2018\u0130nsanl\u0131k u\u011F\
+        runa\u2019 gibi s\xF6zlerin yaz\u0131lacak olmas\u0131n\u0131 d\xFC\u015F\xFC\
+        n\xFCrken i\xE7im burkuluyor do\u011Frusu.  Benden olsa, naa\u015Flar\u0131\
+        n\u0131 ayn\u0131 mezara g\xF6mer, mezar ta\u015F\u0131na da \u015Funu yazard\u0131\
+        m: \u201CKurdistan \xD6l\xFCms\xFCzd\xFCr\u201D.</div>\n\t</div>\n\n</div></span>\
+        \  </div></div>\n</div>\n<div id=\"views_slideshow_cycle_div_news_slideshow-block_1\"\
+        \ class=\"views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide\
+        \ views_slideshow_slide views-row-2 views_slideshow_cycle_hidden views-row-even\"\
+        >\n  <div class=\"views-slideshow-cycle-main-frame-row-item views-row views-row-0\
+        \ views-row-first views-row-odd\">\n    \n  <div class=\"views-field views-field-nid\"\
+        >        <span class=\"field-content\"><div class=\"xslideshow\">\n\t<div\
+        \ class=\"xslideshow-view\">\n\t\t<div class=\"xslideshow-title\"><a href=\"\
+        /tr/guncel/onbinler-pariste-onlar-icin-yurudu\"><span>Onbinler Paris&#039;te\
+        \ Onlar \u0130\xE7in Y\xFCr\xFCd\xFC</span></a></div>                \n\t\t\
+        <div class=\"xslideshow-big-picture\"><a href=\"/tr/guncel/onbinler-pariste-onlar-icin-yurudu\"\
+        ><span><img typeof=\"foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/w400h200/public/field/image/paris_miting_esas.jpg\"\
+        \ width=\"400\" height=\"280\" alt=\"\" /></span></a></div>\n\t\t<div class=\"\
+        xslideshow-body\">\xDC\xE7 K\xFCrd kad\u0131n siyaset\xE7inin katledildi\u011F\
+        i toplu infaz\u0131n ard\u0131ndan Paris, bug\xFCne kadarki en b\xFCy\xFC\
+        k K\xFCrt g\xF6sterisine tan\u0131kl\u0131k etti. Onbinlerce ki\u015Finin\
+        \ kat\u0131ld\u0131\u011F\u0131 eylem ayn\u0131 zamanda, K\xFCrdlerle dayan\u0131\
+        \u015Fman\u0131n da en g\xFC\xE7l\xFC \xF6rneklerinden biri oldu. </div>\n\
+        \t</div>\n\n</div></span>  </div></div>\n</div>\n<div id=\"views_slideshow_cycle_div_news_slideshow-block_2\"\
+        \ class=\"views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide\
+        \ views_slideshow_slide views-row-3 views_slideshow_cycle_hidden views-row-odd\"\
+        >\n  <div class=\"views-slideshow-cycle-main-frame-row-item views-row views-row-0\
+        \ views-row-first views-row-odd\">\n    \n  <div class=\"views-field views-field-nid\"\
+        >        <span class=\"field-content\"><div class=\"xslideshow\">\n\t<div\
+        \ class=\"xslideshow-view\">\n\t\t<div class=\"xslideshow-title\"><a href=\"\
+        /tr/kadin/bir-sakine-vardi-efsane-dursun-ali-kucuk\"><span>Bir Sakine Vard\u0131\
+        ; Efsane\u2026 - Dursun Ali K\xFC\xE7\xFCk</span></a></div>              \
+        \  \n\t\t<div class=\"xslideshow-big-picture\"><a href=\"/tr/kadin/bir-sakine-vardi-efsane-dursun-ali-kucuk\"\
+        ><span><img typeof=\"foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/w400h200/public/field/image/dursun_ali_kucuk_sakine_vardi.jpg\"\
+        \ width=\"400\" height=\"280\" alt=\"\" /></span></a></div>\n\t\t<div class=\"\
+        xslideshow-body\">12 Eyl\xFCl\xFCn barbarl\u0131k d\xF6neminde Amed zindan\u0131\
+        nda ya\u015Fanan vah\u015Fete kar\u015F\u0131 Mazlum, Kemal Pir, Akif Y\u0131\
+        lmaz, Ferhatlar direndiler, arkada\u015Flar onlar\u0131 izlediler. Ama bu\
+        \ direni\u015Fte Sakine bir kad\u0131n olarak ayn\u0131 direni\u015Fi sergiledi.\
+        \ Her nedense sa\u011Fken Kemal ve Hayrilerin yan\u0131na Sakine\u2019nin\
+        \ ismi yaz\u0131lmad\u0131...</div>\n\t</div>\n\n</div></span>  </div></div>\n\
+        </div>\n<div id=\"views_slideshow_cycle_div_news_slideshow-block_3\" class=\"\
+        views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide\
+        \ views-row-4 views_slideshow_cycle_hidden views-row-even\">\n  <div class=\"\
+        views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-first\
+        \ views-row-odd\">\n    \n  <div class=\"views-field views-field-nid\">  \
+        \      <span class=\"field-content\"><div class=\"xslideshow\">\n\t<div class=\"\
+        xslideshow-view\">\n\t\t<div class=\"xslideshow-title\"><a href=\"/tr/siyaset/sakine-cansiz-cinayeti-uzerine-erdogan-alparslan\"\
+        ><span>Sakine Cans\u0131z Cinayeti \xDCzerine \u2013 Erdo\u011Fan Alparslan</span></a></div>\
+        \                \n\t\t<div class=\"xslideshow-big-picture\"><a href=\"/tr/siyaset/sakine-cansiz-cinayeti-uzerine-erdogan-alparslan\"\
+        ><span><img typeof=\"foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/w400h200/public/field/image/erdogan_alparslan.jpg\"\
+        \ width=\"400\" height=\"280\" alt=\"\" /></span></a></div>\n\t\t<div class=\"\
+        xslideshow-body\">Ben b\xF6yle cinayetlerin \xE7o\u011Falaca\u011F\u0131n\u0131\
+        \ d\xFC\u015F\xFCn\xFCyorum, devletin amac\u0131 PKK \xFCst kadrolar\u0131\
+        n\u0131 teker teker avlamak. \u015Eu an hedeflerinde Murat Karay\u0131lan\u2019\
+        \u0131 canl\u0131 ele ge\xE7irmek var. Ama Cemil Bay\u0131k, Duran Kalkan\
+        \ ve Bahoz Erdal\u2019\u0131 her \u015Fekilde \xF6l\xFC ele ge\xE7irmek. Daha\
+        \ \xF6nceki yaz\u0131mda belirtti\u011Fim gibi...</div>\n\t</div>\n\n</div></span>\
+        \  </div></div>\n</div>\n<div id=\"views_slideshow_cycle_div_news_slideshow-block_4\"\
+        \ class=\"views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide\
+        \ views_slideshow_slide views-row-5 views_slideshow_cycle_hidden views-row-odd\"\
+        >\n  <div class=\"views-slideshow-cycle-main-frame-row-item views-row views-row-0\
+        \ views-row-first views-row-odd\">\n    \n  <div class=\"views-field views-field-nid\"\
+        >        <span class=\"field-content\"><div class=\"xslideshow\">\n\t<div\
+        \ class=\"xslideshow-view\">\n\t\t<div class=\"xslideshow-title\"><a href=\"\
+        /tr/guncel/dunyadan-ofke-yagdi\"><span>D\xFCnyadan \xD6fke Ya\u011Fd\u0131\
+        ...</span></a></div>                \n\t\t<div class=\"xslideshow-big-picture\"\
+        ><a href=\"/tr/guncel/dunyadan-ofke-yagdi\"><span><img typeof=\"foaf:Image\"\
+        \ src=\"http://kurdistan-post.eu/sites/default/files/styles/w400h200/public/field/image/20130111_190322.jpg\"\
+        \ width=\"400\" height=\"280\" alt=\"\" /></span></a></div>\n\t\t<div class=\"\
+        xslideshow-body\"> &quot;Frans\u0131z devleti K\xFCrtleri ter\xF6rist olarak\
+        \ nitelemekten de art\u0131k vaz ge\xE7melidir Sol Grup \xFCyesi ve K\xFC\
+        rt Dostluk Grubu Koordinat\xF6r\xFC J\xFCrgen Klute de yapt\u0131\u011F\u0131\
+        \ a\xE7\u0131klamada, Paris&#039;te katledilen K\xFCrt siyaset\xE7ilerin uzun\
+        \ bir    zaman kendi gruplar\u0131 ile Avrupa Parlamentosu&#039;nda \xE7al\u0131\
+        \u015Ft\u0131\u011F\u0131n\u0131...</div>\n\t</div>\n\n</div></span>  </div></div>\n\
+        </div>\n<div id=\"views_slideshow_cycle_div_news_slideshow-block_5\" class=\"\
+        views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide\
+        \ views-row-6 views_slideshow_cycle_hidden views-row-even\">\n  <div class=\"\
+        views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-first\
+        \ views-row-odd\">\n    \n  <div class=\"views-field views-field-nid\">  \
+        \      <span class=\"field-content\"><div class=\"xslideshow\">\n\t<div class=\"\
+        xslideshow-view\">\n\t\t<div class=\"xslideshow-title\"><a href=\"/tr/guncel/birinci-olagan-supheli-turkiye-ikinci-fransa\"\
+        ><span>Birinci ola\u011Fan \u015F\xFCpheli T\xFCrkiye, ikinci Fransa... </span></a></div>\
+        \                \n\t\t<div class=\"xslideshow-big-picture\"><a href=\"/tr/guncel/birinci-olagan-supheli-turkiye-ikinci-fransa\"\
+        ><span><img typeof=\"foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/w400h200/public/field/image/demirtas_ve_kisanak.jpg\"\
+        \ width=\"400\" height=\"280\" alt=\"\" /></span></a></div>\n\t\t<div class=\"\
+        xslideshow-body\">Selahattin Demirta\u015F: &quot;Kimse bize bunun Frans\u0131\
+        z istihbarat\u0131n\u0131n bilgisi d\u0131\u015F\u0131nda yap\u0131ld\u0131\
+        \u011F\u0131n\u0131 s\xF6yleyemez\u201D. G\xFCltan K\u0131\u015Fanak: &quot;Bu\
+        \ cinayet, bu katliam ayd\u0131nlat\u0131lmad\u0131\u011F\u0131 s\xFCrece,\
+        \ birinci ola\u011Fan \u015F\xFCpheli AKP H\xFCk\xFCmeti&#039;dir, ikincisi\
+        \ de Fransa&#039;d\u0131r&quot;  </div>\n\t</div>\n\n</div></span>  </div></div>\n\
+        </div>\n</div>\n</div>\n      <div class=\"views-slideshow-controls-bottom\
+        \ clearfix\">\n      <div id=\"widget_pager_bottom_news_slideshow-block\"\
+        \ class=\"views-slideshow-pager-fields widget_pager widget_pager_bottom views_slideshow_pager_field\"\
+        >\n  <div id=\"views_slideshow_pager_field_item_bottom_news_slideshow-block_0\"\
+        \ class=\"views-slideshow-pager-field-item views_slideshow_pager_field_item\
+        \ views_slideshow_active_pager_field_item views-row-odd\">\n  <div class=\"\
+        views-field-nid\">\n    <div class=\"views-content-nid\">\n    <div class=\"\
+        xslideshow-thumb-border\">\n\n  <div class=\"xslideshow-image\"><a href=\"\
+        /tr/kurdistan/kurdistani-gomemezsiniz-hejare-samil\"><span><img typeof=\"\
+        foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/w80h60/public/field/image/hejare_shamil_sakine_cansiz.jpg\"\
+        \ width=\"80\" height=\"60\" alt=\"\" /></span></a></div>\n</div>  </div>\n\
+        </div>\n</div>\n<div id=\"views_slideshow_pager_field_item_bottom_news_slideshow-block_1\"\
+        \ class=\"views-slideshow-pager-field-item views_slideshow_pager_field_item\
+        \ views-row-even\">\n  <div class=\"views-field-nid\">\n    <div class=\"\
+        views-content-nid\">\n    <div class=\"xslideshow-thumb-border\">\n\n  <div\
+        \ class=\"xslideshow-image\"><a href=\"/tr/guncel/onbinler-pariste-onlar-icin-yurudu\"\
+        ><span><img typeof=\"foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/w80h60/public/field/image/paris_miting_esas.jpg\"\
+        \ width=\"80\" height=\"60\" alt=\"\" /></span></a></div>\n</div>  </div>\n\
+        </div>\n</div>\n<div id=\"views_slideshow_pager_field_item_bottom_news_slideshow-block_2\"\
+        \ class=\"views-slideshow-pager-field-item views_slideshow_pager_field_item\
+        \ views-row-odd\">\n  <div class=\"views-field-nid\">\n    <div class=\"views-content-nid\"\
+        >\n    <div class=\"xslideshow-thumb-border\">\n\n  <div class=\"xslideshow-image\"\
+        ><a href=\"/tr/kadin/bir-sakine-vardi-efsane-dursun-ali-kucuk\"><span><img\
+        \ typeof=\"foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/w80h60/public/field/image/dursun_ali_kucuk_sakine_vardi.jpg\"\
+        \ width=\"80\" height=\"60\" alt=\"\" /></span></a></div>\n</div>  </div>\n\
+        </div>\n</div>\n<div id=\"views_slideshow_pager_field_item_bottom_news_slideshow-block_3\"\
+        \ class=\"views-slideshow-pager-field-item views_slideshow_pager_field_item\
+        \ views-row-even\">\n  <div class=\"views-field-nid\">\n    <div class=\"\
+        views-content-nid\">\n    <div class=\"xslideshow-thumb-border\">\n\n  <div\
+        \ class=\"xslideshow-image\"><a href=\"/tr/siyaset/sakine-cansiz-cinayeti-uzerine-erdogan-alparslan\"\
+        ><span><img typeof=\"foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/w80h60/public/field/image/erdogan_alparslan.jpg\"\
+        \ width=\"80\" height=\"60\" alt=\"\" /></span></a></div>\n</div>  </div>\n\
+        </div>\n</div>\n<div id=\"views_slideshow_pager_field_item_bottom_news_slideshow-block_4\"\
+        \ class=\"views-slideshow-pager-field-item views_slideshow_pager_field_item\
+        \ views-row-odd\">\n  <div class=\"views-field-nid\">\n    <div class=\"views-content-nid\"\
+        >\n    <div class=\"xslideshow-thumb-border\">\n\n  <div class=\"xslideshow-image\"\
+        ><a href=\"/tr/guncel/dunyadan-ofke-yagdi\"><span><img typeof=\"foaf:Image\"\
+        \ src=\"http://kurdistan-post.eu/sites/default/files/styles/w80h60/public/field/image/20130111_190322.jpg\"\
+        \ width=\"80\" height=\"60\" alt=\"\" /></span></a></div>\n</div>  </div>\n\
+        </div>\n</div>\n<div id=\"views_slideshow_pager_field_item_bottom_news_slideshow-block_5\"\
+        \ class=\"views-slideshow-pager-field-item views_slideshow_pager_field_item\
+        \ views-row-even\">\n  <div class=\"views-field-nid\">\n    <div class=\"\
+        views-content-nid\">\n    <div class=\"xslideshow-thumb-border\">\n\n  <div\
+        \ class=\"xslideshow-image\"><a href=\"/tr/guncel/birinci-olagan-supheli-turkiye-ikinci-fransa\"\
+        ><span><img typeof=\"foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/w80h60/public/field/image/demirtas_ve_kisanak.jpg\"\
+        \ width=\"80\" height=\"60\" alt=\"\" /></span></a></div>\n</div>  </div>\n\
+        </div>\n</div>\n</div>\n    </div>\n  </div>\n    </div>\n  \n  \n  \n  \n\
+        \  \n  \n</div>  </div>\n\n</div></div>   </div>\n              </div>\n \
+        \           </div></div>  \n                   \n        \n             \n\
+        \                    <div id=\"highlighted\">  <div class=\"region region-highlighted\"\
+        >\n    <div id=\"block-views-alt-manset1-view-block\" class=\"block block-views\"\
+        ><div class=\"block-inner\">\n\n\t     \n  <div class=\"content\">\n\t\t<div\
+        \ class=\"view view-alt-manset1-view view-id-alt_manset1_view view-display-id-block\
+        \ view-dom-id-13c4b08f5493ae04a7ea5f80d29cf008\">\n        \n  \n  \n    \
+        \  <div class=\"view-content\">\n      <table class=\"views-view-grid cols-2\"\
+        >\n  <tbody>\n          <tr class=\"row-1\">\n                  <td class=\"\
+        col-1 mini-newsslide\">\n              \n  <div class=\"views-field views-field-title\"\
+        >        <span class=\"field-content\"><a href=\"/tr/kadin/haberiniz-var-mi-uc-kadin-daha-olduruldu-nebahat-dertli\"\
+        ><span>Haberiniz Var m\u0131 \xDC\xE7 kad\u0131n daha \xF6ld\xFCr\xFCld\xFC\
+        ? - Nebahat Dertli</span></a></span>  </div>  \n  <div class=\"views-field\
+        \ views-field-field-alt-manset-image\">        <div class=\"field-content\"\
+        ><a href=\"/tr/kadin/haberiniz-var-mi-uc-kadin-daha-olduruldu-nebahat-dertli\"\
+        ><span><img typeof=\"foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/w280h210/public/nebahat_dertli.jpg\"\
+        \ width=\"280\" height=\"195\" alt=\"\" /></span></a></div>  </div>  \n  <div\
+        \ class=\"views-field views-field-field-newsslide-description\">        <div\
+        \ class=\"field-content\">Onlar\u0131n b\u0131rakt\u0131\u011F\u0131 yerdeki\
+        \ me\u015Faleleri binlerce kad\u0131n eline al\u0131p hem bar\u0131\u015F\
+        \ i\xE7in hem.kad\u0131n haklar\u0131 i\xE7in k\xFCrdlerin ve di\u011Fer halklar\u0131\
+        n kurtulu\u015Fu...</div>  </div>          </td>\n                  <td class=\"\
+        col-2 mini-newsslide\">\n              \n  <div class=\"views-field views-field-title\"\
+        >        <span class=\"field-content\"><a href=\"/tr/guncel/pariste-katliam-protestosu\"\
+        ><span>Paris&#039;te Katliam Protestosu</span></a></span>  </div>  \n  <div\
+        \ class=\"views-field views-field-field-alt-manset-image\">        <div class=\"\
+        field-content\"><a href=\"/tr/guncel/pariste-katliam-protestosu\"><span><img\
+        \ typeof=\"foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/w280h210/public/pariste_protesto.jpg\"\
+        \ width=\"280\" height=\"195\" alt=\"\" /></span></a></div>  </div>  \n  <div\
+        \ class=\"views-field views-field-field-newsslide-description\">        <div\
+        \ class=\"field-content\">K\xFCrt kad\u0131n siyaset\xE7ilerine y\xF6nelik\
+        \ suikasti k\u0131namak ve infazlar\u0131n bir an \xF6nce ayd\u0131nlat\u0131\
+        lmas\u0131 talebiyle binlerce ki\u015Fi Paris\u2019te bir araya...</div> \
+        \ </div>          </td>\n              </tr>\n      </tbody>\n</table>\n \
+        \   </div>\n  \n  \n  \n  \n  \n  \n</div>  </div>\n\n</div></div>   </div>\n\
+        </div>                                              <h1 class=\"title\" id=\"\
+        page-title\"><span>Kurdistan</span></h1>\t\t\t  \n\t\t\t  \n\t\t\t  \n   \
+        \                                \n\n \n            <div class=\"region region-content\"\
+        >\n    <div id=\"block-views-newest-blog-entries-block\" class=\"block block-views\"\
+        ><div class=\"block-inner\">\n\n\t     \n  <div class=\"content\">\n\t\t<div\
+        \ class=\"view view-newest-blog-entries view-id-newest_blog_entries view-display-id-block\
+        \ view-dom-id-0d90172d8f0609d7acdb949530bb6e9a\">\n        \n  \n  \n    \
+        \  <div class=\"view-content\">\n      <table class=\"views-view-grid cols-3\"\
+        >\n  <tbody>\n          <tr class=\"row-1 row-first\">\n                 \
+        \ <td class=\"col-1 col-first\">\n              \n  <span class=\"views-field\
+        \ views-field-field-image\">        <span class=\"field-content\"><a href=\"\
+        /tr/kitaplar/drqasimlo-kurtler-ve-kurdistan\"><span><img typeof=\"foaf:Image\"\
+        \ src=\"http://kurdistan-post.eu/sites/default/files/styles/w160h120/public/field/image/qasimlo.jpg\"\
+        \ width=\"172\" height=\"120\" alt=\"\" /></span></a></span>  </span>  \n\
+        \  <div class=\"views-field views-field-title\">        <strong class=\"field-content\"\
+        ><a href=\"/tr/kitaplar/drqasimlo-kurtler-ve-kurdistan\"><span>Dr.Qasimlo.\
+        \ K\xFCrtler ve K\xFCrdistan</span></a></strong>  </div>  \n  <div class=\"\
+        views-field views-field-body\">        <span class=\"field-content\">Dr.Qas\u0131\
+        mlo'nun 1960 tarihli kitab\u0131n\u0131 g\xFCn\xFCm\xFCz okuyucusu i\xE7in\
+        \ \xF6nemli...</span>  </div>          </td>\n                  <td class=\"\
+        col-2\">\n              \n  <span class=\"views-field views-field-field-image\"\
+        >        <span class=\"field-content\"><a href=\"/tr/yasam/sakine-cansiz-fidan-dogan-ve-leyla-soylemez\"\
+        ><span><img typeof=\"foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/w160h120/public/field/image/uc_fidan.jpg\"\
+        \ width=\"172\" height=\"120\" alt=\"\" /></span></a></span>  </span>  \n\
+        \  <div class=\"views-field views-field-title\">        <strong class=\"field-content\"\
+        ><a href=\"/tr/yasam/sakine-cansiz-fidan-dogan-ve-leyla-soylemez\"><span>Sakine\
+        \ Cans\u0131z, Fidan Do\u011Fan ve Leyla S\xF6ylemez</span></a></strong> \
+        \ </div>  \n  <div class=\"views-field views-field-body\">        <span class=\"\
+        field-content\">Size Sakine Cans\u0131z'\u0131n eski bir arkada\u015F\u0131\
+        n\u0131n dilinden:\_<br />\n\u201CAsl\u0131nda \xF6l\xFCm...</span>  </div>\
+        \          </td>\n                  <td class=\"col-3 col-last\">\n      \
+        \        \n  <span class=\"views-field views-field-field-image\">        <span\
+        \ class=\"field-content\"><a href=\"/tr/guncel/sakine-cansizi-kim-veya-kimler-nicin-katletti-gunay-aslan\"\
+        ><span><img typeof=\"foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/w160h120/public/field/image/sakine_c_0.png\"\
+        \ width=\"172\" height=\"120\" alt=\"\" /></span></a></span>  </span>  \n\
+        \  <div class=\"views-field views-field-title\">        <strong class=\"field-content\"\
+        ><a href=\"/tr/guncel/sakine-cansizi-kim-veya-kimler-nicin-katletti-gunay-aslan\"\
+        ><span>Sakine Cans\u0131z&#039;\u0131 Kim veya Kimler N\u0130\xE7in Katletti-\
+        \ G\xFCnay Aslan</span></a></strong>  </div>  \n  <div class=\"views-field\
+        \ views-field-body\">        <span class=\"field-content\">Sakine Cans\u0131\
+        z\u2019\u0131 kim, ni\xE7in katletti?<br />\nGe\xE7en \xC7ar\u015Famba g\xFC\
+        n\xFC \xF6\u011Flen...</span>  </div>          </td>\n              </tr>\n\
+        \          <tr class=\"row-2\">\n                  <td class=\"col-1 col-first\"\
+        >\n              \n  <span class=\"views-field views-field-field-image\">\
+        \        <span class=\"field-content\"><a href=\"/tr/guncel/kurdistan-post-yarin-pariste\"\
+        ><span><img typeof=\"foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/w160h120/public/field/image/sakine_cansiz12.png\"\
+        \ width=\"172\" height=\"120\" alt=\"\" /></span></a></span>  </span>  \n\
+        \  <div class=\"views-field views-field-title\">        <strong class=\"field-content\"\
+        ><a href=\"/tr/guncel/kurdistan-post-yarin-pariste\"><span>Kurdistan-Post\
+        \ Yar\u0131n Paris&#039;te</span></a></strong>  </div>  \n  <div class=\"\
+        views-field views-field-body\">        <span class=\"field-content\">Yar\u0131\
+        n Paris\u2019teyiz<br />\nKurdistan-post.eu/haber merkezi- Paris Kurdistan...</span>\
+        \  </div>          </td>\n                  <td class=\"col-2\">\n       \
+        \       \n  <span class=\"views-field views-field-field-image\">        <span\
+        \ class=\"field-content\"><a href=\"/tr/guncel/katliamla-ilgili-ilk-otopsi-sonuclari\"\
+        ><span><img typeof=\"foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/w160h120/public/field/image/otopsi_sonuclari.jpg\"\
+        \ width=\"172\" height=\"120\" alt=\"\" /></span></a></span>  </span>  \n\
+        \  <div class=\"views-field views-field-title\">        <strong class=\"field-content\"\
+        ><a href=\"/tr/guncel/katliamla-ilgili-ilk-otopsi-sonuclari\"><span>Katliamla\
+        \ ilgili ilk otopsi sonu\xE7lar\u0131  </span></a></strong>  </div>  \n  <div\
+        \ class=\"views-field views-field-body\">        <span class=\"field-content\"\
+        >Paris'te yap\u0131lan sald\u0131r\u0131da katledilen 3 K\xFCrd kad\u0131\
+        n\u0131n ilk otopsi...</span>  </div>          </td>\n                  <td\
+        \ class=\"col-3 col-last\">\n              \n  <span class=\"views-field views-field-field-image\"\
+        >        <span class=\"field-content\"><a href=\"/tr/dunyadan/dis-basinda-paris-saldirisi\"\
+        ><span><img typeof=\"foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/w160h120/public/field/image/paris_saldirisi.jpg\"\
+        \ width=\"172\" height=\"120\" alt=\"\" /></span></a></span>  </span>  \n\
+        \  <div class=\"views-field views-field-title\">        <strong class=\"field-content\"\
+        ><a href=\"/tr/dunyadan/dis-basinda-paris-saldirisi\"><span>D\u0131\u015F\
+        \ Bas\u0131nda Paris Sald\u0131r\u0131s\u0131</span></a></strong>  </div>\
+        \  \n  <div class=\"views-field views-field-body\">        <span class=\"\
+        field-content\">\u0130ngiliz bas\u0131n\u0131, K\xFCrt sorununun \xE7\xF6\
+        z\xFCm\xFC konusunda T\xFCrkiye'de riskli bir...</span>  </div>          </td>\n\
+        \              </tr>\n          <tr class=\"row-3\">\n                  <td\
+        \ class=\"col-1 col-first\">\n              \n  <span class=\"views-field\
+        \ views-field-field-image\">        <span class=\"field-content\"><a href=\"\
+        /tr/medya/yeniden-araf-prf-mithat-sancar\"><span><img typeof=\"foaf:Image\"\
+        \ src=\"http://kurdistan-post.eu/sites/default/files/styles/w160h120/public/field/image/araf.png\"\
+        \ width=\"172\" height=\"120\" alt=\"\" /></span></a></span>  </span>  \n\
+        \  <div class=\"views-field views-field-title\">        <strong class=\"field-content\"\
+        ><a href=\"/tr/medya/yeniden-araf-prf-mithat-sancar\"><span>Yeniden Araf-\
+        \ Prf. Mithat Sancar</span></a></strong>  </div>  \n  <div class=\"views-field\
+        \ views-field-body\">        <span class=\"field-content\">K\xFCrt sorununda\
+        \ uzun zamand\u0131r Cehennem \u015Fartlar\u0131 ile Cennet ihtimali...</span>\
+        \  </div>          </td>\n                  <td class=\"col-2\">\n       \
+        \       \n  <span class=\"views-field views-field-field-image\">        <span\
+        \ class=\"field-content\"><a href=\"/tr/kurdistan/2008-qandillden-2013-paris-katliami-zana-azadi\"\
+        ><span><img typeof=\"foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/w160h120/public/field/image/qandil_saldirisi.png\"\
+        \ width=\"172\" height=\"120\" alt=\"\" /></span></a></span>  </span>  \n\
+        \  <div class=\"views-field views-field-title\">        <strong class=\"field-content\"\
+        ><a href=\"/tr/kurdistan/2008-qandillden-2013-paris-katliami-zana-azadi\"\
+        ><span>2008 Qandill&#039;den 2013 Paris Katliam\u0131- Zana Azadi</span></a></strong>\
+        \  </div>  \n  <div class=\"views-field views-field-body\">        <span class=\"\
+        field-content\">Tarih 5 Aral\u0131k 2008.<br />\nKurban Bayram\u0131\u2019\
+        ndan \xFC\xE7 g\xFCn \xF6nce.<br />\nYer G\xFCney...</span>  </div>      \
+        \    </td>\n                  <td class=\"col-3 col-last\">\n            \
+        \  \n  <span class=\"views-field views-field-field-image\">        <span class=\"\
+        field-content\"><a href=\"/tr/siyaset/akintiya-karsi-kurek-cekiliyor-yusuf-ali\"\
+        ><span><img typeof=\"foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/w160h120/public/field/image/akintiya_karsi_kurek.jpg\"\
+        \ width=\"172\" height=\"120\" alt=\"\" /></span></a></span>  </span>  \n\
+        \  <div class=\"views-field views-field-title\">        <strong class=\"field-content\"\
+        ><a href=\"/tr/siyaset/akintiya-karsi-kurek-cekiliyor-yusuf-ali\"><span>Ak\u0131\
+        nt\u0131ya Kar\u015F\u0131 K\xFCrek \xC7ekiliyor- Yusuf Ali</span></a></strong>\
+        \  </div>  \n  <div class=\"views-field views-field-body\">        <span class=\"\
+        field-content\"><br />\n<br />\n<br />\nAk\u0131nt\u0131ya Kar\u015F\u0131\
+        \ K\xFCrek \xC7ekmek- Yusuf Ali<br />\nMazur g\xF6r\xFCn ama bir hususu...</span>\
+        \  </div>          </td>\n              </tr>\n          <tr class=\"row-4\
+        \ row-last\">\n                  <td class=\"col-1 col-first\">\n        \
+        \      \n  <span class=\"views-field views-field-field-image\">        <span\
+        \ class=\"field-content\"><a href=\"/tr/siyaset/kisanaktan-huseyin-celike-haddini-bil\"\
+        ><span><img typeof=\"foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/w160h120/public/field/image/gultan_kisanak.jpg\"\
+        \ width=\"172\" height=\"120\" alt=\"\" /></span></a></span>  </span>  \n\
+        \  <div class=\"views-field views-field-title\">        <strong class=\"field-content\"\
+        ><a href=\"/tr/siyaset/kisanaktan-huseyin-celike-haddini-bil\"><span>K\u0131\
+        \u015Fanak\u2019tan H\xFCseyin \xC7elik\u2019e: Haddini Bil!  </span></a></strong>\
+        \  </div>  \n  <div class=\"views-field views-field-body\">        <span class=\"\
+        field-content\">\_<br />\n\_<br />\nBDP E\u015F Ba\u015Fkan\u0131 K\u0131\u015F\
+        anak, Paris'teki cinayetlere '\xD6rg\xFCt\xFC i\xE7i...</span>  </div>   \
+        \       </td>\n                  <td class=\"col-2\">\n              \n  <span\
+        \ class=\"views-field views-field-field-image\">        <span class=\"field-content\"\
+        ><a href=\"/tr/siyaset/akp-pkkyi-mi-cozmek-istiyor-kurt-sorununu-mu-firat-baran\"\
+        ><span><img typeof=\"foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/w160h120/public/field/image/erdogan_ve_fidan.jpg\"\
+        \ width=\"172\" height=\"120\" alt=\"\" /></span></a></span>  </span>  \n\
+        \  <div class=\"views-field views-field-title\">        <strong class=\"field-content\"\
+        ><a href=\"/tr/siyaset/akp-pkkyi-mi-cozmek-istiyor-kurt-sorununu-mu-firat-baran\"\
+        ><span>AKP, PKK\u2019yi mi \xE7\xF6zmek istiyor K\xFCrt sorununu mu? - F\u0131\
+        rat Baran</span></a></strong>  </div>  \n  <div class=\"views-field views-field-body\"\
+        >        <span class=\"field-content\">TC\u2019nin, \u0130mral\u0131\u2019\
+        da \xD6calan\u2019la g\xF6r\xFC\u015Fmelere ba\u015Flamas\u0131 K\xFCrt sorununa\
+        \ \xE7\xF6z\xFCm...</span>  </div>          </td>\n                  <td class=\"\
+        col-3 col-last\">\n              \n  <span class=\"views-field views-field-field-image\"\
+        >        <span class=\"field-content\"><a href=\"/tr/yasam/amede-kar-yagiyor-derya-denli\"\
+        ><span><img typeof=\"foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/w160h120/public/field/image/amede_kar_yagiyor.jpg\"\
+        \ width=\"172\" height=\"120\" alt=\"\" /></span></a></span>  </span>  \n\
+        \  <div class=\"views-field views-field-title\">        <strong class=\"field-content\"\
+        ><a href=\"/tr/yasam/amede-kar-yagiyor-derya-denli\"><span>Amed&#039;e kar\
+        \ ya\u011F\u0131yor.. \u2013 Derya Denli</span></a></strong>  </div>  \n \
+        \ <div class=\"views-field views-field-body\">        <span class=\"field-content\"\
+        >\_<br />\nAmed'e kar ya\u011F\u0131yor.. Bembeyaz bir seyir, bembeyaz d\xFC\
+        \u015Fler. Ama...</span>  </div>          </td>\n              </tr>\n   \
+        \   </tbody>\n</table>\n    </div>\n  \n  \n  \n  \n  \n  \n</div>  </div>\n\
+        \n</div></div> <div id=\"block-block-14\" class=\"block block-block\"><div\
+        \ class=\"block-inner\">\n\n\t     \n  <div class=\"content\">\n\t\t<h2>Kurdistan</h2>\n\
+        \  </div>\n\n</div></div> <div id=\"block-system-main\" class=\"block block-system\"\
+        ><div class=\"block-inner\">\n\n\t     \n  <div class=\"content\">\n\t\t<div\
+        \ class=\"term-listing-heading\"><div id=\"taxonomy-term-12\" class=\"taxonomy-term\
+        \ vocabulary-section\">\n\n  \n  <div class=\"content\">\n      </div>\n\n\
+        </div>\n</div><article id=\"node-716\" class=\"node node-article node-promoted\
+        \ node-teaser first clearfix\" about=\"/tr/kurdistan/kurdistani-gomemezsiniz-hejare-samil\"\
+        \ typeof=\"sioc:Item foaf:Document\"> \n  \n      <div class=\"field-image\"\
+        >\n      <div class=\"field field-name-field-image field-type-image field-label-hidden\"\
+        ><div class=\"field-items\"><div class=\"field-item even\" rel=\"og:image\
+        \ rdfs:seeAlso\" resource=\"http://kurdistan-post.eu/sites/default/files/styles/teaser/public/field/image/hejare_shamil_sakine_cansiz.jpg\"\
+        ><a href=\"/tr/kurdistan/kurdistani-gomemezsiniz-hejare-samil\"><span><img\
+        \ typeof=\"foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/teaser/public/field/image/hejare_shamil_sakine_cansiz.jpg\"\
+        \ width=\"140\" height=\"100\" alt=\"\" /></span></a></div></div></div>  \
+        \  </div>\n    \n        \n  \n  <div class=\"node-content-wrapper\">    \
+        \                \n  \n              \n              <h2 class=\"title\" property=\"\
+        dc:title\" datatype=\"\"><a href=\"/tr/kurdistan/kurdistani-gomemezsiniz-hejare-samil\"\
+        >Kurdistan&#039;\u0131 G\xF6memezsiniz! - Hejar\xEA \u015Eamil</a></h2>\n\
+        \        \n               \n        \n          <div class=\"submitted\">\n\
+        \          <span class=\"date\"><span property=\"dc:date dc:created\" content=\"\
+        2013-01-13T14:55:15+01:00\" datatype=\"xsd:dateTime\">Paz, 01/13/2013 - 14:55</span></span>\n\
+        \          <span rel=\"sioc:has_creator\"><a href=\"/tr/users/hejare-samil\"\
+        \ title=\"Kullan\u0131c\u0131 profilini g\xF6r\xFCnt\xFCle.\" class=\"username\"\
+        \ xml:lang=\"\" about=\"/tr/users/hejare-samil\" typeof=\"sioc:UserAccount\"\
+        \ property=\"foaf:name\"><span>Hejar\xEA \u015Eamil</span></a></span>    \
+        \  </div>\n          \n  \n    <div class=\"content\">\n\t  <div class=\"\
+        field field-name-body field-type-text-with-summary field-label-hidden\"><div\
+        \ class=\"field-items\"><div class=\"field-item even\" property=\"content:encoded\"\
+        ><p>\_</p></div></div></div>    </div>\n    \n      \n      <ul class=\"links\
+        \ inline\"><li class=\"node-readmore first\"><a href=\"/tr/kurdistan/kurdistani-gomemezsiniz-hejare-samil\"\
+        \ rel=\"tag\" title=\"Kurdistan&#039;\u0131 G\xF6memezsiniz! - Hejar\xEA \u015E\
+        amil\"><span>Devami <span class=\"element-invisible\"> Kurdistan&#039;\u0131\
+        \ G\xF6memezsiniz! - Hejar\xEA \u015Eamil hakkinda</span></span></a></li>\n\
+        <li class=\"comment-add last\"><a href=\"/tr/comment/reply/716#comment-form\"\
+        \ title=\"Bu sayfaya yeni bir yorum ekle.\"><span>Yorum yaz</span></a></li>\n\
+        </ul>        \n      \n      <nav class=\"taxonomy\"><div class=\"taxonomy-inner\
+        \ clearfix\">\n              </div></nav>  \n        \n  \n\t  \n      <nav\
+        \ class=\"taxonomy\"><div class=\"taxonomy-inner clearfix\">\n           \
+        \   </div></nav>  \n        \n  </div>\n\n</article>\n\n <article id=\"node-690\"\
+        \ class=\"node node-video node-promoted node-teaser clearfix\" about=\"/tr/kurdistan/heval-sakine-icin-hey-dirok\"\
+        \ typeof=\"sioc:Item foaf:Document\"> \n  \n    \n      <div class=\"field-video\"\
+        >\n      <div class=\"field field-name-field-video field-type-video-embed-field\
+        \ field-label-hidden\"><div class=\"field-items\"><div class=\"field-item\
+        \ even\">\n<div class=\"embedded-video\">\n  <div class=\"player\">\n    <iframe\
+        \ width=\"240\" height=\"170\" src=\"//www.youtube.com/embed/qEFYo5Ac83A?width=240&amp;height=170&amp;theme=dark&amp;autoplay=0&amp;hd=1&amp;rel=0&amp;showinfo=1&amp;modestbranding=0&amp;iv_load_policy=1&amp;autohide=2&amp;start=0&amp;wmode=opaque\"\
+        \ frameborder=\"0\" allowfullscreen></iframe>  </div>\n</div></div></div></div>\
+        \    </div>\n        \n  \n  <div class=\"node-content-wrapper\">        \
+        \            \n  \n              \n              <h2 class=\"title\" property=\"\
+        dc:title\" datatype=\"\"><a href=\"/tr/kurdistan/heval-sakine-icin-hey-dirok\"\
+        >Heval Sakine \u0130\xE7in Hey Dirok</a></h2>\n        \n               \n\
+        \        \n          <div class=\"submitted\">\n          <span class=\"date\"\
+        ><span property=\"dc:date dc:created\" content=\"2013-01-11T14:48:42+01:00\"\
+        \ datatype=\"xsd:dateTime\">Cum, 01/11/2013 - 14:48</span></span>\n      \
+        \    <span rel=\"sioc:has_creator\"><a href=\"/tr/users/huseyin-turhalli\"\
+        \ title=\"Kullan\u0131c\u0131 profilini g\xF6r\xFCnt\xFCle.\" class=\"username\"\
+        \ xml:lang=\"\" about=\"/tr/users/huseyin-turhalli\" typeof=\"sioc:UserAccount\"\
+        \ property=\"foaf:name\"><span>H\xFCseyin Turhall\u0131</span></a></span>\
+        \      </div>\n          \n  \n    <div class=\"content\">\n\t  <div class=\"\
+        form-item form-type-item\">\n  <label>Dil </label>\n T\xFCrk\xE7e\n</div>\n\
+        <div class=\"field field-name-body field-type-text-with-summary field-label-hidden\"\
+        ><div class=\"field-items\"><div class=\"field-item even\" property=\"content:encoded\"\
+        ><p>Heval Sakine \u0130\xE7in HEY D\xCEROK</p>\n</div></div></div>    </div>\n\
+        \    \n      \n      <ul class=\"links inline\"><li class=\"node-readmore\
+        \ first\"><a href=\"/tr/kurdistan/heval-sakine-icin-hey-dirok\" rel=\"tag\"\
+        \ title=\"Heval Sakine \u0130\xE7in Hey Dirok\"><span>Devami <span class=\"\
+        element-invisible\"> Heval Sakine \u0130\xE7in Hey Dirok hakkinda</span></span></a></li>\n\
+        <li class=\"comment-add last\"><a href=\"/tr/comment/reply/690#comment-form\"\
+        \ title=\"Bu sayfaya yeni bir yorum ekle.\"><span>Yorum yaz</span></a></li>\n\
+        </ul>        \n      \n      <nav class=\"taxonomy\"><div class=\"taxonomy-inner\
+        \ clearfix\">\n              </div></nav>  \n        \n  \n\t  \n      <nav\
+        \ class=\"taxonomy\"><div class=\"taxonomy-inner clearfix\">\n           \
+        \   </div></nav>  \n        \n  </div>\n\n</article>\n\n <article id=\"node-688\"\
+        \ class=\"node node-article node-promoted node-teaser clearfix\" about=\"\
+        /tr/kurdistan/2008-qandillden-2013-paris-katliami-zana-azadi\" typeof=\"sioc:Item\
+        \ foaf:Document\"> \n  \n      <div class=\"field-image\">\n      <div class=\"\
+        field field-name-field-image field-type-image field-label-hidden\"><div class=\"\
+        field-items\"><div class=\"field-item even\" rel=\"og:image rdfs:seeAlso\"\
+        \ resource=\"http://kurdistan-post.eu/sites/default/files/styles/teaser/public/field/image/qandil_saldirisi.png\"\
+        ><a href=\"/tr/kurdistan/2008-qandillden-2013-paris-katliami-zana-azadi\"\
+        ><span><img typeof=\"foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/teaser/public/field/image/qandil_saldirisi.png\"\
+        \ width=\"140\" height=\"100\" alt=\"\" /></span></a></div></div></div>  \
+        \  </div>\n    \n        \n  \n  <div class=\"node-content-wrapper\">    \
+        \                \n  \n              \n              <h2 class=\"title\" property=\"\
+        dc:title\" datatype=\"\"><a href=\"/tr/kurdistan/2008-qandillden-2013-paris-katliami-zana-azadi\"\
+        >2008 Qandill&#039;den 2013 Paris Katliam\u0131- Zana Azadi</a></h2>\n   \
+        \     \n               \n        \n          <div class=\"submitted\">\n \
+        \         <span class=\"date\"><span property=\"dc:date dc:created\" content=\"\
+        2013-01-11T09:00:45+01:00\" datatype=\"xsd:dateTime\">Cum, 01/11/2013 - 09:00</span></span>\n\
+        \          <span rel=\"sioc:has_creator\"><a href=\"/tr/users/huseyin-turhalli\"\
+        \ title=\"Kullan\u0131c\u0131 profilini g\xF6r\xFCnt\xFCle.\" class=\"username\"\
+        \ xml:lang=\"\" about=\"/tr/users/huseyin-turhalli\" typeof=\"sioc:UserAccount\"\
+        \ property=\"foaf:name\"><span>H\xFCseyin Turhall\u0131</span></a></span>\
+        \      </div>\n          \n  \n    <div class=\"content\">\n\t  <div class=\"\
+        field field-name-body field-type-text-with-summary field-label-hidden\"><div\
+        \ class=\"field-items\"><div class=\"field-item even\" property=\"content:encoded\"\
+        ><p>Tarih 5 Aral\u0131k 2008.</p>\n<p>Kurban Bayram\u0131\u2019ndan \xFC\xE7\
+        \ g\xFCn \xF6nce.</p>\n<p>Yer G\xFCney K\xFCrdistan\u2019\u0131n Qendil da\u011F\
+        \u0131.</p>\n<p>PKK ile T\xFCrk devleti aras\u0131nda g\xF6r\xFC\u015Fme yap\u0131\
+        l\u0131yor.</p>\n<p>G\xF6r\xFC\u015Fmede arabulucu \xFClke temsilcileri de\
+        \ var.</p></div></div></div>    </div>\n    \n      \n      <ul class=\"links\
+        \ inline\"><li class=\"node-readmore first\"><a href=\"/tr/kurdistan/2008-qandillden-2013-paris-katliami-zana-azadi\"\
+        \ rel=\"tag\" title=\"2008 Qandill&#039;den 2013 Paris Katliam\u0131- Zana\
+        \ Azadi\"><span>Devami <span class=\"element-invisible\"> 2008 Qandill&#039;den\
+        \ 2013 Paris Katliam\u0131- Zana Azadi hakkinda</span></span></a></li>\n<li\
+        \ class=\"comment-add last\"><a href=\"/tr/comment/reply/688#comment-form\"\
+        \ title=\"Bu sayfaya yeni bir yorum ekle.\"><span>Yorum yaz</span></a></li>\n\
+        </ul>        \n      \n      <nav class=\"taxonomy\"><div class=\"taxonomy-inner\
+        \ clearfix\">\n              </div></nav>  \n        \n  \n\t  \n      <nav\
+        \ class=\"taxonomy\"><div class=\"taxonomy-inner clearfix\">\n           \
+        \   </div></nav>  \n        \n  </div>\n\n</article>\n\n <article id=\"node-673\"\
+        \ class=\"node node-video node-promoted node-teaser last clearfix\" about=\"\
+        /tr/kurdistan/direnis-sembolu-sakine-cansiz-pariste-katledildi\" typeof=\"\
+        sioc:Item foaf:Document\"> \n  \n    \n      <div class=\"field-video\">\n\
+        \      <div class=\"field field-name-field-video field-type-video-embed-field\
+        \ field-label-hidden\"><div class=\"field-items\"><div class=\"field-item\
+        \ even\">\n<div class=\"embedded-video\">\n  <div class=\"player\">\n    <iframe\
+        \ width=\"240\" height=\"170\" src=\"//www.youtube.com/embed/hmuZsVTaLsU?width=240&amp;height=170&amp;theme=dark&amp;autoplay=0&amp;hd=1&amp;rel=0&amp;showinfo=1&amp;modestbranding=0&amp;iv_load_policy=1&amp;autohide=2&amp;start=0&amp;wmode=opaque\"\
+        \ frameborder=\"0\" allowfullscreen></iframe>  </div>\n</div></div></div></div>\
+        \    </div>\n        \n  \n  <div class=\"node-content-wrapper\">        \
+        \            \n  \n              \n              <h2 class=\"title\" property=\"\
+        dc:title\" datatype=\"\"><a href=\"/tr/kurdistan/direnis-sembolu-sakine-cansiz-pariste-katledildi\"\
+        >Direni\u015F Sembol\xFC Sakine Cans\u0131z Paris&#039;te Katledildi</a></h2>\n\
+        \        \n               \n        \n          <div class=\"submitted\">\n\
+        \          <span class=\"date\"><span property=\"dc:date dc:created\" content=\"\
+        2013-01-10T10:20:40+01:00\" datatype=\"xsd:dateTime\">Per, 01/10/2013 - 10:20</span></span>\n\
+        \          <span rel=\"sioc:has_creator\"><span class=\"username\" xml:lang=\"\
+        \" typeof=\"sioc:UserAccount\" property=\"foaf:name\">Anonymous</span></span>\
+        \      </div>\n          \n  \n    <div class=\"content\">\n\t  <div class=\"\
+        form-item form-type-item\">\n  <label>Dil </label>\n T\xFCrk\xE7e\n</div>\n\
+        <div class=\"field field-name-body field-type-text-with-summary field-label-hidden\"\
+        ><div class=\"field-items\"><div class=\"field-item even\" property=\"content:encoded\"\
+        ><p><span style=\"font-size: 16px; background-color: rgb(255, 255, 255);\"\
+        >Amed Zindan\u0131'n\u0131n simgesi haline gelen ve PKK'nin kurulu\u015F y\u0131\
+        llar\u0131nda K\xFCrd ulusul Kurtulu\u015F M\xFCcadelesine kat\u0131lan Sakine\
+        \ Cans\u0131z Pari</span></p></div></div></div>    </div>\n    \n      \n\
+        \      <ul class=\"links inline\"><li class=\"node-readmore first\"><a href=\"\
+        /tr/kurdistan/direnis-sembolu-sakine-cansiz-pariste-katledildi\" rel=\"tag\"\
+        \ title=\"Direni\u015F Sembol\xFC Sakine Cans\u0131z Paris&#039;te Katledildi\"\
+        ><span>Devami <span class=\"element-invisible\"> Direni\u015F Sembol\xFC Sakine\
+        \ Cans\u0131z Paris&#039;te Katledildi hakkinda</span></span></a></li>\n<li\
+        \ class=\"comment-comments\"><a href=\"/tr/kurdistan/direnis-sembolu-sakine-cansiz-pariste-katledildi#comments\"\
+        \ title=\"Bu g\xF6nderinin ilk yorumuna git.\" property=\"sioc:num_replies\"\
+        \ content=\"2\" datatype=\"xsd:integer\" rel=\"\"><span>2 yorum</span></a></li>\n\
+        <li class=\"comment-add last\"><a href=\"/tr/comment/reply/673#comment-form\"\
+        \ title=\"Bu sayfaya yeni bir yorum ekle.\"><span>Yorum yaz</span></a></li>\n\
+        </ul>        \n      \n      <nav class=\"taxonomy\"><div class=\"taxonomy-inner\
+        \ clearfix\">\n              </div></nav>  \n        \n  \n\t  \n      <nav\
+        \ class=\"taxonomy\"><div class=\"taxonomy-inner clearfix\">\n           \
+        \   </div></nav>  \n        \n  </div>\n\n</article>\n\n <h2 class=\"element-invisible\"\
+        >Sayfalar</h2><div class=\"item-list\"><ul class=\"pager\"><li class=\"pager-current\
+        \ first\">1</li>\n<li class=\"pager-item\"><a title=\"2. sayfaya git\" href=\"\
+        /tr/kurdistan?page=1\">2</a></li>\n<li class=\"pager-item\"><a title=\"3.\
+        \ sayfaya git\" href=\"/tr/kurdistan?page=2\">3</a></li>\n<li class=\"pager-item\"\
+        ><a title=\"4. sayfaya git\" href=\"/tr/kurdistan?page=3\">4</a></li>\n<li\
+        \ class=\"pager-item\"><a title=\"5. sayfaya git\" href=\"/tr/kurdistan?page=4\"\
+        >5</a></li>\n<li class=\"pager-item\"><a title=\"6. sayfaya git\" href=\"\
+        /tr/kurdistan?page=5\">6</a></li>\n<li class=\"pager-item\"><a title=\"7.\
+        \ sayfaya git\" href=\"/tr/kurdistan?page=6\">7</a></li>\n<li class=\"pager-item\"\
+        ><a title=\"8. sayfaya git\" href=\"/tr/kurdistan?page=7\">8</a></li>\n<li\
+        \ class=\"pager-item\"><a title=\"9. sayfaya git\" href=\"/tr/kurdistan?page=8\"\
+        >9</a></li>\n<li class=\"pager-next\"><a title=\"Sonraki sayfaya git\" href=\"\
+        /tr/kurdistan?page=1\">sonraki \u203A</a></li>\n<li class=\"pager-last last\"\
+        ><a title=\"Son sayfaya git\" href=\"/tr/kurdistan?page=8\">son \xBB</a></li>\n\
+        </ul></div>  </div>\n\n</div></div>   </div>\n          \n               \
+        \       <div class=\"region region-content-bottom\">\n    <div id=\"block-quicktabs-quicktabs\"\
+        \ class=\"block block-quicktabs\"><div class=\"block-inner\">\n\n\t      <h3\
+        \ class=\"title\"><span>RNN News</span></h3>\n     \n  <div class=\"content\"\
+        >\n\t\t<div  id=\"quicktabs-quicktabs\" class=\"quicktabs-wrapper quicktabs-style-nostyle\"\
+        ><div class=\"item-list\"><ul class=\"quicktabs-tabs quicktabs-style-nostyle\"\
+        ><li class=\"active first\"><a href=\"/tr/kurdistan?qt-quicktabs=0#qt-quicktabs\"\
+        \ id=\"quicktabs-tab-quicktabs-0\" class=\"active\"><span>Kurd\xEE</span></a></li>\n\
+        <li><a href=\"/tr/kurdistan?qt-quicktabs=1#qt-quicktabs\" id=\"quicktabs-tab-quicktabs-1\"\
+        \ class=\"active\"><span>T\xFCrk\xE7e</span></a></li>\n<li class=\"last\"\
+        ><a href=\"/tr/kurdistan?qt-quicktabs=2#qt-quicktabs\" id=\"quicktabs-tab-quicktabs-2\"\
+        \ class=\"active\"><span>Russian</span></a></li>\n</ul></div><div id=\"quicktabs-container-quicktabs\"\
+        \ class=\"quicktabs_main quicktabs-style-nostyle\"><div  id=\"quicktabs-tabpage-quicktabs-0\"\
+        \ class=\"quicktabs-tabpage \"><div id=\"block-aggregator-feed-4\" class=\"\
+        block block-aggregator\"><div class=\"block-inner\">\n\n\t     \n  <div class=\"\
+        content\">\n\t\t<div class=\"item-list\"><ul><li class=\"first\"><a target=\"\
+        _blank\" href=\"http://www.rojname.com/index.kurd?nuce=866166\">Wez\xEEr\xEA\
+        \ daray\xEE y\xEA Iraq\xEA ji mirin\xEA filit\xEE</a></li>\n<li><a target=\"\
+        _blank\" href=\"http://www.rojname.com/index.kurd?nuce=866164\">Rafi` \xCE\
+        saw\xEE ji hewleke teror\xEA rizgar dibe</a></li>\n<li><a target=\"_blank\"\
+        \ href=\"http://www.rojname.com/index.kurd?nuce=866163\">Tirkiye: Li dij\xEE\
+        \ hik\xFBmeta Malik\xEE xwep\xEA\u015Fandan</a></li>\n<li><a target=\"_blank\"\
+        \ href=\"http://www.rojname.com/index.kurd?nuce=866136\">Yawer: Di civ\xEE\
+        na \xEEro de xal\xEAn hevbe\u015F hatin pejirandin</a></li>\n<li><a target=\"\
+        _blank\" href=\"http://www.rojname.com/index.kurd?nuce=866135\">\xCEran: Emer\xEE\
+        ka  Kurdan li dij\xEE \xCEran\xEA handan dike</a></li>\n<li><a target=\"_blank\"\
+        \ href=\"http://www.rojname.com/index.kurd?nuce=866134\">Ereb\xEE daxwaza\
+        \ \u015Fandina h\xEAz\xEAn a\u015Ftiy\xEA bo S\xFBriy\xEA dike</a></li>\n\
+        <li><a target=\"_blank\" href=\"http://www.rojname.com/index.kurd?nuce=866133\"\
+        >Buldan: Sala 2013 d\xEA bibe sala serkeftina Kurdan</a></li>\n<li><a target=\"\
+        _blank\" href=\"http://www.rojname.com/index.kurd?nuce=866132\">Li Hewl\xEA\
+        r\xEA Ku\u015Ftina \xC7alakvan\xEAn Kurd li Par\xEEs\xEA Hate \u015Eermezarkirin</a></li>\n\
+        <li><a target=\"_blank\" href=\"http://www.rojname.com/index.kurd?nuce=866131\"\
+        >Zubeyir Aydar: Dest\xEA Dewleta K\xFBr di \xCAr\xEE\u015Fa Par\xEE\u015F\xEA\
+        \ de Heye</a></li>\n<li class=\"last\"><a target=\"_blank\" href=\"http://www.rojname.com/index.kurd?nuce=866130\"\
+        >Husn\xEE Mubarek D\xEEsa Dih\xEAte Dadgehkirin</a></li>\n</ul></div><div\
+        \ class=\"more-link\"><a href=\"/tr/aggregator/sources/4\" title=\"Bu beslemenin\
+        \ yak\u0131n zamandaki haberlerini g\xF6r\xFCnt\xFCle.\"><span>Devam\u0131\
+        </span></a></div>  </div>\n\n</div></div> </div><div  id=\"quicktabs-tabpage-quicktabs-1\"\
+        \ class=\"quicktabs-tabpage quicktabs-hide\"><div id=\"block-aggregator-feed-5\"\
+        \ class=\"block block-aggregator\"><div class=\"block-inner\">\n\n\t     \n\
+        \  <div class=\"content\">\n\t\t<div class=\"item-list\"><ul><li class=\"\
+        first\"><a target=\"_blank\" href=\"http://www.rojname.com/index.kurd?nuce=866195\"\
+        >60 y\u0131lda 241 \xE7ocu\u011Fu taciz etti</a></li>\n<li><a target=\"_blank\"\
+        \ href=\"http://www.rojname.com/index.kurd?nuce=866194\">Be\u015Fikta\u015F\
+        \ Niang&#039;\u0131 istiyor</a></li>\n<li><a target=\"_blank\" href=\"http://www.rojname.com/index.kurd?nuce=866193\"\
+        >Hastalar tahta sedyelerle ta\u015F\u0131n\u0131yor</a></li>\n<li><a target=\"\
+        _blank\" href=\"http://www.rojname.com/index.kurd?nuce=866192\">\u0130stanbul&#039;da\
+        \ BDP il\xE7eleri e\u015F ba\u015Fkanlar\u0131n\u0131 se\xE7ti</a></li>\n\
+        <li><a target=\"_blank\" href=\"http://www.rojname.com/index.kurd?nuce=866191\"\
+        >Mardin&#039;de BDP&#039;ye kat\u0131l\u0131m</a></li>\n<li><a target=\"_blank\"\
+        \ href=\"http://www.rojname.com/index.kurd?nuce=866190\">Suriye i\xE7in siyasi\
+        \ \xE7\xF6z\xFCm istediler</a></li>\n<li><a target=\"_blank\" href=\"http://www.rojname.com/index.kurd?nuce=866189\"\
+        >Birdal&#039;a yumru\u011Fa hapis cezas\u0131</a></li>\n<li><a target=\"_blank\"\
+        \ href=\"http://www.rojname.com/index.kurd?nuce=866188\">K\xFCrt\xE7e bilgi\
+        \ yar\u0131\u015Fmas\u0131na yo\u011Fun ilgi</a></li>\n<li><a target=\"_blank\"\
+        \ href=\"http://www.rojname.com/index.kurd?nuce=866187\">Tand\u0131r ekme\u011F\
+        i ge\xE7im kaynaklar\u0131 oldu</a></li>\n<li class=\"last\"><a target=\"\
+        _blank\" href=\"http://www.rojname.com/index.kurd?nuce=866186\">Nusaybin&#039;de\
+        \ \xE7at\u0131\u015Fma sonras\u0131 2 g\xF6zalt\u0131</a></li>\n</ul></div><div\
+        \ class=\"more-link\"><a href=\"/tr/aggregator/sources/5\" title=\"Bu beslemenin\
+        \ yak\u0131n zamandaki haberlerini g\xF6r\xFCnt\xFCle.\"><span>Devam\u0131\
+        </span></a></div>  </div>\n\n</div></div> </div><div  id=\"quicktabs-tabpage-quicktabs-2\"\
+        \ class=\"quicktabs-tabpage quicktabs-hide\"></div></div></div>  </div>\n\n\
+        </div></div> <div id=\"block-views-27ca84c225a0c95e04e142526c674f97\" class=\"\
+        block block-views\"><div class=\"block-inner\">\n\n\t      <h3 class=\"title\"\
+        ><span>\xC7ok okunanlar</span></h3>\n     \n  <div class=\"content\">\n\t\t\
+        <div class=\"view view-most-readed-articles-and-blogs view-id-most_readed_articles_and_blogs\
+        \ view-display-id-block view-dom-id-82b62d14f1e093f227026ac39cf07320\">\n\
+        \        \n  \n  \n      <div class=\"view-content\">\n      <div class=\"\
+        item-list\">    <ul>          <li class=\"views-row views-row-1 views-row-odd\
+        \ views-row-first\">  \n  <div class=\"views-field views-field-title\">  \
+        \      <span class=\"field-content\"><a href=\"/tr/kadin/bir-sakine-vardi-efsane-dursun-ali-kucuk\"\
+        ><span>Bir Sakine Vard\u0131; Efsane\u2026 - Dursun Ali K\xFC\xE7\xFCk</span></a></span>\
+        \  </div></li>\n          <li class=\"views-row views-row-2 views-row-even\"\
+        >  \n  <div class=\"views-field views-field-title\">        <span class=\"\
+        field-content\"><a href=\"/tr/medya/kurd-kose-yazarlarindan-tepkiler\"><span>K\xFC\
+        rd k\xF6\u015Fe yazarlar\u0131ndan tepkiler </span></a></span>  </div></li>\n\
+        \          <li class=\"views-row views-row-3 views-row-odd\">  \n  <div class=\"\
+        views-field views-field-title\">        <span class=\"field-content\"><a href=\"\
+        /tr/siyaset/turk-hukumeti-ocalan-ile-neyi-gorusuyor\"><span>T\xFCrk H\xFC\
+        k\xFCmeti \xD6calan \u0130le Neyi G\xF6r\xFC\u015F\xFCyor  </span></a></span>\
+        \  </div></li>\n          <li class=\"views-row views-row-4 views-row-even\"\
+        >  \n  <div class=\"views-field views-field-title\">        <span class=\"\
+        field-content\"><a href=\"/tr/kurdistan/yeni-safak-gazetesinden-flas-aciklama-imrali-mutabikati-tam-metin\"\
+        ><span>Yeni \u015Eafak Gazetesinden Fla\u015F A\xE7\u0131klama- \u0130mral\u0131\
+        \ Mutab\u0131kat\u0131 Tam Metin</span></a></span>  </div></li>\n        \
+        \  <li class=\"views-row views-row-5 views-row-odd views-row-last\">  \n \
+        \ <div class=\"views-field views-field-title\">        <span class=\"field-content\"\
+        ><a href=\"/tr/guncel/silah-birakma-tartismalarina-pkkden-yanit-bunlarin-hepsi-bos-laflar\"\
+        ><span>&#039;Silah B\u0131rakma&#039; Tart\u0131\u015Fmalar\u0131na PKK\u2019\
+        den Yan\u0131t: Bunlar\u0131n Hepsi Bo\u015F Laflar!</span></a></span>  </div></li>\n\
+        \      </ul></div>    </div>\n  \n  \n  \n  \n  \n  \n</div>  </div>\n\n</div></div>\
+        \   </div>\n        </div> \n                <aside class=\"sidebar second-sidebar\
+        \ grid_4 clearfix\">\n              <div class=\"region region-sidebar-second\"\
+        >\n    <div id=\"block-views-featured-view-block\" class=\"block block-views\"\
+        ><div class=\"block-inner\">\n\n\t      <h3 class=\"title\"><span>Yeni Videolar</span></h3>\n\
+        \     \n  <div class=\"content\">\n\t\t<div class=\"view view-featured-view\
+        \ view-id-featured_view view-display-id-block view-dom-id-8883568a352e591ac1ff57fca6e301c2\"\
+        >\n        \n  \n  \n      <div class=\"view-content\">\n        <div class=\"\
+        views-row views-row-1 views-row-odd views-row-first views-row-last\">\n  \
+        \    \n  <div class=\"views-field views-field-field-video\">        <div class=\"\
+        field-content\">\n<div class=\"embedded-video\">\n  <div class=\"player\"\
+        >\n    <iframe width=\"260px\" height=\"180px\" src=\"//www.youtube.com/embed/K6greN1kO1c?width=260px&amp;height=180px&amp;theme=dark&amp;autoplay=0&amp;hd=1&amp;rel=0&amp;showinfo=1&amp;modestbranding=0&amp;iv_load_policy=1&amp;autohide=2&amp;start=0&amp;wmode=opaque\"\
+        \ frameborder=\"0\" allowfullscreen></iframe>  </div>\n</div></div>  </div>\
+        \  \n  <div class=\"views-field views-field-body\">        <div class=\"field-content\"\
+        ><p>Paris, 12 Ocak 2013. B\xFCy\xFCk K\xFCrd y\xFCr\xFCy\xFC\u015F\xFCnde\
+        \ \"\u0130NT\u0130KAM\" sloganlar\u0131</p>\n</div>  </div>  </div>\n    </div>\n\
+        \  \n  \n  \n      \n<div class=\"more-link\">\n  <a href=\"/tr/recent-videos\"\
+        >\n    Yeni Videolar  </a>\n</div>\n  \n  \n  \n</div>  </div>\n\n</div></div>\
+        \ <div id=\"block-block-11\" class=\"block block-block\"><div class=\"block-inner\"\
+        >\n\n\t      <h3 class=\"title\"><span>Ar\u015Fiv</span></h3>\n     \n  <div\
+        \ class=\"content\">\n\t\t<p style=\"color:#036;\"><strong><a href=\"http://eu.kurdistan-post.eu\"\
+        >Kurdistan-Post Arsiv 2010-2012</a></strong></p>\n  </div>\n\n</div></div>\
+        \ <div id=\"block-niviskar-rast-niviskar-rast\" class=\"block block-niviskar-rast\"\
+        ><div class=\"block-inner\">\n\n\t      <h3 class=\"title\"><span>Yazarlar</span></h3>\n\
+        \     \n  <div class=\"content\">\n\t\t\n\t\t\t <div style=\"border: 1px dotted\
+        \ #ccc; height: 84px; padding: 2px; background-color: #eee; margin-bottom:\
+        \ 4px;\">\n\t\t\t\t<div style=\"width: 60px; height: 80px; float: left; margin-right:\
+        \ 4px;\"><img typeof=\"foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/w60h80/public/pictures/picture-7-1350238912.jpg\"\
+        \ alt=\"Hejar\xEA \u015Eamil\" /></div>\n\t\t\t\t<a href=\"/tr/blogs/hejare-samil\"\
+        \ class=\"xurt\"><span>Hejar\xEA \u015Eamil</span></a><br />\n\t\t\t\t<a href=\"\
+        /tr/kurdistani-gomemezsiniz-0\"><span> Kurdistan&#039;\u0131 G\xF6memezsiniz!</span></a>\n\
+        \t\t\t</div>\n\t\t\t <div style=\"border: 1px dotted #ccc; height: 84px; padding:\
+        \ 2px; background-color: #eee; margin-bottom: 4px;\">\n\t\t\t\t<div style=\"\
+        width: 60px; height: 80px; float: left; margin-right: 4px;\"><img typeof=\"\
+        foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/w60h80/public/pictures/picture-8-1350238895.jpg\"\
+        \ alt=\"H\xFClya Yeti\u015Fen\" /></div>\n\t\t\t\t<a href=\"/tr/blogs/hulya-yetisen\"\
+        \ class=\"xurt\"><span>H\xFClya Yeti\u015Fen</span></a><br />\n\t\t\t\t<a\
+        \ href=\"/tr/mehmet-bayrakla-dersim-ve-kocgiri-hulya-yetisen\"><span>Mehmet\
+        \ Bayrak\u2019la Dersim ve Ko\xE7giri-H\xFClya Yeti\u015Fen</span></a>\n\t\
+        \t\t</div>\n\t\t\t <div style=\"border: 1px dotted #ccc; height: 84px; padding:\
+        \ 2px; background-color: #eee; margin-bottom: 4px;\">\n\t\t\t\t<div style=\"\
+        width: 60px; height: 80px; float: left; margin-right: 4px;\"><img typeof=\"\
+        foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/w60h80/public/pictures/picture-9-1356884696.jpg\"\
+        \ alt=\"H\xFCseyin Turhall\u0131\" /></div>\n\t\t\t\t<a href=\"/tr/blogs/huseyin-turhalli\"\
+        \ class=\"xurt\"><span>H\xFCseyin Turhall\u0131</span></a><br />\n\t\t\t\t\
+        <a href=\"/tr/kritik-surecler\"><span>Kritik S\xFCre\xE7ler</span></a>\n\t\
+        \t\t</div>\n\t\t\t <div style=\"border: 1px dotted #ccc; height: 84px; padding:\
+        \ 2px; background-color: #eee; margin-bottom: 4px;\">\n\t\t\t\t<div style=\"\
+        width: 60px; height: 80px; float: left; margin-right: 4px;\"><img typeof=\"\
+        foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/w60h80/public/pictures/picture-19-1350240737.jpg\"\
+        \ alt=\"Mehmet Sebatl\u0131\" /></div>\n\t\t\t\t<a href=\"/tr/blogs/mehmet-sebatli\"\
+        \ class=\"xurt\"><span>Mehmet Sebatl\u0131</span></a><br />\n\t\t\t\t<a href=\"\
+        /tr/veysel-ile-semo\"><span>Veysel ile \u015Eemo</span></a>\n\t\t\t</div>\n\
+        \t\t\t <div style=\"border: 1px dotted #ccc; height: 84px; padding: 2px; background-color:\
+        \ #eee; margin-bottom: 4px;\">\n\t\t\t\t<div style=\"width: 60px; height:\
+        \ 80px; float: left; margin-right: 4px;\"><img typeof=\"foaf:Image\" src=\"\
+        http://kurdistan-post.eu/sites/default/files/styles/w60h80/public/pictures/picture-20-1350240812.jpg\"\
+        \ alt=\"Ehmed Onal\" /></div>\n\t\t\t\t<a href=\"/tr/blogs/ehmed-onal\" class=\"\
+        xurt\"><span>Ehmed Onal</span></a><br />\n\t\t\t\t<a href=\"/tr/node/639\"\
+        ><span>Weqfa \u0130smail Be\u015Fik\xE7i \xE7i kir, d\xEA \xE7i bike</span></a>\n\
+        \t\t\t</div>\n\t\t\t <div style=\"border: 1px dotted #ccc; height: 84px; padding:\
+        \ 2px; background-color: #eee; margin-bottom: 4px;\">\n\t\t\t\t<div style=\"\
+        width: 60px; height: 80px; float: left; margin-right: 4px;\"><img typeof=\"\
+        foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/w60h80/public/pictures/picture-21-1357384103.jpg\"\
+        \ alt=\"Fikret Ya\u015Far\" /></div>\n\t\t\t\t<a href=\"/tr/blogs/fikret-yasar\"\
+        \ class=\"xurt\"><span>Fikret Ya\u015Far</span></a><br />\n\t\t\t\t<a href=\"\
+        /tr/iii-dunya-savasinda-kurdler\"><span>III. D\xFCnya Sava\u015F\u0131nda\
+        \ Kurdler</span></a>\n\t\t\t</div>\n\t\t\t <div style=\"border: 1px dotted\
+        \ #ccc; height: 84px; padding: 2px; background-color: #eee; margin-bottom:\
+        \ 4px;\">\n\t\t\t\t<div style=\"width: 60px; height: 80px; float: left; margin-right:\
+        \ 4px;\"><img typeof=\"foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/w60h80/public/pictures/picture-22-1350241032.jpg\"\
+        \ alt=\"Nizamettin Akkurt\" /></div>\n\t\t\t\t<a href=\"/tr/blogs/nizamettin-akkurt\"\
+        \ class=\"xurt\"><span>Nizamettin Akkurt</span></a><br />\n\t\t\t\t<a href=\"\
+        /tr/node/631\"><span>Veb\xEAj \xFB Guhd\xEAr</span></a>\n\t\t\t</div>\n\t\t\
+        \t <div style=\"border: 1px dotted #ccc; height: 84px; padding: 2px; background-color:\
+        \ #eee; margin-bottom: 4px;\">\n\t\t\t\t<div style=\"width: 60px; height:\
+        \ 80px; float: left; margin-right: 4px;\"><img typeof=\"foaf:Image\" src=\"\
+        http://kurdistan-post.eu/sites/default/files/styles/w60h80/public/pictures/picture-23-1350241280.jpg\"\
+        \ alt=\"Erdo\u011Fan Alparslan\" /></div>\n\t\t\t\t<a href=\"/tr/blogs/erdogan-alparslan\"\
+        \ class=\"xurt\"><span>Erdo\u011Fan Alparslan</span></a><br />\n\t\t\t\t<a\
+        \ href=\"/tr/sakine-cansiz-cinayeti-uzerine\"><span>Sakine Cans\u0131z Cinayeti\
+        \ \xDCzerine</span></a>\n\t\t\t</div>\n\t\t\t <div style=\"border: 1px dotted\
+        \ #ccc; height: 84px; padding: 2px; background-color: #eee; margin-bottom:\
+        \ 4px;\">\n\t\t\t\t<div style=\"width: 60px; height: 80px; float: left; margin-right:\
+        \ 4px;\"><img typeof=\"foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/w60h80/public/pictures/picture-24-1350241353.jpg\"\
+        \ alt=\"Nejdet Buldan\" /></div>\n\t\t\t\t<a href=\"/tr/blogs/nejdet-buldan\"\
+        \ class=\"xurt\"><span>Nejdet Buldan</span></a><br />\n\t\t\t\t<a href=\"\
+        /tr/soykirim-nedir\"><span>Soyk\u0131r\u0131m Nedir</span></a>\n\t\t\t</div>\n\
+        \t\t\t <div style=\"border: 1px dotted #ccc; height: 84px; padding: 2px; background-color:\
+        \ #eee; margin-bottom: 4px;\">\n\t\t\t\t<div style=\"width: 60px; height:\
+        \ 80px; float: left; margin-right: 4px;\"><img typeof=\"foaf:Image\" src=\"\
+        http://kurdistan-post.eu/sites/default/files/styles/w60h80/public/pictures/picture-25-1350241409.jpg\"\
+        \ alt=\"Dr. \u0130smet Turanl\u0131\" /></div>\n\t\t\t\t<a href=\"/tr/blogs/dr-ismet-turanli\"\
+        \ class=\"xurt\"><span>Dr. \u0130smet Turanl\u0131</span></a><br />\n\t\t\t\
+        \t<a href=\"/tr/kurdlerle-turkler-birlikte-yasayabilir-mi\"><span>K\xFCrdlerle\
+        \ T\xFCrkler Birlikte Ya\u015Fayabilir mi</span></a>\n\t\t\t</div>\n\t\t\t\
+        \ <div style=\"border: 1px dotted #ccc; height: 84px; padding: 2px; background-color:\
+        \ #eee; margin-bottom: 4px;\">\n\t\t\t\t<div style=\"width: 60px; height:\
+        \ 80px; float: left; margin-right: 4px;\"><img typeof=\"foaf:Image\" src=\"\
+        http://kurdistan-post.eu/sites/default/files/styles/w60h80/public/pictures/picture-34-1356046980.jpg\"\
+        \ alt=\"Dursun Ali K\xFC\xE7\xFCk\" /></div>\n\t\t\t\t<a href=\"/tr/blogs/dursun-ali-kucuk\"\
+        \ class=\"xurt\"><span>Dursun Ali K\xFC\xE7\xFCk</span></a><br />\n\t\t\t\t\
+        <a href=\"/tr/node/703\"><span>Bir Sakine Vard\u0131; Efsane\u2026 </span></a>\n\
+        \t\t\t</div>\n\t\t\t <div style=\"border: 1px dotted #ccc; height: 84px; padding:\
+        \ 2px; background-color: #eee; margin-bottom: 4px;\">\n\t\t\t\t<div style=\"\
+        width: 60px; height: 80px; float: left; margin-right: 4px;\"><img typeof=\"\
+        foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/w60h80/public/pictures/picture-35-1356267750.jpg\"\
+        \ alt=\"Yura Nebiyev\" /></div>\n\t\t\t\t<a href=\"/tr/blogs/yura-nebiyev\"\
+        \ class=\"xurt\"><span>Yura Nebiyev</span></a><br />\n\t\t\t\t<a href=\"/tr/node/680\"\
+        ><span>Kurdistana Mezin ser riya avakirina \xEAl\xEEta hemkurd\xEEy\xEA ye\
+        \ </span></a>\n\t\t\t</div>  </div>\n\n</div></div> <div id=\"block-views-roportaj-view-block\"\
+        \ class=\"block block-views\"><div class=\"block-inner\">\n\n\t      <h3 class=\"\
+        title\"><span>R\xF6portaj</span></h3>\n     \n  <div class=\"content\">\n\t\
+        \t<div class=\"view view-roportaj-view view-id-roportaj_view view-display-id-block\
+        \ view-dom-id-8826cd4e369542f0bef18013ace0a8b7\">\n        \n  \n  \n    \
+        \  <div class=\"view-content\">\n        <div class=\"views-row views-row-1\
+        \ views-row-odd views-row-first views-row-last\">\n      \n  <div class=\"\
+        views-field views-field-title\">        <a href=\"/tr/roportajlar/mehmet-bayrakla-dersim-ve-kocgiri-hulya-yetisen\"\
+        ><span>Mehmet Bayrak\u2019la Dersim ve Ko\xE7giri-H\xFClya Yeti\u015Fen</span></a>\
+        \  </div>  \n  <div class=\"views-field views-field-field-image\">       \
+        \ <div class=\"field-content\"><a href=\"/tr/roportajlar/mehmet-bayrakla-dersim-ve-kocgiri-hulya-yetisen\"\
+        ><span><img typeof=\"foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/medium/public/field/image/mehmet_bayrak.jpg\"\
+        \ width=\"220\" height=\"152\" alt=\"\" /></span></a></div>  </div>  \n  <div\
+        \ class=\"views-field views-field-body\">        <div class=\"field-content\"\
+        ><p><span style=\"background-color: rgb(249, 249, 249);\">Bu co\u011Frafyada\
+        \ analar her gece \xF6l\xFC o\u011Fullar\u0131n\u0131n \xFCst\xFCn\xFC \xF6\
+        rterken,\_</span><em style=\"background-color: rgb(249, 249, 249);\">yaslar\u0131\
+        n\u0131 kay\u0131p bir...</div>  </div>  </div>\n    </div>\n  \n  \n  \n\
+        \  \n  \n  \n</div>  </div>\n\n</div></div> <div id=\"block-block-6\" class=\"\
+        block block-block\"><div class=\"block-inner\">\n\n\t     \n  <div class=\"\
+        content\">\n\t\t<iframe src=\"//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fkurdistanposteu&amp;width=250&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=false&amp;header=true\"\
+        \ scrolling=\"no\" frameborder=\"0\" style=\"border:none; overflow:hidden;\
+        \ width:250px; height:290px;\" allowtransparency=\"true\"></iframe>  </div>\n\
+        \n</div></div> <div id=\"block-poll-recent\" class=\"block block-poll\"><div\
+        \ class=\"block-inner\">\n\n\t      <h3 class=\"title\"><span>Anket</span></h3>\n\
+        \     \n  <div class=\"content\">\n\t\t<form action=\"/\" method=\"post\"\
+        \ id=\"poll-view-voting\" accept-charset=\"UTF-8\"><div><div class=\"poll\"\
+        >\n  <div class=\"vote-form\">\n    <div class=\"choices\">\n            \
+        \  <div class=\"title\">Yeni sitemizi nasil buluyorsunuz?</div>\n        \
+        \    <div class=\"form-item form-type-radios form-item-choice\">\n  <label\
+        \ class=\"element-invisible\" for=\"edit-choice\">Se\xE7enekler </label>\n\
+        \ <div id=\"edit-choice\" class=\"form-radios\"><div class=\"form-item form-type-radio\
+        \ form-item-choice\">\n <input type=\"radio\" id=\"edit-choice-5\" name=\"\
+        choice\" value=\"5\" class=\"form-radio\" />  <label class=\"option\" for=\"\
+        edit-choice-5\">Harika </label>\n\n</div>\n<div class=\"form-item form-type-radio\
+        \ form-item-choice\">\n <input type=\"radio\" id=\"edit-choice-6\" name=\"\
+        choice\" value=\"6\" class=\"form-radio\" />  <label class=\"option\" for=\"\
+        edit-choice-6\">Cok iyi </label>\n\n</div>\n<div class=\"form-item form-type-radio\
+        \ form-item-choice\">\n <input type=\"radio\" id=\"edit-choice-7\" name=\"\
+        choice\" value=\"7\" class=\"form-radio\" />  <label class=\"option\" for=\"\
+        edit-choice-7\">Normal </label>\n\n</div>\n<div class=\"form-item form-type-radio\
+        \ form-item-choice\">\n <input type=\"radio\" id=\"edit-choice-8\" name=\"\
+        choice\" value=\"8\" class=\"form-radio\" />  <label class=\"option\" for=\"\
+        edit-choice-8\">Eski site daha iyiydi. </label>\n\n</div>\n</div>\n</div>\n\
+        \    </div>\n    <input type=\"submit\" id=\"edit-vote\" name=\"op\" value=\"\
+        Oy ver\" class=\"form-submit\" />  </div>\n    <input type=\"hidden\" name=\"\
+        form_build_id\" value=\"form-3LVtHnlqfpdAf88PMMxBbWFARVFXzUfi64r2hCtHR08\"\
+        \ />\n<input type=\"hidden\" name=\"form_id\" value=\"poll_view_voting\" />\n\
+        </div>\n</div></form><ul class=\"links\"><li class=\"0 first\"><a href=\"\
+        /tr/poll\" title=\"Sitedeki anketlerin listesini g\xF6r\xFCnt\xFCle.\"><span>Eski\
+        \ anketler</span></a></li>\n<li class=\"1 last\"><a href=\"/tr/node/323/results\"\
+        \ title=\"G\xFCncel anket sonu\xE7lar\u0131n\u0131 g\xF6r\xFCnt\xFCle.\"><span>Sonu\xE7\
+        lar</span></a></li>\n</ul>  </div>\n\n</div></div> <div id=\"block-views-pirtuk-view-block\"\
+        \ class=\"block block-views\"><div class=\"block-inner\">\n\n\t      <h3 class=\"\
+        title\"><span>Kitaplar</span></h3>\n     \n  <div class=\"content\">\n\t\t\
+        <div class=\"view view-pirtuk-view view-id-pirtuk_view view-display-id-block\
+        \ view-dom-id-4579e4a35f280a92d90feff9cd280cc4\">\n        \n  \n  \n    \
+        \  <div class=\"view-content\">\n        <div class=\"views-row views-row-1\
+        \ views-row-odd views-row-first views-row-last\">\n      \n  <div class=\"\
+        views-field views-field-title\">        <a href=\"/tr/kitaplar/drqasimlo-kurtler-ve-kurdistan\"\
+        ><span>Dr.Qasimlo. K\xFCrtler ve K\xFCrdistan</span></a>  </div>  \n  <div\
+        \ class=\"views-field views-field-field-image\">        <div class=\"field-content\"\
+        ><a href=\"/tr/kitaplar/drqasimlo-kurtler-ve-kurdistan\"><span><img typeof=\"\
+        foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/medium/public/field/image/qasimlo.jpg\"\
+        \ width=\"220\" height=\"220\" alt=\"\" /></span></a></div>  </div>  \n  <div\
+        \ class=\"views-field views-field-body\">        <div class=\"field-content\"\
+        ><p><span style=\"font-size: 11.818181991577148px; line-height: 1.5em;\">Dr.Qas\u0131\
+        mlo'nun 1960 tarihli kitab\u0131n\u0131 g\xFCn\xFCm\xFCz okuyucusu i\xE7in\
+        \ \xF6nemli bir kaynak haline getiren \xF6\u011Felerden biri, K\xFCrd...</div>\
+        \  </div>  </div>\n    </div>\n  \n  \n  \n  \n  \n  \n</div>  </div>\n\n\
+        </div></div>   </div>\n                \n        </aside>\n             \n\
+        \      </div>            \n  \n    </section>\n  </div></div>\n  \n      <div\
+        \ class=\"preface-wrapper clearfix\"><div class=\"preface-wrapper-inner\"\
+        ><div class=\"preface-wrapper-inner-inner\">  \n      <section id=\"preface\"\
+        >\n        <div class=\"grid_4\">  <div class=\"region region-preface-1\"\
+        >\n    <div id=\"block-views-top-news-stories-block\" class=\"block block-views\"\
+        ><div class=\"block-inner\">\n\n\t      <h3 class=\"title\"><span>G\xFCncel</span></h3>\n\
+        \     \n  <div class=\"content\">\n\t\t<div class=\"view view-top-news-stories\
+        \ view-id-top_news_stories view-display-id-block view-dom-id-d7a08323fe28d803b4a70a96acc8d8d9\"\
+        >\n        \n  \n  \n      <div class=\"view-content\">\n        <div class=\"\
+        views-row views-row-1 views-row-odd views-row-first views-row-last\">\n  \
+        \    \n  <div class=\"views-field views-field-field-image\">        <div class=\"\
+        field-content\"><a href=\"/tr/guncel/onbinler-pariste-onlar-icin-yurudu\"\
+        ><span><img typeof=\"foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/thumbnail/public/field/image/paris_miting_esas.jpg\"\
+        \ width=\"100\" height=\"71\" alt=\"\" /></span></a></div>  </div>  \n  <div\
+        \ class=\"views-field views-field-title\">        <span class=\"field-content\"\
+        ><a href=\"/tr/guncel/onbinler-pariste-onlar-icin-yurudu\"><span>Onbinler\
+        \ Paris&#039;te Onlar \u0130\xE7in Y\xFCr\xFCd\xFC</span></a></span>  </div>\
+        \  \n  <div class=\"views-field views-field-body\">        <div class=\"field-content\"\
+        ><p><span style=\"color: rgb(51, 51, 51); font-family: arial, verdana, tahoma;\
+        \ font-size: 13.63636302947998px; line-height: 20px; background-color: rgb(255,\
+        \ 255, 255);\">\xDC\xE7 K\xFCrd kad\u0131n siyaset\xE7inin katled</span></p></div>\
+        \  </div>  </div>\n    </div>\n  \n  \n      <div class=\"attachment attachment-after\"\
+        >\n      <div class=\"view view-top-news-stories view-id-top_news_stories\
+        \ view-display-id-attachment_1\">\n        \n  \n  \n      <div class=\"view-content\"\
+        >\n        <div class=\"views-row views-row-1 views-row-odd views-row-first\"\
+        >\n      \n  <div class=\"views-field views-field-title\">        <span class=\"\
+        field-content\"><a href=\"/tr/guncel/pariste-katliam-protestosu\"><span>Paris&#039;te\
+        \ Katliam Protestosu</span></a></span>  </div>  </div>\n  <div class=\"views-row\
+        \ views-row-2 views-row-even\">\n      \n  <div class=\"views-field views-field-title\"\
+        >        <span class=\"field-content\"><a href=\"/tr/guncel/dunyadan-ofke-yagdi\"\
+        ><span>D\xFCnyadan \xD6fke Ya\u011Fd\u0131...</span></a></span>  </div>  </div>\n\
+        \  <div class=\"views-row views-row-3 views-row-odd\">\n      \n  <div class=\"\
+        views-field views-field-title\">        <span class=\"field-content\"><a href=\"\
+        /tr/guncel/sakine-cansizi-kim-veya-kimler-nicin-katletti-gunay-aslan\"><span>Sakine\
+        \ Cans\u0131z&#039;\u0131 Kim veya Kimler N\u0130\xE7in Katletti- G\xFCnay\
+        \ Aslan</span></a></span>  </div>  </div>\n  <div class=\"views-row views-row-4\
+        \ views-row-even\">\n      \n  <div class=\"views-field views-field-title\"\
+        >        <span class=\"field-content\"><a href=\"/tr/guncel/kurdistan-post-yarin-pariste\"\
+        ><span>Kurdistan-Post Yar\u0131n Paris&#039;te</span></a></span>  </div> \
+        \ </div>\n  <div class=\"views-row views-row-5 views-row-odd views-row-last\"\
+        >\n      \n  <div class=\"views-field views-field-title\">        <span class=\"\
+        field-content\"><a href=\"/tr/guncel/birinci-olagan-supheli-turkiye-ikinci-fransa\"\
+        ><span>Birinci ola\u011Fan \u015F\xFCpheli T\xFCrkiye, ikinci Fransa... </span></a></span>\
+        \  </div>  </div>\n    </div>\n  \n  \n  \n  \n  \n  \n</div>    </div>\n\
+        \  \n  \n  \n  \n</div>  </div>\n\n</div></div> <div id=\"block-views-life-top-stories-block\"\
+        \ class=\"block block-views\"><div class=\"block-inner\">\n\n\t      <h3 class=\"\
+        title\"><span>Toplum</span></h3>\n     \n  <div class=\"content\">\n\t\t<div\
+        \ class=\"view view-life-top-stories view-id-life_top_stories view-display-id-block\
+        \ view-dom-id-b348920a825c0302e1ba81c1ba61df37\">\n        \n  \n  \n    \
+        \  <div class=\"view-content\">\n        <div class=\"views-row views-row-1\
+        \ views-row-odd views-row-first views-row-last\">\n      \n  <div class=\"\
+        views-field views-field-field-image\">        <div class=\"field-content\"\
+        ><a href=\"/tr/toplum/katliama-donuk-ilk-tepkiler\"><span><img typeof=\"foaf:Image\"\
+        \ src=\"http://kurdistan-post.eu/sites/default/files/styles/thumbnail/public/field/image/katliamin_yapildigi_yer.jpg\"\
+        \ width=\"100\" height=\"77\" alt=\"\" /></span></a></div>  </div>  \n  <div\
+        \ class=\"views-field views-field-title\">        <span class=\"field-content\"\
+        ><a href=\"/tr/toplum/katliama-donuk-ilk-tepkiler\"><span>Katliama d\xF6n\xFC\
+        k ilk tepkiler</span></a></span>  </div>  \n  <div class=\"views-field views-field-body\"\
+        >        <div class=\"field-content\"><p>\_</p>\n<p><em><strong>ANF F\u0131\
+        rat Haber Ajans\u0131 bug\xFCnk\xFC yay\u0131n\u0131nda Paris\u2019te K\xFC\
+        rd siyaset\xE7ilerin katledilmesi ile ilgili geli\u015Fmelere ve tepkilere\
+        \ geni\u015F yer verdi.</strong></em></p></div>  </div>  </div>\n    </div>\n\
+        \  \n  \n      <div class=\"attachment attachment-after\">\n      <div class=\"\
+        view view-life-top-stories view-id-life_top_stories view-display-id-attachment_1\"\
+        >\n        \n  \n  \n      <div class=\"view-content\">\n        <div class=\"\
+        views-row views-row-1 views-row-odd views-row-first\">\n      \n  <div class=\"\
+        views-field views-field-title\">        <span class=\"field-content\"><a href=\"\
+        /tr/toplum/mlkpli-tutsaklardan-rojavaya-destek-kampanyasi\"><span>MLKP&#039;li\
+        \ tutsaklardan Rojava\u2019ya destek kampanyas\u0131</span></a></span>  </div>\
+        \  </div>\n  <div class=\"views-row views-row-2 views-row-even\">\n      \n\
+        \  <div class=\"views-field views-field-title\">        <span class=\"field-content\"\
+        ><a href=\"/tr/toplum/katliam-fetvacisindan-sulh-mesajlari\"><span>Katliam\
+        \ fetvac\u0131s\u0131ndan \u201Csulh\u201D mesajlar\u0131</span></a></span>\
+        \  </div>  </div>\n  <div class=\"views-row views-row-3 views-row-odd\">\n\
+        \      \n  <div class=\"views-field views-field-title\">        <span class=\"\
+        field-content\"><a href=\"/tr/toplum/sivil-olum-mehmet-tarhan\"><span>Sivil\
+        \ \xF6l\xFCm - Mehmet Tarhan</span></a></span>  </div>  </div>\n  <div class=\"\
+        views-row views-row-4 views-row-even\">\n      \n  <div class=\"views-field\
+        \ views-field-title\">        <span class=\"field-content\"><a href=\"/tr/toplum/ocalan-ve-cozum-bermal-melik\"\
+        ><span>\xD6calan ve \xC7\xF6z\xFCm -  Bermal Melik</span></a></span>  </div>\
+        \  </div>\n  <div class=\"views-row views-row-5 views-row-odd views-row-last\"\
+        >\n      \n  <div class=\"views-field views-field-title\">        <span class=\"\
+        field-content\"><a href=\"/tr/toplum/her-sarikliyi-hoca-sanmayin-ridvan-sahin\"\
+        ><span>Her sar\u0131kl\u0131y\u0131 hoca sanmay\u0131n!  - R\u0131dvan \u015E\
+        ahin</span></a></span>  </div>  </div>\n    </div>\n  \n  \n  \n  \n  \n \
+        \ \n</div>    </div>\n  \n  \n  \n  \n</div>  </div>\n\n</div></div>   </div>\n\
+        </div>\n        <div class=\"grid_4\">  <div class=\"region region-preface-2\"\
+        >\n    <div id=\"block-views-business-top-stories-block\" class=\"block block-views\"\
+        ><div class=\"block-inner\">\n\n\t      <h3 class=\"title\"><span>Siyaset</span></h3>\n\
+        \     \n  <div class=\"content\">\n\t\t<div class=\"view view-business-top-stories\
+        \ view-id-business_top_stories view-display-id-block view-dom-id-1e14922b8ae162bc73751bcb8e79698e\"\
+        >\n        \n  \n  \n      <div class=\"view-content\">\n        <div class=\"\
+        views-row views-row-1 views-row-odd views-row-first views-row-last\">\n  \
+        \    \n  <div class=\"views-field views-field-field-image\">        <div class=\"\
+        field-content\"><a href=\"/tr/siyaset/sakine-cansiz-cinayeti-uzerine-erdogan-alparslan\"\
+        ><span><img typeof=\"foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/thumbnail/public/field/image/erdogan_alparslan.jpg\"\
+        \ width=\"100\" height=\"64\" alt=\"\" /></span></a></div>  </div>  \n  <div\
+        \ class=\"views-field views-field-title\">        <span class=\"field-content\"\
+        ><a href=\"/tr/siyaset/sakine-cansiz-cinayeti-uzerine-erdogan-alparslan\"\
+        ><span>Sakine Cans\u0131z Cinayeti \xDCzerine \u2013 Erdo\u011Fan Alparslan</span></a></span>\
+        \  </div>  \n  <div class=\"views-field views-field-body\">        <div class=\"\
+        field-content\"><p>\_</p></div>  </div>  </div>\n    </div>\n  \n  \n    \
+        \  <div class=\"attachment attachment-after\">\n      <div class=\"view view-business-top-stories\
+        \ view-id-business_top_stories view-display-id-attachment_1\">\n        \n\
+        \  \n  \n      <div class=\"view-content\">\n        <div class=\"views-row\
+        \ views-row-1 views-row-odd views-row-first\">\n      \n  <div class=\"views-field\
+        \ views-field-title\">        <span class=\"field-content\"><a href=\"/tr/siyaset/akintiya-karsi-kurek-cekiliyor-yusuf-ali\"\
+        ><span>Ak\u0131nt\u0131ya Kar\u015F\u0131 K\xFCrek \xC7ekiliyor- Yusuf Ali</span></a></span>\
+        \  </div>  </div>\n  <div class=\"views-row views-row-2 views-row-even\">\n\
+        \      \n  <div class=\"views-field views-field-title\">        <span class=\"\
+        field-content\"><a href=\"/tr/siyaset/kisanaktan-huseyin-celike-haddini-bil\"\
+        ><span>K\u0131\u015Fanak\u2019tan H\xFCseyin \xC7elik\u2019e: Haddini Bil!\
+        \  </span></a></span>  </div>  </div>\n  <div class=\"views-row views-row-3\
+        \ views-row-odd\">\n      \n  <div class=\"views-field views-field-title\"\
+        >        <span class=\"field-content\"><a href=\"/tr/siyaset/akp-pkkyi-mi-cozmek-istiyor-kurt-sorununu-mu-firat-baran\"\
+        ><span>AKP, PKK\u2019yi mi \xE7\xF6zmek istiyor K\xFCrt sorununu mu? - F\u0131\
+        rat Baran</span></a></span>  </div>  </div>\n  <div class=\"views-row views-row-4\
+        \ views-row-even\">\n      \n  <div class=\"views-field views-field-title\"\
+        >        <span class=\"field-content\"><a href=\"/tr/siyaset/imrali-gorusmeleri-geri-donulemez-surec-nizamettin-tas\"\
+        ><span>\u0130mral\u0131 G\xF6r\xFC\u015Fmeleri; Geri D\xF6n\xFClemez S\xFC\
+        re\xE7 - Nizamettin Ta\u015F</span></a></span>  </div>  </div>\n  <div class=\"\
+        views-row views-row-5 views-row-odd views-row-last\">\n      \n  <div class=\"\
+        views-field views-field-title\">        <span class=\"field-content\"><a href=\"\
+        /tr/siyaset/suni-gundeme-kurban-edildik-hejare-samil\"><span>Suni G\xFCndeme\
+        \ Kurban Edildik \u2013 Hejar\xEA \u015Eamil</span></a></span>  </div>  </div>\n\
+        \    </div>\n  \n  \n  \n  \n  \n  \n</div>    </div>\n  \n  \n  \n  \n</div>\
+        \  </div>\n\n</div></div> <div id=\"block-views-arts-top-stories-block\" class=\"\
+        block block-views\"><div class=\"block-inner\">\n\n\t      <h3 class=\"title\"\
+        ><span>Analiz</span></h3>\n     \n  <div class=\"content\">\n\t\t<div class=\"\
+        view view-arts-top-stories view-id-arts_top_stories view-display-id-block\
+        \ view-dom-id-4b1e664442c9f044958ecbf7bdef46bb\">\n        \n  \n  \n    \
+        \  <div class=\"view-content\">\n        <div class=\"views-row views-row-1\
+        \ views-row-odd views-row-first views-row-last\">\n      \n  <div class=\"\
+        views-field views-field-field-image\">        <div class=\"field-content\"\
+        ><a href=\"/tr/analiz/ocalanin-rolu-ve-aciklik-ilkesi-hejare-samil\"><span><img\
+        \ typeof=\"foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/thumbnail/public/field/image/hejare_samil_ocalan_in_rolu.jpg\"\
+        \ width=\"100\" height=\"75\" alt=\"\" /></span></a></div>  </div>  \n  <div\
+        \ class=\"views-field views-field-title\">        <span class=\"field-content\"\
+        ><a href=\"/tr/analiz/ocalanin-rolu-ve-aciklik-ilkesi-hejare-samil\"><span>\xD6\
+        calan&#039;\u0131n Rol\xFC ve A\xE7\u0131kl\u0131k \u0130lkesi - Hejar\xEA\
+        \ \u015Eamil</span></a></span>  </div>  \n  <div class=\"views-field views-field-body\"\
+        >        <div class=\"field-content\"><blockquote><p><em><strong><span style=\"\
+        font-size: 15.454545021057129px; background-color: rgb(249, 249, 249);\">M\u0130\
+        T\u2019le \xD6calan aras\u0131nda yap\u0131lan g\xF6r\xFC\u015Fmelerde ortaya\
+        \ \xE7\u0131kt\u0131\u011F\u0131 iddia edilen \u2018mutabakat belge</span></strong></em></p></blockquote></div>\
+        \  </div>  </div>\n    </div>\n  \n  \n      <div class=\"attachment attachment-after\"\
+        >\n      <div class=\"view view-arts-top-stories view-id-arts_top_stories\
+        \ view-display-id-attachment_1\">\n        \n  \n  \n      <div class=\"view-content\"\
+        >\n        <div class=\"views-row views-row-1 views-row-odd views-row-first\"\
+        >\n      \n  <div class=\"views-field views-field-title\">        <span class=\"\
+        field-content\"><a href=\"/tr/analiz/devletin-2013-yili-kurd-politikasi-dr-mustafa-pekoz\"\
+        ><span>Devletin 2013 Y\u0131l\u0131 K\xFCrd Politikas\u0131- Dr. Mustafa Pek\xF6\
+        z</span></a></span>  </div>  </div>\n  <div class=\"views-row views-row-2\
+        \ views-row-even\">\n      \n  <div class=\"views-field views-field-title\"\
+        >        <span class=\"field-content\"><a href=\"/tr/analiz/universite-bilim-iliskisi-ismail-besikci\"\
+        ><span>\xDCniversite \u2013Bilim \u0130li\u015Fkisi  \u0130smail Be\u015F\
+        ik\xE7i</span></a></span>  </div>  </div>\n  <div class=\"views-row views-row-3\
+        \ views-row-odd\">\n      \n  <div class=\"views-field views-field-title\"\
+        >        <span class=\"field-content\"><a href=\"/tr/analiz/peter-galbraith10-15-yil-icinde-bagimsiz-kurdistan-kurulur\"\
+        ><span>Peter Galbraith10-15 Y\u0131l \u0130\xE7inde Ba\u011F\u0131ms\u0131\
+        z K\xFCrdistan Kurulur</span></a></span>  </div>  </div>\n  <div class=\"\
+        views-row views-row-4 views-row-even\">\n      \n  <div class=\"views-field\
+        \ views-field-title\">        <span class=\"field-content\"><a href=\"/tr/analiz/ciddi-bir-tahrifat-ornegi-ve-zazacilik-faaliyetleri-rosan-lezgin\"\
+        ><span>Ciddi Bir Tahrifat \xD6rne\u011Fi ve Zazac\u0131l\u0131k Faaliyetleri\
+        \ - Ro\u015Fan Lezg\xEEn</span></a></span>  </div>  </div>\n  <div class=\"\
+        views-row views-row-5 views-row-odd views-row-last\">\n      \n  <div class=\"\
+        views-field views-field-title\">        <span class=\"field-content\"><a href=\"\
+        /tr/analiz/kurdistan-sorunu-arzu-yilmaz\"><span>K\xFCrdistan Sorunu - Arzu\
+        \ Y\u0131lmaz </span></a></span>  </div>  </div>\n    </div>\n  \n  \n  \n\
+        \  \n  \n  \n</div>    </div>\n  \n  \n  \n  \n</div>  </div>\n\n</div></div>\
+        \   </div>\n</div>\n        <div class=\"grid_4\">  <div class=\"region region-preface-3\"\
+        >\n    <div id=\"block-views-technology-top-stories-block\" class=\"block\
+        \ block-views\"><div class=\"block-inner\">\n\n\t      <h3 class=\"title\"\
+        ><span>Kad\u0131n</span></h3>\n     \n  <div class=\"content\">\n\t\t<div\
+        \ class=\"view view-technology-top-stories view-id-technology_top_stories\
+        \ view-display-id-block view-dom-id-cfc4db7e4593c64d28a17764ee1efb72\">\n\
+        \        \n  \n  \n      <div class=\"view-content\">\n        <div class=\"\
+        views-row views-row-1 views-row-odd views-row-first views-row-last\">\n  \
+        \    \n  <div class=\"views-field views-field-field-image\">        <div class=\"\
+        field-content\"><a href=\"/tr/kadin/bir-sakine-vardi-efsane-dursun-ali-kucuk\"\
+        ><span><img typeof=\"foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/thumbnail/public/field/image/dursun_ali_kucuk_sakine_vardi.jpg\"\
+        \ width=\"100\" height=\"68\" alt=\"\" /></span></a></div>  </div>  \n  <div\
+        \ class=\"views-field views-field-title\">        <span class=\"field-content\"\
+        ><a href=\"/tr/kadin/bir-sakine-vardi-efsane-dursun-ali-kucuk\"><span>Bir\
+        \ Sakine Vard\u0131; Efsane\u2026 - Dursun Ali K\xFC\xE7\xFCk</span></a></span>\
+        \  </div>  \n  <div class=\"views-field views-field-body\">        <div class=\"\
+        field-content\"><p>\_</p></div>  </div>  </div>\n    </div>\n  \n  \n    \
+        \  <div class=\"attachment attachment-after\">\n      <div class=\"view view-technology-top-stories\
+        \ view-id-technology_top_stories view-display-id-attachment_1\">\n       \
+        \ \n  \n  \n      <div class=\"view-content\">\n        <div class=\"views-row\
+        \ views-row-1 views-row-odd views-row-first\">\n      \n  <div class=\"views-field\
+        \ views-field-title\">        <span class=\"field-content\"><a href=\"/tr/kadin/haberiniz-var-mi-uc-kadin-daha-olduruldu-nebahat-dertli\"\
+        ><span>Haberiniz Var m\u0131 \xDC\xE7 kad\u0131n daha \xF6ld\xFCr\xFCld\xFC\
+        ? - Nebahat Dertli</span></a></span>  </div>  </div>\n  <div class=\"views-row\
+        \ views-row-2 views-row-even\">\n      \n  <div class=\"views-field views-field-title\"\
+        >        <span class=\"field-content\"><a href=\"/tr/kadin/hindistanda-binler-tecavuze-karsi-sokaga-indi\"\
+        ><span>Hindistan\u2019da on binler tecav\xFCze kar\u015F\u0131 soka\u011F\
+        a indi</span></a></span>  </div>  </div>\n  <div class=\"views-row views-row-3\
+        \ views-row-odd\">\n      \n  <div class=\"views-field views-field-title\"\
+        >        <span class=\"field-content\"><a href=\"/tr/kadin/dansi-ozgurlestiren-kadin-isadora-duncan-gulnus-ergul\"\
+        ><span>Dans\u0131 \xD6zg\xFCrle\u015Ftiren Kad\u0131n: Isadora Duncan - G\xFC\
+        lnu\u015F Erg\xFCl</span></a></span>  </div>  </div>\n  <div class=\"views-row\
+        \ views-row-4 views-row-even\">\n      \n  <div class=\"views-field views-field-title\"\
+        >        <span class=\"field-content\"><a href=\"/tr/kadin/feminkurd\"><span>Feminkurd</span></a></span>\
+        \  </div>  </div>\n  <div class=\"views-row views-row-5 views-row-odd views-row-last\"\
+        >\n      \n  <div class=\"views-field views-field-title\">        <span class=\"\
+        field-content\"><a href=\"/tr/kadin/dunun-mazlumu-bu-gunun-zalimi-sevgi-celik-moray\"\
+        ><span>D\xFCn\xFCn Mazlumu Bu G\xFCn\xFCn Zalimi - Sevgi \xC7elik Moray  \
+        \ </span></a></span>  </div>  </div>\n    </div>\n  \n  \n  \n  \n  \n  \n\
+        </div>    </div>\n  \n  \n  \n  \n</div>  </div>\n\n</div></div> <div id=\"\
+        block-views-opinion-top-stories-block\" class=\"block block-views\"><div class=\"\
+        block-inner\">\n\n\t      <h3 class=\"title\"><span>Medya</span></h3>\n  \
+        \   \n  <div class=\"content\">\n\t\t<div class=\"view view-opinion-top-stories\
+        \ view-id-opinion_top_stories view-display-id-block view-dom-id-77f216359862b8e7e1a57bd34471c84b\"\
+        >\n        \n  \n  \n      <div class=\"view-content\">\n        <div class=\"\
+        views-row views-row-1 views-row-odd views-row-first views-row-last\">\n  \
+        \    \n  <div class=\"views-field views-field-field-image\">        <div class=\"\
+        field-content\"><a href=\"/tr/medya/yeniden-araf-prf-mithat-sancar\"><span><img\
+        \ typeof=\"foaf:Image\" src=\"http://kurdistan-post.eu/sites/default/files/styles/thumbnail/public/field/image/araf.png\"\
+        \ width=\"100\" height=\"68\" alt=\"\" /></span></a></div>  </div>  \n  <div\
+        \ class=\"views-field views-field-title\">        <span class=\"field-content\"\
+        ><a href=\"/tr/medya/yeniden-araf-prf-mithat-sancar\"><span>Yeniden Araf-\
+        \ Prf. Mithat Sancar</span></a></span>  </div>  \n  <div class=\"views-field\
+        \ views-field-body\">        <div class=\"field-content\"><p>K\xFCrt sorununda\
+        \ uzun zamand\u0131r Cehennem \u015Fartlar\u0131 ile Cennet ihtimali aras\u0131\
+        nda sal\u0131n\u0131yoruz. Cehennem\u2019den \xE7\u0131k\u0131p Araf\u2019\
+        a geldi\u011Fimiz d\xF6nemler oldu.</p></div>  </div>  </div>\n    </div>\n\
+        \  \n  \n      <div class=\"attachment attachment-after\">\n      <div class=\"\
+        view view-opinion-top-stories view-id-opinion_top_stories view-display-id-attachment_1\"\
+        >\n        \n  \n  \n      <div class=\"view-content\">\n        <div class=\"\
+        views-row views-row-1 views-row-odd views-row-first\">\n      \n  <div class=\"\
+        views-field views-field-title\">        <span class=\"field-content\"><a href=\"\
+        /tr/medya/kurdistan-posttan-okuyucuyorumcu-katilimcilara\"><span>Kurdistan-Post&#039;tan\
+        \ Okuyucu/Yorumcu Kat\u0131l\u0131mc\u0131lara</span></a></span>  </div> \
+        \ </div>\n  <div class=\"views-row views-row-2 views-row-even\">\n      \n\
+        \  <div class=\"views-field views-field-title\">        <span class=\"field-content\"\
+        ><a href=\"/tr/medya/kurtla-tilkinin-diyalogu-ferda-cetin\"><span>Kurtla tilkinin\
+        \ diyalo\u011Fu - Ferda \xC7etin</span></a></span>  </div>  </div>\n  <div\
+        \ class=\"views-row views-row-3 views-row-odd\">\n      \n  <div class=\"\
+        views-field views-field-title\">        <span class=\"field-content\"><a href=\"\
+        /tr/medya/mitin-kurdsuz-imrali-mutabakatini-eyup-can-yazdi\"><span>M\u0130\
+        T\u2019in K\xFCrds\xFCz \u0130mral\u0131 Mutabakat\u0131n\u0131 Ey\xFCp Can\
+        \ Yazd\u0131  </span></a></span>  </div>  </div>\n  <div class=\"views-row\
+        \ views-row-4 views-row-even\">\n      \n  <div class=\"views-field views-field-title\"\
+        >        <span class=\"field-content\"><a href=\"/tr/medya/kurd-kose-yazarlarindan-tepkiler\"\
+        ><span>K\xFCrd k\xF6\u015Fe yazarlar\u0131ndan tepkiler </span></a></span>\
+        \  </div>  </div>\n  <div class=\"views-row views-row-5 views-row-odd views-row-last\"\
+        >\n      \n  <div class=\"views-field views-field-title\">        <span class=\"\
+        field-content\"><a href=\"/tr/medya/racon-kesmek-degil-yasamin-gerekleri-cengiz-candar\"\
+        ><span>Racon Kesmek De\u011Fil, Ya\u015Fam\u0131n Gerekleri- Cengiz \xC7andar</span></a></span>\
+        \  </div>  </div>\n    </div>\n  \n  \n  \n  \n  \n  \n</div>    </div>\n\
+        \  \n  \n  \n  \n</div>  </div>\n\n</div></div>   </div>\n</div>\n       \
+        \ <div class=\"grid_0\"></div>\n      </section>\n    </div></div></div> \
+        \  \n            \n  \n     \n    \n<!-- All Hail the Footer -->\n  <div class=\"\
+        footer-wrapper clearfix\"><div class=\"footer-wrapper-inner\">\n    <footer\
+        \ id=\"footer\" class=\"grid_12\">\n        <div class=\"region region-footer\"\
+        >\n    <div id=\"block-block-10\" class=\"block block-block\"><div class=\"\
+        block-inner\">\n\n\t     \n  <div class=\"content\">\n\t\t<div style=\"text-align:\
+        \ center;font-size:10px;\">Kurdistan-Post sitesi bagimsiz haber kaynaginiz.</div>\n\
+        <div style=\"text-align: center;font-size:10px;\">UYARI Sitede yayimlanan\
+        \ makale ve yazilar kaynak g\xF6sterilmeden kullanilamaz. \_</div>\n<div style=\"\
+        text-align: center;font-size:10px;\">Copyright Kurdistan-Post.eu 2013</div>\n\
+        \  </div>\n\n</div></div> <div id=\"block-block-13\" class=\"block block-block\"\
+        ><div class=\"block-inner\">\n\n\t     \n  <div class=\"content\">\n\t\t<p\
+        \ style=\"text-align:center;\"><a href=\"/hakkimizda\">Hakk\u0131m\u0131zda</a></p>\n\
+        \  </div>\n\n</div></div> <div id=\"block-block-15\" class=\"block block-block\"\
+        ><div class=\"block-inner\">\n\n\t     \n  <div class=\"content\">\n\t\t<!--\
+        \ Piwik --><script type=\"text/javascript\">\n<!--//--><![CDATA[// ><!--\n\
+        \nvar pkBaseURL = ((\"https:\" == document.location.protocol) ? \"https://www.kurdistan-post.eu/piwik7/\"\
+        \ : \"http://www.kurdistan-post.eu/piwik7/\");\ndocument.write(unescape(\"\
+        %3Cscript src='\" + pkBaseURL + \"piwik.js' type='text/javascript'%3E%3C/script%3E\"\
+        ));\n\n//--><!]]>\n</script><script type=\"text/javascript\">\n<!--//--><![CDATA[//\
+        \ ><!--\n\ntry {\nvar piwikTracker = Piwik.getTracker(pkBaseURL + \"piwik.php\"\
+        , 1);\npiwikTracker.trackPageView();\npiwikTracker.enableLinkTracking();\n\
+        } catch( err ) {}\n\n//--><!]]>\n</script><p></p><noscript>\n<p><img src=\"\
+        http://d7.kurdistan-post.eu/piwik7/piwik.php?idsite=1\" style=\"border:0\"\
+        \ alt=\"\" /></p>\n<p></p></noscript>\n<!-- End Piwik Tracking Code -->  </div>\n\
+        \n</div></div>   </div>\n    </footer><!-- /footer -->\n  </div></div>\n \n\
+        </div></div><!-- page -->\n  <script type=\"text/javascript\">\n<!--//--><![CDATA[//><!--\n\
+        var addthis_config = {\"services_compact\":\"more\",\"data_track_clickback\"\
+        :false,\"ui_508_compliant\":false,\"ui_click\":false,\"ui_cobrand\":\"\",\"\
+        ui_delay\":0,\"ui_header_background\":\"\",\"ui_header_color\":\"\",\"ui_open_windows\"\
+        :false,\"ui_use_css\":true,\"ui_use_addressbook\":false,\"ui_language\":\"\
+        tr\"}\nvar addthis_share = {\"templates\":{\"twitter\":\"{{title}} {{url}}\
+        \ via @AddThis\"}}\n//--><!]]>\n</script>\n</body>\n\n</html>"
+      code: 200
+      headers:
+      - - Via
+        - [1.0 213.155.126.9 (squid/3.1.10)]
+      - - X-Cache
+        - [MISS from 213.155.126.9]
+      - - Content-Language
+        - [tr]
+      - - X-Cache-Lookup
+        - ['MISS from 213.155.126.9:3128']
+      - - Expires
+        - ['Sun, 19 Nov 1978 05:00:00 GMT']
+      - - Server
+        - [Apache]
+      - - Last-Modified
+        - ['Sun, 13 Jan 2013 21:48:05 +0000']
+      - - Connection
+        - [close]
+      - - ETag
+        - ['"1358113685"']
+      - - Cache-Control
+        - ['no-cache, must-revalidate, post-check=0, pre-check=0']
+      - - Date
+        - ['Sun, 13 Jan 2013 21:48:05 GMT']
+      - - Content-Type
+        - [text/html; charset=utf-8]
+      - - X-Generator
+        - ['Drupal 7 (http://drupal.org)']
+  - failure: generic_timeout_error
+    request:
+      body: null
+      headers:
+      - - User-Agent
+        - - *id001
+      method: GET
+      url: shttp://kurdistan-post.eu
+  socksproxy: null
+test_name: test_get
+test_runtime: 30.011608123779297
+test_started: 1358113684.202107
+...
+---
+input: http://kurdinfo.com
+report:
+  agent: agent
+  requests:
+  - request:
+      body: null
+      headers:
+      - - User-Agent
+        - - &id001 ['Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7.5) Gecko/20060127
+              Netscape/8.1', 'Netscape 8.1, Windows XP']
+      method: GET
+      url: http://kurdinfo.com
+    response:
+      body: ''
+      code: 200
+      headers:
+      - - Content-Length
+        - ['87314']
+      - - Via
+        - [1.0 213.155.126.9 (squid/3.1.10)]
+      - - X-Cache
+        - [MISS from 213.155.126.9]
+      - - X-Powered-By
+        - [ASP.NET]
+      - - Set-Cookie
+        - [ASPSESSIONIDQACQQQQT=FDDJCAJBPGGFLDOEPHFPEAND; path=/]
+      - - X-Cache-Lookup
+        - ['MISS from 213.155.126.9:3128']
+      - - Server
+        - [Microsoft-IIS/7.5]
+      - - Connection
+        - [close]
+      - - Cache-Control
+        - [private]
+      - - Date
+        - ['Sun, 13 Jan 2013 21:48:08 GMT']
+      - - Content-Type
+        - [text/html]
+  - failure: generic_timeout_error
+    request:
+      body: null
+      headers:
+      - - User-Agent
+        - - *id001
+      method: GET
+      url: shttp://kurdinfo.com
+  socksproxy: null
+test_name: test_get
+test_runtime: 30.71795105934143
+test_started: 1358113684.210839
+...
+---
+input: http://ekurd.net
+report:
+  agent: agent
+  requests:
+  - request:
+      body: null
+      headers:
+      - - User-Agent
+        - - &id001 ['Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7.5) Gecko/20060127
+              Netscape/8.1', 'Netscape 8.1, Windows XP']
+      method: GET
+      url: http://ekurd.net
+    response:
+      body: ''
+      code: 200
+      headers:
+      - - Content-Length
+        - ['90008']
+      - - Via
+        - [1.0 213.155.126.9 (squid/3.1.10)]
+      - - Content-Location
+        - ['http://ekurd.net/index.html']
+      - - X-Cache
+        - [MISS from 213.155.126.9]
+      - - X-Powered-By
+        - [ASP.NET]
+      - - Accept-Ranges
+        - [bytes]
+      - - Server
+        - [Microsoft-IIS/6.0]
+      - - Last-Modified
+        - ['Sun, 13 Jan 2013 19:49:37 GMT']
+      - - Connection
+        - [close]
+      - - ETag
+        - ['"d137531ec7f1cd1:16292"']
+      - - Date
+        - ['Sun, 13 Jan 2013 21:48:04 GMT']
+      - - Content-Type
+        - [text/html]
+      - - X-Cache-Lookup
+        - ['MISS from 213.155.126.9:3128']
+  - failure: generic_timeout_error
+    request:
+      body: null
+      headers:
+      - - User-Agent
+        - - *id001
+      method: GET
+      url: shttp://ekurd.net
+  socksproxy: null
+test_name: test_get
+test_runtime: 30.73638892173767
+test_started: 1358113684.218269
+...
+---
+input: http://hnportal.com
+report:
+  agent: agent
+  requests:
+  - failure: dns_lookup_error
+    request:
+      body: null
+      headers:
+      - - User-Agent
+        - - &id001 ['Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7.5) Gecko/20060127
+              Netscape/8.1', 'Netscape 8.1, Windows XP']
+      method: GET
+      url: http://hnportal.com
+  - failure: generic_timeout_error
+    request:
+      body: null
+      headers:
+      - - User-Agent
+        - - *id001
+      method: GET
+      url: shttp://hnportal.com
+  socksproxy: null
+test_name: test_get
+test_runtime: 30.76349186897278
+test_started: 1358113684.225794
+...
+---
+input: http://kerkuk-kurdistan.com
+report:
+  agent: agent
+  requests:
+  - request:
+      body: null
+      headers:
+      - - User-Agent
+        - - &id001 ['Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7.5) Gecko/20060127
+              Netscape/8.1', 'Netscape 8.1, Windows XP']
+      method: GET
+      url: http://kerkuk-kurdistan.com
+    response:
+      body: ''
+      code: 200
+      headers:
+      - - Content-Length
+        - ['63034']
+      - - Via
+        - [1.0 213.155.126.9 (squid/3.1.10)]
+      - - X-Cache
+        - [MISS from 213.155.126.9]
+      - - X-Powered-By
+        - [ASP.NET]
+      - - X-Cache-Lookup
+        - ['MISS from 213.155.126.9:3128']
+      - - X-AspNet-Version
+        - [4.0.30319]
+      - - Server
+        - [Microsoft-IIS/7.5]
+      - - Connection
+        - [close]
+      - - Cache-Control
+        - [private]
+      - - Date
+        - ['Sun, 13 Jan 2013 21:48:05 GMT']
+      - - Content-Type
+        - [text/html; charset=utf-8]
+  - failure: generic_timeout_error
+    request:
+      body: null
+      headers:
+      - - User-Agent
+        - - *id001
+      method: GET
+      url: shttp://kerkuk-kurdistan.com
+  socksproxy: null
+test_name: test_get
+test_runtime: 30.773231983184814
+test_started: 1358113684.233535
+...
+---
+input: http://kurdishcentre.org
+report:
+  agent: agent
+  requests:
+  - request:
+      body: null
+      headers:
+      - - User-Agent
+        - - &id001 ['Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7.5) Gecko/20060127
+              Netscape/8.1', 'Netscape 8.1, Windows XP']
+      method: GET
+      url: http://kurdishcentre.org
+    response:
+      body: ''
+      code: 200
+      headers:
+      - - Content-Length
+        - ['25632']
+      - - Via
+        - [1.0 213.155.126.9 (squid/3.1.10)]
+      - - X-Cache
+        - [MISS from 213.155.126.9]
+      - - Accept-Ranges
+        - [bytes]
+      - - Server
+        - [Apache]
+      - - Last-Modified
+        - ['Tue, 16 Oct 2012 13:58:11 GMT']
+      - - Connection
+        - [close]
+      - - ETag
+        - ['"271828a-6420-507d67f3"']
+      - - Date
+        - ['Sun, 13 Jan 2013 21:48:05 GMT']
+      - - Content-Type
+        - [text/html]
+      - - X-Cache-Lookup
+        - ['MISS from 213.155.126.9:3128']
+  - failure: generic_timeout_error
+    request:
+      body: null
+      headers:
+      - - User-Agent
+        - - *id001
+      method: GET
+      url: shttp://kurdishcentre.org
+  socksproxy: null
+test_name: test_get
+test_runtime: 30.797126054763794
+test_started: 1358113684.242276
+...
+---
+input: http://kurdshow.com
+report:
+  agent: agent
+  requests:
+  - request:
+      body: null
+      headers:
+      - - User-Agent
+        - - &id001 ['Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7.5) Gecko/20060127
+              Netscape/8.1', 'Netscape 8.1, Windows XP']
+      method: GET
+      url: http://kurdshow.com
+    response:
+      body: ''
+      code: 200
+      headers:
+      - - Content-Length
+        - ['27329']
+      - - Via
+        - [1.0 213.155.126.9 (squid/3.1.10)]
+      - - X-Cache
+        - [MISS from 213.155.126.9]
+      - - X-Powered-By
+        - [ASP.NET]
+      - - Set-Cookie
+        - [ASPSESSIONIDSACCCQDB=HKCPMAHBCPGKNJEBALHKHBGF; path=/]
+      - - X-Cache-Lookup
+        - ['MISS from 213.155.126.9:3128']
+      - - Expires
+        - ['Sat, 12 Jan 2013 21:47:38 GMT']
+      - - Server
+        - [Microsoft-IIS/7.5]
+      - - Connection
+        - [close]
+      - - Pragma
+        - [no-cache]
+      - - Cache-Control
+        - ['private,no-cache']
+      - - Date
+        - ['Sun, 13 Jan 2013 21:47:38 GMT']
+      - - Content-Type
+        - [text/html; Charset=utf-8]
+  - failure: generic_timeout_error
+    request:
+      body: null
+      headers:
+      - - User-Agent
+        - - *id001
+      method: GET
+      url: shttp://kurdshow.com
+  socksproxy: null
+test_name: test_get
+test_runtime: 30.819580078125
+test_started: 1358113684.250423
+...
+---
+input: http://sorankurdistani.com
+report:
+  agent: agent
+  requests:
+  - request:
+      body: null
+      headers:
+      - - User-Agent
+        - - &id001 ['Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7.5) Gecko/20060127
+              Netscape/8.1', 'Netscape 8.1, Windows XP']
+      method: GET
+      url: http://sorankurdistani.com
+    response:
+      body: ''
+      code: 200
+      headers:
+      - - Content-Length
+        - ['2981']
+      - - Via
+        - [1.0 213.155.126.9 (squid/3.1.10)]
+      - - X-Cache
+        - [MISS from 213.155.126.9]
+      - - Accept-Ranges
+        - [bytes]
+      - - Server
+        - [Apache/2.2.23 (Unix) mod_ssl/2.2.23 OpenSSL/0.9.8e-fips-rhel5 mod_auth_passthrough/2.1
+            mod_bwlimited/1.4 FrontPage/5.0.2.2635]
+      - - Last-Modified
+        - ['Thu, 26 Aug 2010 08:55:01 GMT']
+      - - Connection
+        - [close]
+      - - ETag
+        - ['"168887d-ba5-48eb627470340"']
+      - - Date
+        - ['Sun, 13 Jan 2013 21:48:05 GMT']
+      - - Content-Type
+        - [text/html]
+      - - X-Cache-Lookup
+        - ['MISS from 213.155.126.9:3128']
+  - failure: generic_timeout_error
+    request:
+      body: null
+      headers:
+      - - User-Agent
+        - - *id001
+      method: GET
+      url: shttp://sorankurdistani.com
+  socksproxy: null
+test_name: test_get
+test_runtime: 30.84731698036194
+test_started: 1358113684.25858
+...
+---
+input: http://koord.com
+report:
+  agent: agent
+  requests:
+  - request:
+      body: null
+      headers:
+      - - User-Agent
+        - - &id001 ['Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7.5) Gecko/20060127
+              Netscape/8.1', 'Netscape 8.1, Windows XP']
+      method: GET
+      url: http://koord.com
+    response:
+      body: ''
+      code: 200
+      headers:
+      - - Content-Length
+        - ['40596']
+      - - Via
+        - [1.0 213.155.126.9 (squid/3.1.10)]
+      - - X-Cache
+        - [MISS from 213.155.126.9]
+      - - Accept-Ranges
+        - [bytes]
+      - - Vary
+        - [Accept-Encoding]
+      - - Server
+        - [Apache]
+      - - Last-Modified
+        - ['Thu, 10 May 2012 05:20:18 GMT']
+      - - Connection
+        - [close]
+      - - ETag
+        - ['"44c40ea-9e94-4bfa7c686a880"']
+      - - Date
+        - ['Sun, 13 Jan 2013 21:48:05 GMT']
+      - - Content-Type
+        - [text/html]
+      - - X-Cache-Lookup
+        - ['MISS from 213.155.126.9:3128']
+  - failure: generic_timeout_error
+    request:
+      body: null
+      headers:
+      - - User-Agent
+        - - *id001
+      method: GET
+      url: shttp://koord.com
+  socksproxy: null
+test_name: test_get
+test_runtime: 30.858348846435547
+test_started: 1358113684.274934
+...
